@@ -342,14 +342,18 @@
         /* border: 2px solid salmon; */
     }
 
-    .landing-heading-container .paragraph li {
+    .landing-page-li {
         display: flex;
         flex-direction: row;
         align-items: center;
         margin-top: 10px;
     }
 
-    .landing-heading-container .paragraph li::before {
+    .landing-page-li h1{
+        font: normal normal normal 1.3vw/1.5vw Ubuntu;
+    }
+
+    .landing-page-li::before {
         /* content: url(assets/bullet-big.svg); */
         content: " ";
         display: inline-block;
@@ -1000,7 +1004,7 @@
         flex-direction: column;
     }
 
-    .features-container h1 {
+    .features-container h2 {
         height: auto;
         width: 100%;
         margin-bottom: 7%;
@@ -1065,7 +1069,7 @@
         padding: var(--margin-updown) var(--margin-side);
     }
 
-    .blog-container > h1 {
+    .blog-container > h2 {
         margin-bottom: var(--margin-after-heading-updown);
     }
 
@@ -1143,7 +1147,7 @@
         padding: var(--margin-updown) var(--margin-side);
     }
 
-    .end-cta-container > h1 {
+    .end-cta-container > h2 {
         font-size: 28px;
         line-height: 40px;
     }
