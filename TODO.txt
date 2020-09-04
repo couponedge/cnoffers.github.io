@@ -1,0 +1,10 @@
+*Left Alignment kar ke dekho sabko abhi jo centre me kar rha h desktop responsive ko
+*Display lowest price from CN API in top courses section.
+
+
+*About me har details pe animation dalo
+*About me menu links ka href edit karo
+*about me mail ka link href dalo 
+*footer me hrefs dalo
+
+*about se index#something me scroll up karo
