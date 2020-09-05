@@ -1168,6 +1168,7 @@
         column-gap: 4%;
         flex-grow: 1;
         margin-top: 5%;
+        display: none;
     }
 
     .social-medias-container img {
