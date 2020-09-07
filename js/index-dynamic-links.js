@@ -53,5 +53,3 @@ $('#h2gd-my-referral-btn').on('click',openReferalPage);
 $('#h2gd-check-fb-btn').on('click', (e)=>{
     openInNewTab('https://www.facebook.com/codingninjas')
 });
-
-// Top Courses

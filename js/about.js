@@ -3,16 +3,6 @@ $('.about-cn-container').on('click',(e)=>{
     openInNewTab('https://www.codingninjas.com/about')
 });
 
-$("#menu-items-mobile > a").click((e) => {
-    $("#hamburger-icon2").trigger("click");
-    
-    //(https://css-tricks.com/hash-tag-links-padding/) fix
-    // window.scrollBy(0,-100); variation
-    // FIXME : why its not working
-    var targetHref = e.currentTarget.hash;
-    $("html, body").animate({ scrollTop: $(targetHref).offset().top - 50 }, 100);
-});
-
 // AOS
 // You can also pass an optional settings object
 // below listed default settings

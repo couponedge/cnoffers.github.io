@@ -27,12 +27,13 @@
     }
 
     html {
-        scrollbar-width: none; /* For Firefox */
-        -ms-overflow-style: none; /* For Internet Explorer and Edge */
+        scrollbar-width: none;
+        -ms-overflow-style: none;
     }
 
     html::-webkit-scrollbar {
-        width: 0px; /* For Chrome, Safari, and Opera */
+        width: 0px;
+        /* For Chrome, Safari, and Opera */
     }
 
     .heading {
@@ -349,7 +350,7 @@
         margin-top: 10px;
     }
 
-    .landing-page-li h1{
+    .landing-page-li h1 {
         font: normal normal normal 1.3vw/1.5vw Ubuntu;
     }
 
@@ -449,6 +450,7 @@
     }
 
     /* Discounts Proof */
+
     .dp-container {
         width: 100%;
         height: 654px;
@@ -925,7 +927,7 @@
         overflow: hidden;
     }
 
-    .tc-single-item-container:hover{
+    .tc-single-item-container:hover {
         /* box-shadow: 0 0 10px black; */
     }
 
@@ -1004,7 +1006,7 @@
         flex-direction: column;
     }
 
-    .features-container h2 {
+    .features-container > h2 {
         height: auto;
         width: 100%;
         margin-bottom: 7%;
