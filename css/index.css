@@ -29,6 +29,8 @@
     html {
         scrollbar-width: none;
         -ms-overflow-style: none;
+        /* can be used for fixing scrolling issue on fixed header. but bottom to top is causing issue */
+        /* scroll-padding-top: 120px; */
     }
 
     html::-webkit-scrollbar {

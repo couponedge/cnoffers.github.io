@@ -262,21 +262,36 @@ $(document).ready(function () {
         }
     });
 
-    //FIXME: Zyada Scroll Ho rha h
+    // Zyada Scroll Ho rha h
     var isFirstTime = 1;
+    var headerHeight = 120;
     $("a[href*='#']").on("click", function (e) {
-        // e.preventDefault();
+        
+        // same pe click karega toh return else scroll issue ho rha h
+        var hash = window.location.hash;
+        if(hash==this.hash){
+            e.preventDefault();
 
+            // if mobile, mobile pe prevent not working
+            $("html, body").animate(
+                {
+                    scrollTop: $(this.hash).offset().top - 20,
+                },
+                "linear"
+            );
+            return;
+        }
+
+        // Starting me hi scroll na kare if url contains #
         if (
             $(this.hash).offset().top < window.pageYOffset &&
             isFirstTime == 0
         ) {
             $("html, body").animate(
                 {
-                    scrollTop: $(this.hash).offset().top-20,
+                    scrollTop: $(this.hash).offset().top - 20,
                 },
-                300,
-                function () {}
+                "linear"
             );
 
             return;
@@ -286,12 +301,29 @@ $(document).ready(function () {
         isFirstTime = 0;
         $("html, body").animate(
             {
-                scrollTop: $(this.hash).offset().top - 120,
+                scrollTop: $(this.hash).offset().top - headerHeight,
             },
-            300,
-            function () {}
+            "linear"
         );
     });
+
+    // Redirection from another page
+    var hash = window.location.hash;
+    if (hash == "" || hash == "#" || hash == undefined) return false;
+    var target = $(hash);
+    target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
+    
+    if (target.length) {
+        isFirstTime = 0;
+        $("html,body")
+            .stop()
+            .animate(
+                {
+                    scrollTop: target.offset().top - headerHeight, //offsets for fixed header
+                },
+                "linear"
+            );
+    }
 
     // Jquery ending
 });
