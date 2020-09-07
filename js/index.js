@@ -264,32 +264,29 @@ $(document).ready(function () {
 
     //FIXME: Zyada Scroll Ho rha h
     var isFirstTime = 1;
-    $("a[href*='index.html#']").on("click", function (e) {
-        // console.log("JQuery: " + $(this.hash).offset().top);
-        // console.log("Page: " + window.pageYOffset);
-        e.preventDefault();
+    $("a[href*='#']").on("click", function (e) {
+        // e.preventDefault();
 
-        // Bottom To Top
         if (
             $(this.hash).offset().top < window.pageYOffset &&
             isFirstTime == 0
         ) {
             $("html, body").animate(
                 {
-                    scrollTop: $(this.hash).offset().top - 20,
+                    scrollTop: $(this.hash).offset().top-20,
                 },
                 300,
                 function () {}
             );
+
             return;
         }
 
         // Top To Bottom
         isFirstTime = 0;
-        e.preventDefault();
         $("html, body").animate(
             {
-                scrollTop: $(this.hash).offset().top - 130,
+                scrollTop: $(this.hash).offset().top - 120,
             },
             300,
             function () {}

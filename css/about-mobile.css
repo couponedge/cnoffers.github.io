@@ -1,4 +1,17 @@
 @media only screen and (max-width: 768px) {
+    
+    /* Menu Items */
+    #menu-items-desktop {
+        /* visibility: hidden; */
+    }
+
+    #menu-items-mobile {
+        /* visibility: hidden; */
+    }
+
+    .hamburger-icon{
+    }
+
     /* Landing Page */
     .about-landing-page-container {
         height: auto;
@@ -27,7 +40,7 @@
     }
 
     /* All Other Details */
-    .about-all-details-container{
+    .about-all-details-container {
         padding: var(--margin-updown) var(--margin-side);
         display: grid;
         grid-auto-flow: row;
@@ -35,7 +48,7 @@
         row-gap: 50px;
     }
 
-    .about-others-single-container{
+    .about-others-single-container {
         background: var(--neutral-grey);
         padding: var(--margin-updown) var(--margin-side);
         border-radius: 10px;
@@ -44,43 +57,40 @@
         /* box-shadow: 5px 5px 5px #00000033; */
     }
 
-    .about-others-single-img-container{
+    .about-others-single-img-container {
         display: flex;
         justify-content: center;
         order: -1;
     }
 
-    .about-others-discrip{
-
+    .about-others-discrip {
     }
 
-    .about-others-discrip h2{
+    .about-others-discrip h2 {
         margin-top: 8%;
     }
 
-    .about-others-discrip p{
+    .about-others-discrip p {
         margin-top: 5%;
         flex-grow: 1;
     }
 
-    .about-cn-container{
+    .about-cn-container {
         display: flex;
         justify-content: center;
-    }    
+    }
 
-    .about-cn-container button{
+    .about-cn-container button {
         height: auto;
         padding: 3% 8%;
         width: auto;
         font-size: 16px;
     }
 
-
-    footer{
+    footer {
         height: auto;
         width: 100%;
         padding: var(--margin-updown) var(--margin-side);
         background: var(--neutral-grey);
     }
-
 }
