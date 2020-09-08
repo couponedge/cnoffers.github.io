@@ -262,6 +262,7 @@ $(document).ready(function () {
         }
     });
 
+
     // Zyada Scroll Ho rha h
     var isFirstTime = 1;
     var headerHeight = 120;
@@ -270,22 +271,42 @@ $(document).ready(function () {
         // same pe click karega toh return else scroll issue ho rha h
         var hash = window.location.hash;
         if(hash==this.hash){
-            e.preventDefault();
+            // e.preventDefault();
 
             // if mobile, mobile pe prevent not working
+
+            // console.log($(this.hash).offset().top+" "+window.pageYOffset );
+
+            var scrollAmt=$(this.hash).offset().top;
+            // if top to bottom
+            // console.log($(this.hash).offset().top-window.pageYOffset);
+            //i dont know what i did! but it works
+            if($(this.hash).offset().top-window.pageYOffset < 600)
+                scrollAmt=scrollAmt-20;
+            else if($(this.hash).offset().top > window.pageYOffset)
+                scrollAmt=scrollAmt-headerHeight;
+            else if($(this.hash).offset().top < window.pageYOffset)
+                scrollAmt=scrollAmt-20;
+            else{
+                // nhi smajh aa rha
+                // thoda sa upar karke click karne pe scroll issue, its a feature bc!
+                e.prevemtDefault();
+                return;
+            }
+
             $("html, body").animate(
                 {
-                    scrollTop: $(this.hash).offset().top - 20,
+                    scrollTop: scrollAmt,
                 },
                 "linear"
             );
             return;
         }
 
-        // Starting me hi scroll na kare if url contains #
+        // Starting me hi scroll na kare if url contains 
+        // Bottom To Top
         if (
-            $(this.hash).offset().top < window.pageYOffset &&
-            isFirstTime == 0
+            $(this.hash).offset().top < window.pageYOffset
         ) {
             $("html, body").animate(
                 {
