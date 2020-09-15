@@ -240,7 +240,10 @@
       <script src="js/about.js"></script>
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       <script>
-            AOS.init();
+            // AOS
+            AOS.init({
+                  once: true, // whether animation should happen only once - while scrolling down
+            });
       </script>
 </body>
 

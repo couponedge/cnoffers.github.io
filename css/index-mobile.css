@@ -279,6 +279,8 @@
 
     .landing-heading-container {
         padding: var(--margin-updown) var(--margin-side) 5%;
+        /* margin-left: 7%; */
+        margin-top: -3%;
     }
 
     .landing-heading-container .heading {

@@ -9,3 +9,5 @@
 
 *Make Floating back to top button, and down to each section
 
+*Add Lazy Image Load
+

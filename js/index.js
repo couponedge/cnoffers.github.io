@@ -18,7 +18,7 @@ $(document).ready(function () {
         var width = $(window).width();
 
         // console.log(height+" "+width);
-        var scrollBreakPoint = 30;
+        var scrollBreakPoint = 10;
         if (width > 768) scrollBreakPoint = 50;
 
         if (height >= scrollBreakPoint) {
