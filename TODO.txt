@@ -1,13 +1,12 @@
-*Left Alignment kar ke dekho sabko abhi jo centre me kar rha h desktop responsive ko
-*Display lowest price from CN API in top courses section.
+*add fade animation in discount proof sliders 
 
-*About me har details pe animation dalo
-*About me menu links ka href edit karo
-*about me mail ka link href dalo 
-*footer me hrefs dalo
+*Slide Karke image swipe karo (circle ke andar arrow? )
+*add new files in sitemap
+
+*Add Rich Snippets
 
 
 *Make Floating back to top button, and down to each section
-
 *Add Lazy Image Load
+*footer me hrefs dalo
 
