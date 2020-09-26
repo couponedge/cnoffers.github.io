@@ -9,9 +9,21 @@ $(document).ready(function () {
         }
     );
 
+    // Text-Ellipsis
+    function addDots() {
+        $(".main-single-details p").each(function (index) {
+            var txt = $(this).text();
+            txt.substr(0, 200);
+            $(this).text(txt + "...");
+        });
+    }
+
+    addDots();
+
     // Jquery ending
 });
 
+// Thumbnail SlideShow
 var slideIndex = 1;
 showSlides();
 
@@ -58,5 +70,43 @@ function showSlides() {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " dot-active";
 
-    // setTimeout(showSlides, 3000); // Change image every 3 seconds
+// ANCHOR: Toggle it!
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+
+// Change View
+function changeView(sectionIndex, viewIndex) {
+    var sectionClassName = "";
+    var viewName = "";
+    switch (sectionIndex) {
+        case 1:
+            sectionClassName = ".latest";
+            break;
+    }
+
+    switch (viewIndex) {
+        case 1:
+            viewName = "grid-view";
+            break;
+
+        case 2:
+            viewName = "big-list-view";
+            break;
+
+        case 3:
+            viewName = "small-list-view";
+            break;
+
+        default:
+            viewName = "grid-view";
+    }
+
+    // Change icon classes
+    $(sectionClassName + " li").removeClass();
+    var viewClassName = sectionClassName + " li:nth-child(" + viewIndex + ")";
+    $(viewClassName).attr("class", "heading-view-active");
+
+    // Change View
+    $(sectionClassName + " main").removeClass();
+    $(sectionClassName + " main").attr("class", viewName);
 }
