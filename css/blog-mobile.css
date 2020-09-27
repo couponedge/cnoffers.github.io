@@ -343,6 +343,7 @@
     .heading-view-options-cntr ul li {
         float: right;
         margin-left: 5%;
+        user-select: none;
     }
 
     .heading-view-options-cntr i {
