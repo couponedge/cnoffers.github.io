@@ -1,0 +1,260 @@
+@media only screen and (min-width: 768px) {
+    :root {
+        --primary-blue: #353263;
+        --secondary-red: #eb2424;
+        --secondary-dark-red: #c71212;
+        --neutral-dark-grey: #c2d1d9;
+        --neutral-grey: #f2f5f7;
+        --neutral-white: #ffffff;
+        --neutral-blue: #344457;
+
+        --font: "Ubuntu";
+        /* --margin-side:80px; */
+        --margin-side: 8%;
+        --margin-updown: 78.6px;
+        --margin-after-heading-updown: 47px;
+        scroll-behavior: smooth;
+    }
+
+    html {
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        /* can be used for fixing scrolling issue on fixed header. but bottom to top is causing issue */
+        /* scroll-padding-top: 120px; */
+    }
+
+    html::-webkit-scrollbar {
+        width: 0px;
+        /* For Chrome, Safari, and Opera */
+    }
+
+    .heading {
+        letter-spacing: 0;
+        color: var(--primary-blue);
+        text-align: left;
+        font: normal normal bold 30px/34px Ubuntu;
+        letter-spacing: 0px;
+        text-transform: capitalize;
+        opacity: 1;
+        text-align: left;
+    }
+
+    .title {
+        color: var(--primary-blue);
+        text-align: left;
+        font: normal normal bold 21px/36px var(--font);
+        letter-spacing: 0px;
+        text-transform: capitalize;
+        opacity: 1;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .paragraph {
+        color: var(--neutral-blue);
+        text-align: left;
+        font: normal normal normal 16px/24px var(--font);
+        letter-spacing: 0px;
+        opacity: 1;
+        text-align: left;
+    }
+
+    /* Back to top */
+    .back2top {
+        background-color: var(--neutral-blue) !important;
+        color: white;
+        padding: 5px;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        text-align: center;
+        display: inline-block;
+        position: fixed;
+        right: 30px;
+        bottom: 40px;
+        z-index: 25;
+        cursor: pointer;
+        font-weight: bold;
+        -webkit-backface-visibility: hidden;
+        display: none;
+    }
+
+    .back2top:hover{
+        filter: brightness(1.5);
+    }
+
+
+    .back2top .fa-angle-up {
+        position: relative;
+        top: 0;
+        color: #fff;
+        font-size: 22px;
+    }
+
+    /* Main sections divisions */
+    #main-section-cntr {
+        padding: 5% var(--margin-side);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    aside.left {
+        /* background-color: violet; */
+        width: 66%;
+        float: left;
+        margin-right: 0;
+    }
+
+    aside.right {
+        /* background-color: aquamarine; */
+        width: 27%;
+        float: right;
+        margin-left: 0;
+    }    
+
+    .section-heading-cntr {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-heading {
+        height: auto;
+        width: 100%;
+    }
+
+    .section-heading .heading {
+        float: left;
+    }
+
+    .section-heading ul {
+        list-style: none;
+    }
+
+    .section-heading li {
+        display: inline-block;
+    }
+
+    .section-heading .heading-view-options-cntr ul {
+        /* border: solid red 2px; */
+        float: right;
+        /* display: flex; */
+        /* justify-content: space-between; */
+        width: 30%;
+        margin-top: 5px;
+    }
+
+    .heading-view-options-cntr ul li {
+        float: right;
+        margin-left: 5%;
+    }
+
+    .heading-view-options-cntr i {
+        font-size: 26px;
+        color: var(--neutral-dark-grey);
+        cursor: pointer;
+    }
+
+    .heading-view-active i {
+        color: var(--primary-blue);
+    }
+
+    .heading-underline {
+        width: 100%;
+        height: 2px;
+        margin-top: 10px;
+        background-color: var(--neutral-dark-grey);
+        margin-bottom: 15px;
+    }
+
+    /* Trend */
+    .trend li {
+        list-style: square;
+        margin-bottom: 10px;
+        margin-left: 6%;
+    }
+
+    .trend li a {
+        color: var(--neutral-blue);
+        text-decoration: none;
+    }
+
+    /* Tags */
+    .tags {
+        margin-top: 40px;
+    }
+
+    .tags li {
+        list-style: none;
+        display: inline-block;
+        margin: 6px 0;
+        margin-right: 3px;
+    }
+
+    .tags li a {
+        color: var(--neutral-blue);
+        text-decoration: none;
+        background-color: var(--neutral-grey);
+        padding: 6px 10px;
+        text-transform: uppercase;
+    }
+
+    .tags li a:hover {
+        color: white;
+        background-color: var(--primary-blue);
+    }
+
+    /* Footer */
+    footer {
+        /* height: 250px; */
+        background-color: var(--neutral-grey);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: var(--margin-updown) var(--margin-side);
+    }
+
+    .footer-logo-container {
+        display: flex;
+        height: 5vw;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer-logo-container img {
+        height: 100%;
+    }
+
+    .social-medias-container {
+        display: grid;
+        width: 100%;
+        height: 1.4vw;
+        grid-auto-flow: column;
+        align-items: center;
+        justify-content: center;
+        column-gap: 2%;
+        flex-grow: 1;
+        margin-top: 1%;
+        display: none;
+    }
+
+    .social-medias-container img {
+        height: 100%;
+    }
+
+    .footer-description {
+        margin-top: 1.5%;
+        /* max-width: 250px; */
+    }
+}
+
+body > div:nth-child(even) {
+    background-color: var(--neutral-white);
+}
+
+body > div:nth-child(odd) {
+    background-color: var(--neutral-white);
+}
