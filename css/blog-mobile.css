@@ -591,6 +591,7 @@
         list-style: square;
         margin-bottom: 10px;
         margin-left: 6%;
+        line-height: 20px;
     }
     
     .trend li a{
@@ -617,11 +618,6 @@
         padding: 6px 10px;
         text-transform: uppercase;
     }
-    
-    .tags li a:hover{
-        color: white;
-        background-color: var(--primary-blue);
-    }
 
     /* Footer */
     footer {
@@ -630,7 +626,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding: var(--margin-updown) var(--margin-side);
+        padding: 30px var(--margin-side);
         margin-top: var(--margin-updown);
     }
 

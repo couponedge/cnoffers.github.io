@@ -1102,7 +1102,6 @@
     .blog-single-thumbnail {
         width: 20.4vw;
         height: 14.4vw;
-
         background: var(--neutral-grey);
         position: relative;
     }

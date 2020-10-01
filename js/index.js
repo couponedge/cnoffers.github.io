@@ -262,7 +262,6 @@ $(document).ready(function () {
         }
     });
 
-
     // Zyada Scroll Ho rha h
     var isFirstTime = 1;
     var headerHeight = 120;
@@ -346,7 +345,8 @@ $(document).ready(function () {
             );
     }
 
-    
+    // Sliders
+
     
 
     // Jquery ending
