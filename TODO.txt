@@ -1,3 +1,6 @@
+//TODO:
+***********Change meta tags of blog post.
+
 *Sab blog me link href dalo
 
 *add slide animation in discount proof sliders 
@@ -12,3 +15,11 @@
 *Add Lazy Image Load
 *footer me hrefs dalo
 
+
+/**
+How to make
+**/
+
+*Modal like quora image and udemy course demo
+*extension texts with + btn and hide rest like about page of cnoffers
+*dark mode?

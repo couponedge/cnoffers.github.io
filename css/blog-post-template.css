@@ -139,7 +139,7 @@
     .content main{
         /* TODO: Some Good Font */
         /* font-family: 'Poppins',Arial, Helvetica, sans-serif; */
-        font-family: 'Quicksand',Arial, Helvetica, sans-serif;
+        /* font-family: 'Quicksand',Arial, Helvetica, sans-serif; */
     }
 
     .content h2 {
@@ -149,6 +149,25 @@
         margin-bottom: -20px;
         font-family: 'Rubik', sans-serif;
     }
+
+    .content img{
+        height: 100%;
+    }
+
+    .content a{
+        text-decoration: none;
+        color: var(--secondary-dark-red);
+    }
+    
+    .content a:hover{
+        text-decoration: underline;
+    }
+
+    .content li{
+        margin-left: 20px;
+    }
+
+
 
     /* Section Heading */
     .section-heading-cntr {
