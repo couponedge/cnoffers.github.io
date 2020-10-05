@@ -1,4 +1,10 @@
 $(document).ready(function () {
+    // Change View in mobile
+    if ($(window).width() < 768) {
+        // TODO: Its repating automatically dont know why?
+        $(".heading-view-options-cntr li:nth-child(2)").click();
+    }
+
     // Slideshow Hightlight
     $(".mySlides").hover(
         function () {
@@ -19,9 +25,8 @@ $(document).ready(function () {
     }
     addDots();
 
-
     // Show back to top button
-    $(document).scroll(()=>{
+    $(document).scroll(() => {
         var y = $(this).scrollTop();
         if (y > 200) {
             $(".back2top").fadeIn();
@@ -135,11 +140,6 @@ function changeView(sectionIndex, viewIndex) {
     // Change View
     $(sectionClassName + " main").removeClass();
     $(sectionClassName + " main").attr("class", viewName);
-}
-
-// Change View in mobile
-if ($(window).width() < 768) {
-    $(".heading-view-options-cntr li:nth-child(2)").trigger("click");
 }
 
 // On View Change Change Layour

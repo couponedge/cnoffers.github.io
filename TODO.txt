@@ -1,5 +1,6 @@
 //TODO:
 ***********Change meta tags of blog post.
+replace twitter with quora
 
 *Sab blog me link href dalo
 
@@ -14,6 +15,9 @@
 *Make Floating back to top button, and down to each section
 *Add Lazy Image Load
 *footer me hrefs dalo
+*blog links pe hover pe underline animation (https://paulund.co.uk/css-animation-link-underline)
+
+
 
 
 /**
@@ -23,3 +27,4 @@ How to make
 *Modal like quora image and udemy course demo
 *extension texts with + btn and hide rest like about page of cnoffers
 *dark mode?
+*different images for different resolutions? responsiveness?

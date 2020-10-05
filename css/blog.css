@@ -63,7 +63,7 @@
     .slideshow-container {
         position: relative;
         padding: var(--margin-updown) var(--margin-side) 0;
-        height: 420px;
+        height: 500px;
         /* overflow: hidden; */
     }
 
@@ -73,7 +73,7 @@
 
     .slideshow-highlight {
         opacity: 0.15;
-        height: 82%;
+        height: 90%;
         width: 84%;
         background-color: white;
         /* z-index: 1; */
@@ -129,14 +129,14 @@
         color: #f2f2f2;
         position: absolute;
         width: 100%;
-        bottom: 11%;
+        bottom: 9%;
         left: 0;
         text-align: center;
         margin: auto;
     }
 
     .mySlides-gradient-mask {
-        height: 82.5%;
+        height: 85%;
         width: 84%;
         position: absolute;
         top: -4px;
@@ -227,10 +227,9 @@
         display: none;
     }
 
-    .back2top:hover{
+    .back2top:hover {
         filter: brightness(1.5);
     }
-
 
     .back2top .fa-angle-up {
         position: relative;
@@ -375,6 +374,14 @@
         width: 70%;
     }
 
+    .big-list-view .main-single-details a {
+        text-decoration: none;
+    }
+
+    .big-list-view .main-single-details a:hover {
+        text-decoration: underline;
+    }
+
     .big-list-view .main-single-details h2 {
         width: 100%;
         font-weight: 500;
@@ -414,7 +421,8 @@
     }
 
     .small-list-view .main-single-img-cntr {
-        height: 100%;
+        /* height: 100%; */
+        height: 120px;
         min-width: 20%;
         width: 22%;
     }
@@ -431,6 +439,14 @@
         height: 100%;
         margin-left: 3%;
         width: 70%;
+    }
+
+    .small-list-view .main-single-details a {
+        text-decoration: none;
+    }
+
+    .small-list-view .main-single-details a:hover {
+        text-decoration: underline;
     }
 
     .small-list-view .main-single-details h2 {
@@ -473,6 +489,7 @@
 
     .grid-view .main-single-img-cntr {
         width: 100%;
+        height: 250px;
     }
 
     .grid-view .main-single-img-cntr img {
@@ -486,6 +503,14 @@
         flex-direction: column;
         height: 100%;
         margin-top: 4%;
+    }
+
+    .grid-view .main-single-details a {
+        text-decoration: none;
+    }
+
+    .grid-view .main-single-details a:hover {
+        text-decoration: underline;
     }
 
     .grid-view .main-single-details h2 {
@@ -517,6 +542,7 @@
     .trend li a {
         color: var(--neutral-blue);
         text-decoration: none;
+        text-transform: capitalize;
     }
 
     /* Tags */
@@ -595,4 +621,4 @@ body > div:nth-child(even) {
 
 body > div:nth-child(odd) {
     background-color: var(--neutral-white);
-}
+}0

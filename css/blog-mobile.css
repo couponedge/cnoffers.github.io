@@ -455,6 +455,10 @@
         width: 100%;
         font-weight: 500;
     }
+    
+    .big-list-view .main-single-details a {
+        text-decoration: none;
+    }
 
     .big-list-view .main-single-details p {
         /* border: red 2px solid; */
@@ -492,12 +496,13 @@
 
     .small-list-view .main-single-img-cntr{
         width: 30%;
+        height: 80px;
     }
 
     .small-list-view .main-single-img-cntr img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit: fill;
     }
 
     .small-list-view .main-single-details {
@@ -506,6 +511,10 @@
         height: 100%;
         margin-left: 3%;
         width: 70%;
+    }
+
+    .small-list-view .main-single-details a {
+        text-decoration: none;
     }
 
     .small-list-view .main-single-details h2 {
@@ -548,6 +557,7 @@
 
     .grid-view .main-single-img-cntr{
         width: 100%;
+        height: 100px;
     }
 
     .grid-view .main-single-img-cntr img {
@@ -561,6 +571,10 @@
         flex-direction: column;
         height: 100%;
         margin-top: 4%;
+    }
+
+    .grid-view .main-single-details a {
+        text-decoration: none;
     }
 
     .grid-view .main-single-details h2 {
@@ -597,6 +611,7 @@
     .trend li a{
         color: var(--neutral-blue);
         text-decoration: none;
+        text-transform: capitalize;
     }
 
     /* Tags */
