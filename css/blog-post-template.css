@@ -126,7 +126,7 @@
 
     .content .date {
         margin-bottom: var(--margin-after-heading-updown);
-        filter: brightness(1.7);
+        color: grey;
         font-size: 14px;
     }
 
