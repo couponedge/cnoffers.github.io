@@ -1097,6 +1097,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        text-decoration: none;
     }
 
     .blog-single-thumbnail {
@@ -1107,11 +1108,10 @@
     }
 
     .blog-single-thumbnail img {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 15%;
-        transform: translate(-50%, -50%);
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+        border-radius: 10px;
     }
 
     .blog-single-container p {
@@ -1125,6 +1125,10 @@
         text-align: left;
         font: normal normal bold 19px/28px var(--font);
         flex-grow: 1;
+    }
+
+    .blog-single-container h2:hover{
+        text-decoration: underline !important;
     }
 
     .blog-btn-container {

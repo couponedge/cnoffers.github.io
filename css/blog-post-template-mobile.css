@@ -315,6 +315,10 @@
         text-transform: capitalize;
     }
 
+    .trend li a:hover{
+        text-decoration:underline;
+    }
+
     /* Tags */
     .tags {
         margin-top: 40px;
@@ -424,8 +428,8 @@
         color: #27c2f5;
     }
 
-    .fa-pinterest {
-        color: #f7333e;
+    .fa-quora {
+        color: #B92B27;
     }
 
     .fa-envelope {
@@ -451,6 +455,7 @@
     .navigate-next {
         display: flex;
         flex-direction: column;
+        text-decoration: none;
     }
 
     .navigation-details .paragraph {
@@ -483,6 +488,10 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+    }
+
+    .navigation-details:hover {
+        text-decoration: underline !important;
     }
 
     /* Comments */
@@ -589,12 +598,12 @@
     .suggestion-cntr main {
         display: grid;
         grid-template-columns: auto auto auto auto;
-        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
         grid-gap: 10px;
     }
 
     .suggestion-cntr .blog-single-container {
-        width: 140px;
+        width: 130px;
     }
 
     .suggestion-cntr .blog-single-thumbnail {
