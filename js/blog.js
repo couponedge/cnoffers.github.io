@@ -147,6 +147,6 @@ if ($(window).width() <= 768) {
 }
 
 // Change View in mobile
-if ($(window).width() < 7680) {
+if ($(window).width() < 768) {
     $(".heading-view-options-cntr li:nth-child(2)").click();
 }
