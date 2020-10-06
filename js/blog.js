@@ -141,7 +141,7 @@ $(window).resize(() => {
 });
 
 // Add animation in trend section
-if ($(window).width() <= 768) {
+if ($(window).width() < 768) {
     $(".trend li.paragraph").attr("data-aos", "fade-up");
     $(".trend .section-heading-cntr").attr("data-aos", "fade-up");
 }
