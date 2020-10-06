@@ -1,22 +1,13 @@
 //TODO:
-***********Change meta tags of blog post.
-replace twitter with quora
-
-*Sab blog me link href dalo
-
+*add different different next post in blog post
 *add slide animation in discount proof sliders 
-
 *Slide Karke image swipe karo (circle ke andar arrow? )
-*add new files in sitemap
 
 *Add Rich Snippets
 
-
-*Make Floating back to top button, and down to each section
 *Add Lazy Image Load
-*footer me hrefs dalo
 *blog links pe hover pe underline animation (https://paulund.co.uk/css-animation-link-underline)
-
+*fix blog.js changing view automatically bug
 
 
 

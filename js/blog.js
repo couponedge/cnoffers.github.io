@@ -1,10 +1,4 @@
 $(document).ready(function () {
-    // Change View in mobile
-    if ($(window).width() < 768) {
-        // TODO: Its repating automatically dont know why?
-        $(".heading-view-options-cntr li:nth-child(2)").click();
-    }
-
     // Slideshow Hightlight
     $(".mySlides").hover(
         function () {
@@ -110,9 +104,6 @@ function changeView(sectionIndex, viewIndex) {
         case 3:
             sectionClassName = ".offers";
             break;
-
-        default:
-            sectionClassName = ".latest";
     }
 
     switch (viewIndex) {
@@ -127,9 +118,6 @@ function changeView(sectionIndex, viewIndex) {
         case 3:
             viewName = "small-list-view";
             break;
-
-        default:
-            viewName = "grid-view";
     }
 
     // Change icon classes
@@ -144,10 +132,11 @@ function changeView(sectionIndex, viewIndex) {
 
 // On View Change Change Layour
 $(window).resize(() => {
+    // FIXME: Automatically Calling On changing view in mobile?
     if ($(window).width() < 768) {
-        $(".heading-view-options-cntr li:nth-child(2)").trigger("click");
+        // $(".heading-view-options-cntr li:nth-child(2)").trigger("click");
     } else {
-        $(".heading-view-options-cntr li:nth-child(1)").trigger("click");
+        // $(".heading-view-options-cntr li:nth-child(1)").trigger("click");
     }
 });
 
@@ -155,4 +144,9 @@ $(window).resize(() => {
 if ($(window).width() <= 768) {
     $(".trend li.paragraph").attr("data-aos", "fade-up");
     $(".trend .section-heading-cntr").attr("data-aos", "fade-up");
+}
+
+// Change View in mobile
+if ($(window).width() < 7680) {
+    $(".heading-view-options-cntr li:nth-child(2)").click();
 }
