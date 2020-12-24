@@ -90,25 +90,27 @@ if ($(window).width() < 768) {
   $('.heading-view-options-cntr li:nth-child(2)').click();
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-  new Splide('#image-slider-blog', {
-    perPage: 1,
-    rewind: true,
-    width: '100%',
-    height: 430,
-    arrows: true,
-    gap: 10,
-    autoplay: true,
-    interval: 4000,
-    resetProgress: false,
-    keyboard: 'focused',
+if ($('#image-slider-blog').length) {
+  document.addEventListener('DOMContentLoaded', function () {
+    new Splide('#image-slider-blog', {
+      perPage: 1,
+      rewind: true,
+      width: '100%',
+      height: 430,
+      arrows: true,
+      gap: 10,
+      autoplay: true,
+      interval: 4000,
+      resetProgress: false,
+      keyboard: 'focused',
 
-    breakpoints: {
-      768: {
-        perPage: 1,
-        width: '100%',
-        height: 245,
+      breakpoints: {
+        768: {
+          perPage: 1,
+          width: '100%',
+          height: 245,
+        },
       },
-    },
-  }).mount();
-});
+    }).mount();
+  });
+}

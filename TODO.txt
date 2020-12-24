@@ -1,5 +1,5 @@
+# remove console errors
 ### ADD 1200 in seo campus ninja coupon!
-
 //TODO:
 *convert to webpack packagae modern setup
 *blog thumbnail me cursor le jane pe hightlight karo

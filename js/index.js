@@ -346,7 +346,8 @@ $(document).ready(function () {
 });
 
 // Splide Slider animation
-try {
+
+if ($('#image-slider-1').length) {
   document.addEventListener('DOMContentLoaded', function () {
     new Splide('#image-slider-1', {
       perPage: 2,
@@ -368,7 +369,9 @@ try {
       },
     }).mount();
   });
+}
 
+if ($('#image-slider-2').length) {
   document.addEventListener('DOMContentLoaded', function () {
     new Splide('#image-slider-2', {
       perPage: 2,
@@ -390,7 +393,4 @@ try {
       },
     }).mount();
   });
-} catch (err) {
-  // ignore another page me element nhi milega
-  console.log(err + 'dsa');
 }
