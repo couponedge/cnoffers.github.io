@@ -346,46 +346,51 @@ $(document).ready(function () {
 });
 
 // Splide Slider animation
-document.addEventListener('DOMContentLoaded', function () {
-  new Splide('#image-slider-1', {
-    perPage: 2,
-    rewind: true,
-    width: '68%',
-    height: '63%',
-    arrows: true,
-    autoplay: true,
-    interval: 4000,
-    resetProgress: false,
-    keyboard: 'focused',
+try {
+  document.addEventListener('DOMContentLoaded', function () {
+    new Splide('#image-slider-1', {
+      perPage: 2,
+      rewind: true,
+      width: '68%',
+      height: '63%',
+      arrows: true,
+      autoplay: true,
+      interval: 4000,
+      resetProgress: false,
+      keyboard: 'focused',
 
-    breakpoints: {
-      768: {
-        perPage: 1,
-        width: '100%',
-        height: '100%',
+      breakpoints: {
+        768: {
+          perPage: 1,
+          width: '100%',
+          height: '100%',
+        },
       },
-    },
-  }).mount();
-});
+    }).mount();
+  });
 
-document.addEventListener('DOMContentLoaded', function () {
-  new Splide('#image-slider-2', {
-    perPage: 2,
-    rewind: true,
-    width: '68%',
-    height: '63%',
-    arrows: true,
-    autoplay: true,
-    interval: 4000,
-    resetProgress: false,
-    keyboard: 'focused',
+  document.addEventListener('DOMContentLoaded', function () {
+    new Splide('#image-slider-2', {
+      perPage: 2,
+      rewind: true,
+      width: '68%',
+      height: '63%',
+      arrows: true,
+      autoplay: true,
+      interval: 4000,
+      resetProgress: false,
+      keyboard: 'focused',
 
-    breakpoints: {
-      768: {
-        perPage: 1,
-        width: '100%',
-        height: '100%',
+      breakpoints: {
+        768: {
+          perPage: 1,
+          width: '100%',
+          height: '100%',
+        },
       },
-    },
-  }).mount();
-});
+    }).mount();
+  });
+} catch (err) {
+  // ignore another page me element nhi milega
+  console.log(err + 'dsa');
+}

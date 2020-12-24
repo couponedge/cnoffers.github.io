@@ -11,6 +11,11 @@
   opacity: 0.9 !important;
 }
 
+.splide__arrow {
+  background-color: transparent;
+  fill: white;
+}
+
 @media only screen and (max-width: 768px) {
   .splide__arrow {
     /* No Select */

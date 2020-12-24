@@ -1,4 +1,8 @@
+### ADD 1200 in seo campus ninja coupon!
+
 //TODO:
+*convert to webpack packagae modern setup
+*blog thumbnail me cursor le jane pe hightlight karo
 *add different different next post in blog post
 
 *Add Rich Snippets
@@ -10,10 +14,7 @@
 
 
 /**
-How to make
+to make h2?
 **/
-
-*Modal like quora image and udemy course demo
-*extension texts with + btn and hide rest like about page of cnoffers
 *dark mode?
 *different images for different resolutions? responsiveness?

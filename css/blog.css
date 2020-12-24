@@ -72,12 +72,15 @@
     /* } */
 
     .slideshow-highlight {
-        opacity: 0.15;
+        /* opacity: 0.15; */
+        opacity: 0.55;
         height: 90%;
         width: 84%;
         background-color: white;
-        /* z-index: 1; */
+        background-color: red;
+        z-index: 1;
         position: absolute;
+        /* display: block; */
         display: none;
     }
 
@@ -137,7 +140,7 @@
 
     .mySlides-gradient-mask {
         height: 85%;
-        width: 84%;
+        width: 100%;
         position: absolute;
         top: -4px;
         margin-top: var(--margin-updown);
