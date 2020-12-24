@@ -17,3 +17,5 @@ to make h2?
 **/
 *dark mode?
 *different images for different resolutions? responsiveness?
+
+
