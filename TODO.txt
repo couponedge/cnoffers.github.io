@@ -1,4 +1,6 @@
 ### ADD 1200 in seo campus ninja coupon!
+*write more blogs and quora answers.
+
 //TODO:
 *convert to webpack packagae modern setup
 *blog thumbnail me cursor le jane pe hightlight karo
