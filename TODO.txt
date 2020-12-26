@@ -1,7 +1,8 @@
-### ADD 1200 in seo campus ninja coupon!
-*write more blogs and quora answers.
+## We Shifted to www.ninjasoffers.com! 
+## Check us out there!
 
 //TODO:
+*write more blogs and quora answers.
 *convert to webpack packagae modern setup
 *blog thumbnail me cursor le jane pe hightlight karo
 *add different different next post in blog post
@@ -21,3 +22,4 @@ to make h2?
 *different images for different resolutions? responsiveness?
 
 
+Bye Bye!
