@@ -394,3 +394,33 @@ if ($('#image-slider-2').length) {
     }).mount();
   });
 }
+
+// FAQ
+var acc = document.getElementsByClassName('accordion');
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener('click', function () {
+    closeAllAccordions(this);
+    this.classList.toggle('active');
+    var panel = this.nextElementSibling;
+
+    if (panel.style.height === '') {
+      // panel.style.padding = '20px 50px';
+      panel.style.height = panel.scrollHeight + 'px';
+    } else {
+      // panel.style.padding = '';
+      panel.style.height = '';
+    }
+  });
+}
+
+function closeAllAccordions(curr) {
+  for (i = 0; i < acc.length; i++) {
+    if (acc[i] == curr) continue;
+    var panel = acc[i].nextElementSibling;
+    if (panel.style.height) {
+      acc[i].click();
+    }
+  }
+}

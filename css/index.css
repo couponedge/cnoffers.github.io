@@ -1161,6 +1161,9 @@
     flex-direction: column;
     /* justify-content: space-between; */
     padding: var(--margin-updown) var(--margin-side);
+
+    background-color: var(--neutral-grey) !important;
+    margin-top: var(--margin-updown);
   }
 
   .end-cta-container > h2 {
@@ -1238,6 +1241,97 @@
   .footer-description {
     margin-top: 1.5%;
     /* max-width: 250px; */
+  }
+
+  /* FAQ */
+
+  .faq-container {
+    /* height: 625px; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: var(--margin-updown) var(--margin-side);
+  }
+
+  .faq-container > h2 {
+    margin-bottom: var(--margin-after-heading-updown);
+  }
+
+  .faq-container > main {
+    width: 95%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 16px;
+  }
+
+  .faq-container > main .item:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  .accordion {
+    background-color: #d1d1d1ba;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    text-transform: capitalize;
+    height: 58px;
+  }
+
+  .accordion .title {
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .active,
+  .accordion:hover {
+    background-color: var(--neutral-dark-grey);
+  }
+
+  .panel {
+    background-color: rgb(235, 235, 235);
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.2s ease-out, padding 0s ease-out;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .panel > main {
+    padding: 20px !important;
+    text-align: left;
+  }
+
+  .panel ol,
+  .panel ul {
+    padding-left: 20px;
+  }
+
+  .accordion:before {
+    content: '+'; /* Unicode character for "plus" sign (+) */
+    color: var(--primary-blue);
+    font-weight: 500;
+    font-size: 24px;
+    color: #000;
+    float: right;
+    margin-right: 10px;
+    margin-top: -5px;
+  }
+
+  .active:before {
+    content: 'x'; /* Unicode character for "minus" sign (-) */
+    color: var(--primary-blue);
+    text-transform: lowercase !important;
   }
 }
 
