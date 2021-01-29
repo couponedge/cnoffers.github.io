@@ -361,7 +361,7 @@
     margin-top: 10px;
   }
 
-  .landing-page-li h1 {
+  .landing-page-li h1,.landing-page-li h2 {
     font: normal normal normal 1.3vw/1.5vw Ubuntu;
   }
 
