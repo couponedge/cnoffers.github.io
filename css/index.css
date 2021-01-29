@@ -250,6 +250,7 @@
     color: var(--neutral-blue);
     padding-right: 7%;
     font-size: 1.2vw;
+    font-weight: 400 !important;
   }
 
   #menu-items-desktop a:hover {
