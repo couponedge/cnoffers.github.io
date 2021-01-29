@@ -1334,6 +1334,15 @@
     color: var(--primary-blue);
     text-transform: lowercase !important;
   }
+
+
+  .paragraph a{
+    /* color: var(--secondary-dark-red); */
+    font-weight: 500;
+    text-decoration:none;
+  }
 }
 
-/*Not Yet Implemented*/
+/* Both Views */
+
+
