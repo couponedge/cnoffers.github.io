@@ -3,7 +3,7 @@ var homepage = document.location.origin;
 var referral_link = 'https://www.codingninjas.com/?referralCode=TNMBH';
 
 function openReferalPage() {
-  window.open(referral_link, '_blank');
+  window.open(referral_link, '_self');
 }
 
 function openHomePage() {
