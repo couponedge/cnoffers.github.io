@@ -342,7 +342,8 @@
     margin-top: 12px;
   }
 
-  .landing-page-li h1, .landing-page-li h2 {
+  .landing-page-li h1,
+  .landing-page-li h2 {
     font: normal normal normal 15px/15px var(--font);
   }
 
@@ -1025,7 +1026,7 @@
     /* flex-grow: 1; */
   }
 
-  .features-single-container h2 {
+  .features-single-container h3 {
     height: auto;
     /* flex-grow: 1; */
     display: flex;
@@ -1096,7 +1097,7 @@
     margin-top: 5%;
   }
 
-  .blog-single-container h2 {
+  .blog-single-container h3 {
     text-align: left;
     font-size: 14px;
     line-height: 19px;
@@ -1309,7 +1310,7 @@
     text-transform: lowercase !important;
   }
 
-  .paragraph a{
+  .paragraph a {
     /* color: var(--secondary-dark-red); */
     font-weight: 500;
     /* text-decoration:none; */
