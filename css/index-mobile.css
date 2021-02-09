@@ -1205,18 +1205,23 @@
     grid-auto-flow: column;
     align-items: center;
     justify-content: center;
-    column-gap: 4%;
+    column-gap: 16px;
     flex-grow: 1;
-    margin-top: 5%;
-    display: none;
+    margin-top: 16px;
+    /* display: none; */
   }
 
   .social-medias-container img {
     height: 100%;
   }
 
+  .social-medias-container a i {
+    font-size: 16px;
+    color: var(--primary-blue);
+  }
+
   .footer-description {
-    margin-top: 3%;
+    margin-top: 16px;
     /* max-width: 250px; */
   }
 
