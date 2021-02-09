@@ -1242,6 +1242,10 @@
     color: var(--primary-blue);
   }
 
+  .social-medias-container a i:hover {
+    transform: scale(1.1);
+  }
+
   .footer-description {
     margin-top: 14px;
     /* max-width: 250px; */
