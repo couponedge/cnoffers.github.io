@@ -1,6 +1,7 @@
 var homepage = document.location.origin;
 // var referral_link="https://classroom.codingninjas.com/app/invite/TNMBH"
-var referral_link = 'https://www.codingninjas.com/?referralCode=TNMBH';
+// var referral_link = 'https://www.codingninjas.com/?referralCode=TNMBH';
+var referral_link = 'https://rebrand.ly/cndiscount';
 
 function openReferalPage() {
   window.open(referral_link, '_self');
