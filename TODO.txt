@@ -1,4 +1,4 @@
-## We Shifted to www.ninjasoffers.com! 
+## We Are Also At www.ninjasoffers.com! 
 ## Check us out there!
 
 //TODO:
@@ -6,8 +6,6 @@
 *convert to webpack packagae modern setup
 *blog thumbnail me cursor le jane pe hightlight karo
 *add different different next post in blog post
-
-*Add Rich Snippets
 
 *Add Lazy Image Load
 *blog links pe hover pe underline animation (https://paulund.co.uk/css-animation-link-underline)
