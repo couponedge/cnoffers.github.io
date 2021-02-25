@@ -2,7 +2,7 @@
 
 <hr>
 
-## ✅ [Rs 1200 + Upto 60%]
+## ✅ [Rs 1200 + Upto 60% Discount]
 
 ### INSTANT ⚡️ Coding Ninjas Referral Discount
 
