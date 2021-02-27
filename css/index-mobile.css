@@ -292,7 +292,7 @@
   /* Landing Page */
 
   .landing-page-container {
-    height: 640px;
+    height: 760px;
     overflow: hidden;
     width: 100%;
     /* background-color: var(--neutral-grey); */
@@ -374,6 +374,12 @@
 
     color: white;
     margin-right: 2.7%;
+  }
+
+  .warning {
+    font-size: 12px !important;
+    margin-bottom: 8px;
+    /* display: none; */
   }
 
   .landing-page-blank-space-1,
