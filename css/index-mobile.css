@@ -344,7 +344,7 @@
 
   .landing-page-li h1,
   .landing-page-li h2 {
-    font: normal normal normal 15px/15px var(--font);
+    font: normal normal normal 15px/20px var(--font);
   }
 
   .landing-page-li2::before {
