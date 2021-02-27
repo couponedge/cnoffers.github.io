@@ -292,7 +292,7 @@
   /* Landing Page */
 
   .landing-page-container {
-    height: 760px;
+    height: 680px;
     overflow: hidden;
     width: 100%;
     /* background-color: var(--neutral-grey); */
@@ -340,6 +340,10 @@
     flex-direction: row;
     align-items: center;
     margin-top: 12px;
+  }
+  .landing-page-li strong {
+    color: var(--secondary-dark-red);
+    filter: brightness(1);
   }
 
   .landing-page-li h1,

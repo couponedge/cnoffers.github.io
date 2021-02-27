@@ -376,7 +376,7 @@
     /* color: #16c60c; */
     /* color: #0f9d58; */
     color: var(--secondary-dark-red);
-    filter: brightness(0.7);
+    filter: brightness(1);
   }
 
   .landing-page-li2::before {
