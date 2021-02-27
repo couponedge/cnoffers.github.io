@@ -347,7 +347,7 @@
     font: normal normal normal 15px/15px var(--font);
   }
 
-  .landing-page-li::before {
+  .landing-page-li2::before {
     /* content: url(assets/small-bullets.svg); */
     content: ' ';
     display: inline-block;
@@ -355,6 +355,24 @@
     height: 2.8vw;
     border-radius: 50%;
     background-color: var(--secondary-red);
+    margin-right: 2.7%;
+  }
+
+  .landing-page-li::before {
+    content: '✔';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    width: 0.9vw;
+    height: 0.9vw;
+    border-radius: 50%;
+    font-size: 2.5vw;
+    /* background-color: #16c60c; */
+    background-color: #0f9d58;
+    /* background-color: var(--secondary-red); */
+
+    color: white;
     margin-right: 2.7%;
   }
 
