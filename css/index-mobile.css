@@ -379,7 +379,7 @@
   .warning {
     font-size: 12px !important;
     margin-bottom: 8px;
-    /* display: none; */
+    display: none;
   }
 
   .landing-page-blank-space-1,

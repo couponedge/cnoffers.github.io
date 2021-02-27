@@ -263,7 +263,7 @@
     /* top: 69.15px; */
     width: 100%;
     /* height: 600px; */
-    height: 52vw;
+    height: 51vw;
     padding: 11vw var(--margin-side) 0 var(--margin-side);
     background-color: var(--neutral-grey);
     display: flex;
@@ -322,12 +322,13 @@
     display: flex;
     flex-direction: column;
     /* justify-content:space-evenly ; */
-    margin-top: -3vw;
+    margin-top: 2vw;
   }
 
   .warning {
     font-size: 1vw !important;
     margin-bottom: 12px;
+    display: none;
   }
 
   .landing-heading-container .heading {
@@ -369,6 +370,13 @@
   .landing-page-li h1,
   .landing-page-li h2 {
     font: normal normal normal 1.3vw/1.7vw Ubuntu;
+  }
+
+  .landing-page-li strong {
+    /* color: #16c60c; */
+    /* color: #0f9d58; */
+    color: var(--secondary-dark-red);
+    filter: brightness(0.7);
   }
 
   .landing-page-li2::before {
