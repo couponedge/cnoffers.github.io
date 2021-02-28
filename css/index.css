@@ -1324,6 +1324,11 @@
     text-align: center;
   }
 
+  #discount-calculator tr td:nth-child(1) {
+    text-align: left;
+    padding-left: 32px;
+  }
+
   #discount-calculator tr:nth-child(even) {
     background-color: #f2f2f2;
   }
