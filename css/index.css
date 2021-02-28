@@ -1311,6 +1311,36 @@
     margin-bottom: 16px;
   }
 
+  #discount-calculator {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  #discount-calculator td,
+  #discount-calculator th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  #discount-calculator tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  #discount-calculator tr:hover {
+    background-color: lightblue;
+  }
+
+  #discount-calculator th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--secondary-red);
+    color: white;
+    text-align: center;
+  }
+
   .accordion {
     background-color: #d1d1d1ba;
     border-radius: 5px;
