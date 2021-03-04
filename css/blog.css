@@ -637,6 +637,10 @@
         margin-top: 1.5%;
         /* max-width: 250px; */
     }
+
+    .review-section{
+        margin-top: 40px;
+    }
 }
 
 body > div:nth-child(even) {
