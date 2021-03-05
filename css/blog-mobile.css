@@ -88,6 +88,10 @@
     outline: none;
   }
 
+  #menu-cta-btn {
+    font-size: 13px;
+  }
+
   .primary-long-btn:hover,
   .primary-long-btn:active {
     background-color: var(--secondary-dark-red);

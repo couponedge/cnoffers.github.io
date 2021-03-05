@@ -185,6 +185,10 @@
     font-size: 22px;
   }
 
+  #menu-cta-btn {
+    font-size: 13px;
+  }
+
   /* Main sections divisions */
   aside.left {
     padding: var(--margin-after-heading-updown) var(--margin-side);
