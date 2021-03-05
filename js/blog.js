@@ -47,6 +47,10 @@ function changeView(sectionIndex, viewIndex) {
     case 4:
       sectionClassName = '.misc';
       break;
+
+    case 5:
+      sectionClassName = '.courses';
+      break;
   }
 
   switch (viewIndex) {
