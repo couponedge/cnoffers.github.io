@@ -271,7 +271,8 @@
   }
 
   .landing-btn {
-    height: 90% !important;
+    height: 85% !important;
+    width: 38% !important;
   }
 
   .landing-page-image-container {
