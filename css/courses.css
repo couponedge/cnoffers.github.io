@@ -1,0 +1,105 @@
+@media only screen and (min-width: 768px) {
+  /* Top Courses */
+  .tc-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    padding: var(--margin-updown) var(--margin-side);
+  }
+
+  .tc-container .heading {
+    margin-bottom: var(--margin-after-heading-updown);
+  }
+
+  .tc-container main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-rows: repeat(auto-fill, 1fr);
+    justify-content: space-between;
+    /* flex-grow: 1; */
+    gap: 16px;
+  }
+
+  .tc-single-item-container {
+    height: 220px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    position: relative;
+    transition: all 200ms ease-out;
+    overflow: hidden;
+  }
+
+  .tc-single-item-container:hover {
+    /* box-shadow: 0 0 10px black; */
+  }
+
+  .tc-single-item-gradient {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgb(255, 255, 255) 100%
+    );
+    mix-blend-mode: multiply;
+  }
+
+  .tc-single-item-container .tc-single-item-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    user-select: none;
+  }
+
+  .tc-single-item-container img {
+    height: 100%;
+    width: 100%;
+    transition: all 200ms ease-out;
+  }
+
+  .tc-single-item-container:hover img {
+    -webkit-transform: scale(1.1) rotate(0.1deg);
+    -moz-transform: scale(1.1) rotate(0.1deg);
+    -ms-transform: scale(1.1) rotate(0.1deg);
+    -o-transform: scale(1.1) rotate(0.1deg);
+    transform: scale(1.1) rotate(0.1deg);
+  }
+
+  .tc-btn-container {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .tc-btn-container .secondary-btn {
+    height: 52px;
+    width: 201.65px;
+    margin-right: 2%;
+    border-width: 2px;
+    font-size: 20px;
+  }
+
+  .tc-btn-container .primary-btn {
+    height: 52px;
+    width: 201.65px;
+    margin-left: 2%;
+    font-size: 20px;
+  }
+}
