@@ -31,20 +31,22 @@ $('#logo').add('').on('click', openHomePage);
 
 //Courses
 $('#tc-all-courses-btn').on('click', e => {
-  openInNewTab('https://www.codingninjas.com/courses');
+  openInNewTab('https://www.codingninjas.com/courses?referralCode=TNMBH');
 });
 
 // Free Trial
 $('#tc-free-trial-btn')
   .add('#end-cta-try-free-btn')
   .on('click', e => {
-    openInNewTab('https://www.codingninjas.com/start-learning');
+    openInNewTab(
+      'https://www.codingninjas.com/start-learning?referralCode=TNMBH'
+    );
   });
 
 // Etc
 // How To Get Discounts
 $('#h2gd-check-ongoing-discounts-btn').on('click', e => {
-  openInNewTab('https://www.codingninjas.com/');
+  openInNewTab('https://www.codingninjas.com/?referralCode=TNMBH');
 });
 
 $('#h2gd-my-referral-btn').on('click', openReferalPage);
