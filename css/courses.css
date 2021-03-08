@@ -24,7 +24,7 @@
   .courses-container main {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 170px));
     grid-template-rows: repeat(auto-fill, 1fr);
     justify-content: flex-start;
     /* flex-grow: 1; */
