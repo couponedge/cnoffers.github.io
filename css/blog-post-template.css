@@ -624,6 +624,40 @@
     margin: 20px 0;
     justify-content: left;
   }
+
+  /* PopUp */
+  .popup-container {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--neutral-grey) !important;
+    z-index: 1000;
+  }
+
+  .popup-header {
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid red; */
+  }
+
+  .popup-close {
+    float: right;
+    color: black;
+    font-size: 40px;
+    right: 30px;
+    position: relative;
+    cursor: pointer;
+  }
+
+.popup-container main {
+  display: flex;
+  flex-direction: row;
+}
+
+  .popup-container main img{
+    width:50%
+  }
 }
 
 body > div:nth-child(even) {
