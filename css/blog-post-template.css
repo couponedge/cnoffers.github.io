@@ -612,6 +612,18 @@
     width: 700px;
     height: 360px;
   }
+
+  .referral-options {
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+  }
+
+  .referral-options-left {
+    display: flex;
+    margin: 20px 0;
+    justify-content: left;
+  }
 }
 
 body > div:nth-child(even) {
