@@ -650,13 +650,30 @@
     cursor: pointer;
   }
 
-.popup-container main {
-  display: flex;
-  flex-direction: row;
-}
+  .popup-container main {
+    display: flex;
+    flex-direction: row;
+  }
 
-  .popup-container main img{
-    width:50%
+  .popup-img-container {
+    width: 50%;
+  }
+
+  .popup-img-container img {
+    width: 50%;
+    float: right;
+    position: relative;
+    top: 10%;
+    right: 10%;
+  }
+
+  .popup-details-container {
+    border: 2px solid red;
+  }
+
+  .popup-details-container h4 {
+    position: relative;
+    top: 20%;
   }
 }
 
