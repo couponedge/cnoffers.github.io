@@ -437,6 +437,16 @@
     margin-left: 1.5vw;
   }
 
+  .landing-title {
+    line-height: 2.5vw !important;
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
+  }
+  .landing-heading {
+    font-size: 3.2vw !important;
+    line-height: 3.5vw !important;
+  }
+
   /* How to get discounts */
 
   .h2gd-container {
