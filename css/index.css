@@ -375,7 +375,7 @@
 
   .landing-page-li h1,
   .landing-page-li h2 {
-    font: normal normal normal 1.7vw/1.8vw Ubuntu;
+    font: normal normal normal 1.5vw/1.8vw Ubuntu;
     
   }
 
@@ -390,8 +390,8 @@
     /* content: url(assets/bullet-big.svg); */
     content: ' ';
     display: inline-block;
-    width: 0.9vw;
-    height: 0.9vw;
+    width: 0.5vw;
+    height: 0.5vw;
     border-radius: 50%;
     background-color: var(--secondary-red);
     margin-right: 2.7%;
