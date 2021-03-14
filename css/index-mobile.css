@@ -434,6 +434,17 @@
     width: 130px;
   }
 
+  .landing-title {
+    line-height: 26px !important;
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
+  }
+
+  .landing-heading {
+    font-size: 35px !important;
+    line-height: 38px !important;
+  }
+
   /* How to get discounts */
 
   .h2gd-container {
