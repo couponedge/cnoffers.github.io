@@ -292,7 +292,7 @@
   /* Landing Page */
 
   .landing-page-container {
-    height: 680px;
+    height: 630px;
     overflow: hidden;
     width: 100%;
     /* background-color: var(--neutral-grey); */
@@ -339,7 +339,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 12px;
+    margin-top: 14px;
   }
   .landing-page-li strong {
     color: var(--secondary-dark-red);
@@ -348,7 +348,7 @@
 
   .landing-page-li h1,
   .landing-page-li h2 {
-    font: normal normal normal 15px/20px var(--font);
+    font: normal normal normal 17px/20px var(--font);
   }
 
   .landing-page-li2::before {
@@ -360,6 +360,11 @@
     border-radius: 50%;
     background-color: var(--secondary-red);
     margin-right: 2.7%;
+  }
+
+  .landing-heading-container ul {
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
 
   .landing-page-li::before {
@@ -607,7 +612,7 @@
   /* How It Works? */
 
   .hiw-container {
-    height: 820px;
+    height: 750px;
     /* background: var(--neutral-white) 0% 0% no-repeat padding-box; */
     display: flex;
     flex-direction: column;
@@ -653,15 +658,16 @@
   }
 
   .hiw-step-container .paragraph {
-    height: 50%;
+    max-height: auto;
     margin: auto;
     /* flex-grow: 1; */
+    margin-bottom: 20px;
   }
 
   .hiw-arrow-container {
     display: flex;
     justify-content: center;
-    margin-top: -6%;
+    margin-top: -5%;
   }
 
   .hiw-arrow-container img {

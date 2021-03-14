@@ -340,6 +340,11 @@
     /* border: 2px solid violet; */
   }
 
+  .landing-heading-container ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
   .landing-heading-container .title {
     color: var(--primary-blue);
     text-align: left;
@@ -365,12 +370,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .landing-page-li h1,
   .landing-page-li h2 {
-    font: normal normal normal 1.3vw/1.7vw Ubuntu;
+    font: normal normal normal 1.7vw/1.8vw Ubuntu;
+    
   }
 
   .landing-page-li strong {
@@ -442,7 +448,7 @@
     margin-top: 10px !important;
     margin-bottom: 5px !important;
   }
-  
+
   .landing-heading {
     font-size: 3.2vw !important;
     line-height: 3.5vw !important;
