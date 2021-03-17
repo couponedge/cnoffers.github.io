@@ -434,9 +434,11 @@
   }
 
   .landing-btn {
-    height: 37px;
-    font-size: 80%;
-    width: 130px;
+    height: 40px;
+    font-size: 100%;
+    width: 180px;
+    margin-top: 5px;
+    /* margin-left: 15%; */
   }
 
   .landing-title {

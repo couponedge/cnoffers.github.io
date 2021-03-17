@@ -272,7 +272,9 @@
 
   .landing-btn {
     height: 85% !important;
-    width: 38% !important;
+    width: 45% !important;
+    margin-top: -5px;
+    font-size: 100%;
   }
 
   .landing-page-image-container {
