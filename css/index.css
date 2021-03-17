@@ -376,7 +376,6 @@
   .landing-page-li h1,
   .landing-page-li h2 {
     font: normal normal normal 1.5vw/1.8vw Ubuntu;
-    
   }
 
   .landing-page-li strong {
@@ -697,7 +696,7 @@
 
   /* Additional Benefits */
   .ab-container {
-    height: 1348px;
+    height: 1100px;
     background: var(--neutral-grey);
     padding: var(--margin-updown) var(--margin-side);
     display: flex;
@@ -706,7 +705,7 @@
   }
 
   .ab-container .heading {
-    height: 5%;
+    height: 10%;
     /* margin: auto; */
     margin-bottom: var(--margin-after-heading-updown);
   }
@@ -797,8 +796,8 @@
 
   .ab-straight-line {
     width: 3px;
-    height: 69%;
-    top: 255px;
+    height: 62%;
+    top: 269px;
     left: 50%;
     background-color: var(--primary-blue);
     position: absolute;

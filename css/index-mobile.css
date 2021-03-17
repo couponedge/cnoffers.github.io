@@ -676,7 +676,7 @@
 
   /* Additional Benefits */
   .ab-container {
-    height: 1200px;
+    height: 1050px;
     /* background: var(--neutral-grey); */
     padding: var(--margin-updown) var(--margin-side);
     display: flex;
@@ -685,7 +685,7 @@
   }
 
   .ab-container .heading {
-    height: 5%;
+    height: 10%;
     /* margin: auto; */
     margin-bottom: var(--margin-after-heading-updown);
   }
@@ -765,8 +765,8 @@
   }
 
   .ab-straight-line {
-    height: 72%;
-    top: 18%;
+    height: 66%;
+    top: 23%;
     width: 2px;
     left: 9.6%;
     background-color: var(--primary-blue);
