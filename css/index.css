@@ -88,7 +88,7 @@
   }
 
   .primary-btn:active {
-    /* background-color: black; */
+    transform: scale(0.95);
   }
 
   .primary-long-btn {
@@ -109,6 +109,10 @@
     background-color: var(--secondary-dark-red);
   }
 
+  .primary-long-btn:active {
+    transform: scale(0.95);
+  }
+
   .secondary-btn {
     width: 201.35px;
     height: 51.65px;
@@ -127,6 +131,10 @@
   .secondary-btn:hover {
     border-color: var(--secondary-dark-red);
     color: var(--secondary-dark-red);
+  }
+
+  .secondary-btn:active {
+    transform: scale(0.95);
   }
 
   .secondary-btn-text {
