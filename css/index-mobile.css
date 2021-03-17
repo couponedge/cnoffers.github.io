@@ -373,16 +373,16 @@
     align-items: center;
     justify-content: center;
     padding: 6px;
-    width: 0.9vw;
-    height: 0.9vw;
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
-    font-size: 2.5vw;
+    font-size: 10px;
     /* background-color: #16c60c; */
     background-color: #0f9d58;
     /* background-color: var(--secondary-red); */
 
     color: white;
-    margin-right: 2.7%;
+    margin-right: 10px;
   }
 
   .warning {
