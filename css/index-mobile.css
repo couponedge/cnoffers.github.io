@@ -1031,7 +1031,7 @@
 
   /* Features */
   .features-container {
-    height: 1880px;
+    height: 1920px;
     /* background: var(--neutral-grey); */
     padding: var(--margin-updown) var(--margin-side);
     display: flex;
