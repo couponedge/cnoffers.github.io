@@ -370,7 +370,7 @@
   .big-list-view .main-single-img-cntr img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
   }
 
   .big-list-view .main-single-details {
@@ -445,7 +445,7 @@
   .small-list-view .main-single-img-cntr img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
   }
 
   .small-list-view .main-single-details {
@@ -514,7 +514,7 @@
   .grid-view .main-single-img-cntr img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: fill;
   }
 
   .grid-view .main-single-details {
