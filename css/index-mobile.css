@@ -1137,7 +1137,7 @@
   .blog-single-thumbnail img {
     height: 100%;
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
     border-radius: 10px;
   }
 
