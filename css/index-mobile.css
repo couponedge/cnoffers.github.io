@@ -1097,7 +1097,7 @@
     padding: var(--margin-updown) var(--margin-side);
 
     background-color: var(--neutral-grey) !important;
-    margin-top: var(--margin-updown);
+    /* margin-top: var(--margin-updown); */
   }
 
   .end-cta-container > h2 {
@@ -1327,10 +1327,22 @@
     box-shadow: 0px 0px 10px grey;
     width: 100%;
   }
+
   /* Keywords Section */
-  .section-image {
-    display: none;
-    height: 250px;
+  /* Coupon */
+  .cn-coupons-container {
+    padding: var(--margin-updown);
+  }
+  .cn-coupons-container li {
+    list-style: none;
+  }
+
+  .cn-coupons-container .title {
+    margin-bottom: 32px;
+  }
+
+  .cn-coupons-container ul {
+    margin-top: 16px;
   }
 }
 
