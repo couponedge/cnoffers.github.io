@@ -153,30 +153,6 @@ if ($('#image-slider-1').length) {
   });
 }
 
-if ($('#image-slider-2').length) {
-  document.addEventListener('DOMContentLoaded', function () {
-    new Splide('#image-slider-2', {
-      perPage: 2,
-      rewind: true,
-      width: '68%',
-      height: '63%',
-      arrows: true,
-      autoplay: true,
-      interval: 4000,
-      resetProgress: false,
-      keyboard: 'focused',
-
-      breakpoints: {
-        768: {
-          perPage: 1,
-          width: '100%',
-          height: '100%',
-        },
-      },
-    }).mount();
-  });
-}
-
 // FAQ
 var acc = document.getElementsByClassName('accordion');
 var i;
