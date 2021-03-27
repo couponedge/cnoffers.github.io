@@ -1335,15 +1335,19 @@
   }
 
   .cn-coupons-container .title {
-    font-size: 30px;
+    font-size: 24px;
     line-height: 33px;
     margin-bottom: 30px;
   }
 
   .cn-coupons-container .details {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 26px;
     text-align: left;
+  }
+
+  .cn-coupons-container .small {
+    font-size: 14px;
   }
 
   .cn-coupons-container ul {
@@ -1357,8 +1361,8 @@
     min-width: 320px;
     line-height: 26px;
     list-style: none;
-    text-align: left;
-    font-size: 18px;
+    /* text-align: left; */
+    font-size: 16px;
     margin-bottom: 6px;
   }
 }
