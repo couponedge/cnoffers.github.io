@@ -1363,16 +1363,29 @@
   .cn-coupons-container {
     padding: var(--margin-updown);
   }
-  .cn-coupons-container li {
-    list-style: none;
-  }
 
   .cn-coupons-container .title {
-    margin-bottom: 32px;
+    font-size: 30px;
+    margin-bottom: 48px;
+  }
+
+  .cn-coupons-container .details {
+    font-size: 20px;
   }
 
   .cn-coupons-container ul {
-    margin-top: 16px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cn-coupons-container li {
+    min-width: 800px;
+    list-style: none;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 6px;
   }
 }
 

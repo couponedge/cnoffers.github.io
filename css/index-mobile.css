@@ -1333,16 +1333,33 @@
   .cn-coupons-container {
     padding: var(--margin-updown);
   }
-  .cn-coupons-container li {
-    list-style: none;
-  }
 
   .cn-coupons-container .title {
-    margin-bottom: 32px;
+    font-size: 30px;
+    line-height: 33px;
+    margin-bottom: 30px;
+  }
+
+  .cn-coupons-container .details {
+    font-size: 20px;
+    line-height: 26px;
+    text-align: left;
   }
 
   .cn-coupons-container ul {
-    margin-top: 16px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cn-coupons-container li {
+    min-width: 320px;
+    line-height: 26px;
+    list-style: none;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 6px;
   }
 }
 
