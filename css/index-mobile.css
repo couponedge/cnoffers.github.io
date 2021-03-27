@@ -1338,6 +1338,7 @@
     font-size: 24px;
     line-height: 33px;
     margin-bottom: 30px;
+    color:var(--secondary-dark-red);
   }
 
   .cn-coupons-container .details {

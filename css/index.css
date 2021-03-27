@@ -1367,6 +1367,7 @@
   .cn-coupons-container .title {
     font-size: 30px;
     margin-bottom: 48px;
+    color: var(--secondary-dark-red);
   }
 
   .cn-coupons-container .details {
