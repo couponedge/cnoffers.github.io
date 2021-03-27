@@ -1,4 +1,31 @@
 @media only screen and (min-width: 768px) {
+  /*FIXME: Default scroll bar lao, custom me after and before cusor lao.  */
+
+  html {
+    --scrollbarBG: #cfd8dc;
+    --thumbBG: #90a4ae;
+  }
+
+  body::-webkit-scrollbar {
+    width: 15px;
+  }
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 1000px;
+    border: 3px solid var(--scrollbarBG);
+  }
+
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: #7b99c2;
+  }
+
   .spacing-in-top {
     height: 70px;
   }
