@@ -1352,10 +1352,15 @@
     height: 360px;
   }
 
-  .coupon-image{
-    border-radius: 5px; 
+  .coupon-image {
+    border-radius: 5px;
     box-shadow: 0px 0px 10px grey;
-    width:35%;
+    width: 35%;
+  }
+
+  /* Keywords Section */
+  .section-image {
+    height: 250px;
   }
 }
 
