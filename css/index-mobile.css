@@ -828,7 +828,7 @@
     flex-grow: 1;
   }
 
-  .cta1-btn-container button {
+  .cta1-btn-container a {
     margin-top: 5%;
     width: 40%;
     height: 80%;
@@ -1083,7 +1083,7 @@
     justify-content: center;
   }
 
-  .blog-btn-container button {
+  .blog-btn-container a {
     width: 50%;
     height: 10vw;
     max-width: 181px;

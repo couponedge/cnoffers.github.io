@@ -863,7 +863,7 @@
     /* flex-grow: 1; */
   }
 
-  .cta1-btn-container button {
+  .cta1-btn-container a {
     margin-left: 5%;
     width: 80%;
     min-width: 130px;
@@ -1113,7 +1113,7 @@
     justify-content: center;
   }
 
-  .blog-btn-container button {
+  .blog-btn-container a {
     height: 3.5vw;
     width: 20vw;
     min-width: 215px;
@@ -1425,3 +1425,9 @@
 }
 
 /* Both Views */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
