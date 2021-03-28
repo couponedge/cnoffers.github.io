@@ -1378,19 +1378,37 @@
     font-size: 18px !important;
   }
 
-  .cn-coupons-container ul {
-    margin-top: 30px;
+  .cn-coupons-container .steps-container {
+    /* border: 2px solid red; */
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
+  .cn-coupons-container ul {
+    /* border: 2px solid blue; */
+    width: auto;
+    margin-top: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   .cn-coupons-container li {
-    min-width: 800px;
+    /* border: 2px solid orange; */
+    /* min-width: 800px; */
     list-style: none;
     text-align: left;
     font-size: 18px;
     margin-bottom: 16px;
+  }
+
+  .cn-coupons-container li strong {
+    color: var(--secondary-dark-red);
   }
 }
 

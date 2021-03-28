@@ -1351,6 +1351,13 @@
     font-size: 14px;
   }
 
+  .cn-coupons-container .steps-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .cn-coupons-container ul {
     border-top: 2px solid var(--neutral-blue);
     padding-top: 32px;
@@ -1367,6 +1374,10 @@
     font-size: 14px;
     line-height: 26px;
     margin-bottom: 16px;
+  }
+
+  .cn-coupons-container li strong {
+    color: var(--secondary-dark-red);
   }
 }
 
