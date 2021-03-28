@@ -459,8 +459,8 @@
   }
 
   .landing-heading {
-    font-size: 3.2vw !important;
-    line-height: 3.5vw !important;
+    font-size: 3.3vw !important;
+    line-height: 3.9vw !important;
   }
 
   /* How to get discounts */
@@ -1390,7 +1390,7 @@
   }
 
   .cn-coupons-container img {
-    width:300px;
+    width: 300px;
     margin-right: 45px;
   }
 
