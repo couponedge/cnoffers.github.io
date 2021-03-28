@@ -1331,19 +1331,19 @@
   /* Keywords Section */
   /* Coupon */
   .cn-coupons-container {
-    padding: var(--margin-updown);
+    padding: var(--margin-updown) var(--margin-side);
   }
 
   .cn-coupons-container .title {
     font-size: 24px;
     line-height: 33px;
     margin-bottom: 30px;
-    color:var(--secondary-dark-red);
+    color: var(--secondary-dark-red);
   }
 
   .cn-coupons-container .details {
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 24px;
     text-align: left;
   }
 
@@ -1352,7 +1352,9 @@
   }
 
   .cn-coupons-container ul {
-    margin-top: 24px;
+    border-top: 2px solid var(--neutral-blue);
+    padding-top: 32px;
+    margin-top: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1360,11 +1362,11 @@
 
   .cn-coupons-container li {
     min-width: 320px;
-    line-height: 26px;
     list-style: none;
-    /* text-align: left; */
-    font-size: 16px;
-    margin-bottom: 6px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 16px;
   }
 }
 

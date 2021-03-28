@@ -1361,7 +1361,7 @@
   /* Keywords Section */
   /* Coupon */
   .cn-coupons-container {
-    padding: var(--margin-updown);
+    padding: var(--margin-updown) var(--margin-side);
   }
 
   .cn-coupons-container .title {
@@ -1390,7 +1390,7 @@
     list-style: none;
     text-align: left;
     font-size: 18px;
-    margin-bottom: 6px;
+    margin-bottom: 16px;
   }
 }
 
