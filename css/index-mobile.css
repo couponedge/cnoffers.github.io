@@ -1161,6 +1161,7 @@
 
   .footer-logo-container img {
     height: 100%;
+    cursor: pointer;
   }
 
   .social-medias-container {
