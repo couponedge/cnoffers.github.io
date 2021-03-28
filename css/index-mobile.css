@@ -1356,6 +1356,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding-top: 32px;
+  }
+
+  .cn-coupons-container img {
+    width: 256px;
   }
 
   .cn-coupons-container ul {
