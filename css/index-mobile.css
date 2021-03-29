@@ -1433,7 +1433,7 @@
   }
 
   .review-box-1 {
-    margin-top: 68px;
+    margin-top: 24px;
   }
 
   .review-box-2 {
@@ -1455,13 +1455,27 @@
   }
 
   .review-description {
-    margin: 12px 0;
+    margin: 16px 0;
     padding: 10px;
   }
 
   .review-description p {
     font-size: 18px;
     line-height: 26px;
+  }
+
+  .stars-container {
+    margin-top: 32px;
+    margin-bottom: 12px;
+    color: #fdcc0d;
+  }
+
+  .stars-container i {
+    margin-right: 3px;
+  }
+
+  .stars-container i:last-child {
+    margin-right: 0px;
   }
 
   .review-box .footer {

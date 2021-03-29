@@ -1482,7 +1482,7 @@
   }
 
   .review-description {
-    margin: 12px 0;
+    /* margin: 12px 0; */
     padding: 40px;
   }
 
@@ -1492,13 +1492,26 @@
   }
 
   .review-box .footer {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-bottom: 30px;
   }
 
   .review-box .footer p {
     font-size: 16px;
     font-style: italic;
+  }
+
+  .stars-container {
+    margin-bottom: 12px;
+    color: #fdcc0d;
+  }
+
+  .stars-container i {
+    margin-right: 3px;
+  }
+
+  .stars-container i:last-child {
+    margin-right: 0px;
   }
 }
 
