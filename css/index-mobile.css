@@ -1429,6 +1429,7 @@
     background: rgba(255, 255, 255, 0.8);
     /* border-radius: 25px; */
     margin-top: 12px;
+    border-radius: 10px;
   }
 
   .review-box-1 {
