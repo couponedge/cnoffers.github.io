@@ -1342,6 +1342,7 @@
   /* Coupon */
   .cn-coupons-container {
     padding: var(--margin-updown) var(--margin-side);
+    flex-direction: column;
   }
 
   .cn-coupons-container .title {
@@ -1372,6 +1373,13 @@
 
   .cn-coupons-container img {
     width: 300px;
+  }
+
+  .cn-coupons-container > a {
+    margin-top: 24px;
+    width: 186px;
+    height: 36px;
+    font-size: 14px;
   }
 
   .cn-coupons-container ul {
