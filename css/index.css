@@ -1430,6 +1430,61 @@
   .cn-coupons-container li strong {
     color: var(--secondary-dark-red);
   }
+
+  /* Testimonials/Reviews */
+  .reviews-container {
+    padding: var(--margin-updown) var(--margin-side);
+    margin-bottom: var(--margin-updown);
+  }
+
+  .reviews-container .heading {
+    margin-bottom: var(--margin-updown);
+  }
+
+  .reviews-container main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .review-box {
+    /* border: 2px solid red; */
+    border-bottom: 3px solid var(--secondary-red);
+    margin: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    /* border-radius: 25px; */
+  }
+
+  .review-box-icon-container {
+    /* color: var(--secondary-red); */
+    color: white;
+    margin-top: -45px;
+  }
+
+  .review-box-icon-container i {
+    font-size: 32px;
+    padding: 20px;
+    border-radius: 50%;
+    /* background: var(--primary-blue); */
+    background: var(--secondary-red);
+  }
+
+  .review-description {
+    margin: 12px 0;
+    padding: 40px;
+  }
+
+  .review-description p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .review-box .footer {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
 }
 
 /* Both Views */
