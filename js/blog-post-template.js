@@ -37,6 +37,21 @@ $(document).ready(function () {
       $('.share-options li a span').show();
     }
   });
-
   // Jquery ending
 });
+
+// Tags not implemented
+tagsElements = document.querySelectorAll('.tags a');
+for (let i = 0; i < tagsElements.length; i++) {
+  tagsElements[i].addEventListener('click', e => {
+    e.preventDefault();
+    console.log(e);
+  });
+}
+
+/* 
+$('').on('click', e => {
+  e.preventDefault();
+  console.log('not yet implemented');
+});
+ */
