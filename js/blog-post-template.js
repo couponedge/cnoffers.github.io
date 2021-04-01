@@ -18,7 +18,7 @@ $(document).ready(function () {
 
   // Logo Redirect to HomePage Btn
   $('#logo').on('click', e => {
-    window.open('../blog.html', '_self');
+    window.open('../', '_self');
   });
 
   // GET NOW REDIRECT
