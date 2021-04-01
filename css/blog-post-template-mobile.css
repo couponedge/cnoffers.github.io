@@ -689,4 +689,23 @@
     margin: 20px 0;
     justify-content: left;
   }
+
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .image {
+    /* width: 50% !important; */
+    width: 100% !important;
+    border: 5px solid grey;
+    margin-right: 0px;
+  }
+
+  .discount-proof-image {
+    /* height: 10% !important; */
+    width: 100% !important;
+    margin-left: 0;
+  }
 }
