@@ -1,7 +1,5 @@
 @media only screen and (min-width: 768px) {
-  /*FIXME: Default scroll bar lao, custom me after and before cusor lao.  */
-
-  html {
+  /* html {
     --scrollbarBG: #cfd8dc;
     --thumbBG: #90a4ae;
   }
@@ -24,7 +22,7 @@
 
   body::-webkit-scrollbar-thumb:hover {
     background-color: #7b99c2;
-  }
+  } */
 
   .spacing-in-top {
     height: 70px;

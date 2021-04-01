@@ -26,18 +26,6 @@
     scroll-behavior: smooth;
   }
 
-  html {
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    /* can be used for fixing scrolling issue on fixed header. but bottom to top is causing issue */
-    /* scroll-padding-top: 120px; */
-  }
-
-  html::-webkit-scrollbar {
-    width: 0px;
-    /* For Chrome, Safari, and Opera */
-  }
-
   .heading {
     letter-spacing: 0;
     color: var(--primary-blue);
