@@ -103,3 +103,9 @@ function closeAllAccordions(curr) {
     }
   }
 }
+
+// Tags redirect to blog page
+tagsElements = document.querySelectorAll('.tags a');
+for (let i = 0; i < tagsElements.length; i++) {
+  tagsElements[i].href = '/blog.html' + '?tags=' + tagsElements[i].text.trim().toLowerCase();
+}

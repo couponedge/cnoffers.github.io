@@ -683,8 +683,27 @@
     margin-left: 10px;
     /* box-shadow: 5px 5px 0px red; */
   }
+
+  .toast {
+    background-color: var(--primary-blue) !important;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 8px 30px;
+    box-shadow: 0px 10px 50px rgb(0 0 0 / 30%);
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 20px;
+    transition: top 1s;
+    position: fixed;
+    z-index: 99;
+    font-family: 'Ubuntu', arial;
+    visibility: hidden;
+  }
 }
 
+/* Common */
 body > div:nth-child(even) {
   background-color: var(--neutral-white);
 }
@@ -692,3 +711,37 @@ body > div:nth-child(even) {
 body > div:nth-child(odd) {
   background-color: var(--neutral-white);
 }
+
+/* Animations to fade the snackbar in and out */
+@keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 10px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    bottom: 10px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+.toast.show {
+  visibility: visible;
+  animation: fadein 0.5s, fadeout 0.5s 1.5s;
+}
+
+/* 
+<div class="toast">
+  Some Message!
+</div>
+*/

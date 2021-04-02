@@ -40,18 +40,19 @@ $(document).ready(function () {
   // Jquery ending
 });
 
-// Tags not implemented
-tagsElements = document.querySelectorAll('.tags a');
-for (let i = 0; i < tagsElements.length; i++) {
-  tagsElements[i].addEventListener('click', e => {
-    e.preventDefault();
-    console.log(e);
-  });
+// Toast
+function toast(msg) {
+  var toastDOM = document.querySelector('.toast');
+  toastDOM.textContent = msg;
+  toastDOM.classList.add('show');
+  setTimeout(() => {
+    toastDOM.classList.remove('show');
+  }, 2000);
 }
 
-/* 
-$('').on('click', e => {
-  e.preventDefault();
-  console.log('not yet implemented');
-});
- */
+// Tags redirect to blog page
+tagsElements = document.querySelectorAll('.tags a');
+for (let i = 0; i < tagsElements.length; i++) {
+  tagsElements[i].href =
+    '/blog.html' + '?tags=' + tagsElements[i].text.trim().toLowerCase();
+}
