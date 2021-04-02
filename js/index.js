@@ -111,3 +111,8 @@ for (let i = 0; i < tagsElements.length; i++) {
     tagsElements[i].href =
       '/blog.html' + '?tags=' + tagsElements[i].text.trim().toLowerCase();
 }
+
+/* alert(
+  "Aware\n\nSome website are telling lies like get discount of 85% - 95%.\nDon't get fall in such traps.\n\nYou cannot get more 42% anywhere\n(ie 12% Referral discount + 30% Early bird discount)."
+);
+ */
