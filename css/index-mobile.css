@@ -300,7 +300,7 @@
   /* Landing Page */
 
   .landing-page-container {
-    height: 630px;
+    height: 520px;
     overflow: hidden;
     width: 100%;
     /* background-color: var(--neutral-grey); */
@@ -315,6 +315,7 @@
   .landing-heading-container {
     padding: var(--margin-updown) var(--margin-side) 5%;
     /* margin-left: 7%; */
+    padding-top: 0;
     margin-top: -5%;
   }
 
