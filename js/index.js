@@ -116,3 +116,29 @@ for (let i = 0; i < tagsElements.length; i++) {
   "Aware\n\nSome website are telling lies like get discount of 85% - 95%.\nDon't get fall in such traps.\n\nYou cannot get more 42% anywhere\n(ie 12% Referral discount + 30% Early bird discount)."
 );
  */
+
+window.addEventListener('load', event => {
+  // for future
+});
+
+function updateMonthLi() {
+  var monthDOM = document.querySelector('.month-li');
+  var d = new Date();
+  var month = new Array();
+  month[0] = 'January';
+  month[1] = 'February';
+  month[2] = 'March';
+  month[3] = 'April';
+  month[4] = 'May';
+  month[5] = 'June';
+  month[6] = 'July';
+  month[7] = 'August';
+  month[8] = 'September';
+  month[9] = 'October';
+  month[10] = 'November';
+  month[11] = 'December';
+  var month = month[d.getMonth()];
+  var year = d.getFullYear();
+  monthDOM.innerHTML = month + ' ' + year;
+}
+updateMonthLi();
