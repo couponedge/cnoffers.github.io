@@ -260,7 +260,7 @@
     /* top: 69.15px; */
     width: 100%;
     /* height: 600px; */
-    height: 48vw;
+    height: 50vw;
     padding: 8vw var(--margin-side) 0 var(--margin-side);
     background-color: var(--neutral-grey);
     display: flex;
@@ -292,7 +292,7 @@
     /* flex-grow: 2; */
     /* position: absolute; */
     /* bottom: 0; */
-    margin-top: -2vw;
+    margin-top: -2.4vw;
   }
 
   img,
@@ -527,18 +527,19 @@
     justify-content: center;
   }
 
-  .student-images-container {
-    margin-right: 32px;
-  }
-
   .student-images-container img {
-    width: 35px;
-    height: 35px;
+    width: 3.4vw;
+    height: 3.4vw;
     border: 1px solid var(--neutral-grey);
     border-radius: 50%;
   }
   .student-images-container img {
     margin-right: -12px;
+  }
+
+  .student-spacing {
+    width: 2.4vw;
+    /* max-width: 20px; */
   }
 
   .student-review-container {
