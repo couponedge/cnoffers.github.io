@@ -482,9 +482,16 @@
   }
 
   .rating-box {
+    margin-bottom: -2px;
+  }
+
+  .rating-box img {
     color: orange;
     margin-bottom: 5px;
     font-size: 1.2vw;
+    width: 1.28vw;
+    filter: hue-rotate(353deg);
+    margin-right: 1px;
   }
 
   /* How to get discounts */

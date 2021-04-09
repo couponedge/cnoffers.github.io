@@ -489,10 +489,13 @@
     color: var(--neutral-blue);
   }
 
-  .rating-box {
+  .rating-box img {
     color: orange;
-    margin-bottom: 3px;
-    font-size: 12px;
+    margin-bottom: 1px;
+    font-size: 1.2vw;
+    width: 14px;
+    filter: hue-rotate(353deg);
+    margin-right: 1px;
   }
 
   .rating-box span {
