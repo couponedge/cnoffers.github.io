@@ -467,6 +467,13 @@
     font-size: 16px !important;
   }
 
+  .rating-container a {
+    text-decoration: none; 
+    text-decoration: none;
+    font-weight: initial !important;
+    color: var(--neutral-blue);
+  }
+
   .horizontal-separtor {
     width: 1.5px;
     background: grey;
