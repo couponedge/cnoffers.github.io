@@ -291,7 +291,7 @@
     /* flex-grow: 2; */
     /* position: absolute; */
     /* bottom: 0; */
-    margin-top: -70px;
+    margin-top: -2vw;
   }
 
   img,
@@ -477,6 +477,7 @@
   .rating-container p {
     font-family: Arial, Helvetica, sans-serif !important;
     font-size: 1.25vw !important;
+    line-height: 1.8vw;
     /* text-align: left; */
   }
 

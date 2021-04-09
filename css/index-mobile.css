@@ -249,6 +249,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    max-height: 35px;
   }
 
   #menu-items-desktop,
@@ -300,7 +301,7 @@
   /* Landing Page */
 
   .landing-page-container {
-    height: 800px;
+    /* height: 800px; */
     overflow: hidden;
     width: 100%;
     /* background-color: var(--neutral-grey); */
@@ -310,6 +311,7 @@
     flex-direction: column;
     min-width: 320px;
     justify-content: space-between;
+    padding-bottom: 35px;
   }
 
   .landing-heading-container {
