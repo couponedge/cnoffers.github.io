@@ -546,7 +546,6 @@
   }
 
   .student-review-container p {
-    /* TODO: Font Change */
     font-family: 'Poppins', cursive, Arial, Helvetica, sans-serif;
     text-align: center;
     color: var(--neutral-blue);

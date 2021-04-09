@@ -424,7 +424,7 @@
   }
 
   .landing-page-image-container a {
-    order: 2;
+    order: 3;
   }
 
   .landing-page-image {
@@ -1545,6 +1545,51 @@
   .review-box .footer p {
     font-size: 14px;
     font-style: italic;
+  }
+
+  /* Students Proof */
+  .students-proof-container {
+    order: 2;
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .student-images-container {
+    order: 3;
+  }
+
+  .student-images-container img {
+    width: 35px;
+    height: 35px;
+    border: 1px solid var(--neutral-grey);
+    border-radius: 50%;
+  }
+  .student-images-container img {
+    margin-right: -8px;
+  }
+
+  .student-spacing {
+    width: 12px;
+    /* max-width: 20px; */
+    order: 2;
+  }
+
+  .student-review-container {
+  }
+
+  .student-review-container p {
+    /* border: 2px solid red; */
+    order: 1;
+    font-family: 'Poppins', cursive, Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: var(--neutral-blue);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 12px;
   }
 
   /* All Courses */
