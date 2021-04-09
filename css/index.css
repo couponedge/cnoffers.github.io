@@ -452,6 +452,11 @@
     margin-top: 12px;
     display: flex;
     flex-direction: row;
+
+  /*   background: white;
+    padding: 20px;
+    padding-left: 70px;
+    border-radius: 25px; */
   }
 
   .social-proof-image {
