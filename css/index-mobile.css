@@ -477,16 +477,20 @@
     /* line-height: 18px !important; */
   }
 
-  .horizontal-separtor {
-    width: 1.5px;
-    background: grey;
-    margin: 0 12px;
+  .rating-container p span {
+    color: #5a6d86 !important;
   }
 
   .rating-container a {
     text-decoration: none;
     font-weight: initial !important;
     color: var(--neutral-blue);
+  }
+
+  .horizontal-separtor {
+    width: 1.5px;
+    background: grey;
+    margin: 0 12px;
   }
 
   .rating-box img {

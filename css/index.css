@@ -453,7 +453,7 @@
   }
 
   .social-proof-container {
-    margin-top: 10px;
+    margin-top: 12px;
     display: flex;
     flex-direction: row;
   }
@@ -468,11 +468,16 @@
     font-size: 1.25vw !important;
   }
 
+  .rating-container p span {
+    color: #5a6d86 !important;
+  }
+
   .rating-container a {
     text-decoration: none;
     text-decoration: none;
     font-weight: initial !important;
     color: var(--neutral-blue);
+    /* font-weight: 550 !important; */
   }
 
   .horizontal-separtor {
