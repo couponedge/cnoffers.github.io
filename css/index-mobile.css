@@ -494,7 +494,7 @@
     margin-bottom: 1px;
     font-size: 1.2vw;
     width: 14px;
-    filter: hue-rotate(353deg);
+    /* filter: hue-rotate(353deg); */
     margin-right: 1px;
   }
 
