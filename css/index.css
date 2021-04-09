@@ -459,16 +459,17 @@
   }
 
   .social-proof-image {
-    width: 140px;
+    width: 10.5vw;
+    /* width: 140px; */
   }
 
   .rating-container p {
     font-family: Arial, Helvetica, sans-serif !important;
-    font-size: 16px !important;
+    font-size: 1.25vw !important;
   }
 
   .rating-container a {
-    text-decoration: none; 
+    text-decoration: none;
     text-decoration: none;
     font-weight: initial !important;
     color: var(--neutral-blue);
@@ -483,7 +484,7 @@
   .rating-box {
     color: orange;
     margin-bottom: 5px;
-    font-size: 14px;
+    font-size: 1.2vw;
   }
 
   /* How to get discounts */
