@@ -276,6 +276,7 @@
 
   .landing-page-image-container {
     /* border: 2px solid red; */
+    order: 1;
     height: 100%;
     width: 600px;
     flex-grow: 1;
@@ -306,7 +307,7 @@
 
   .landing-page-blank-space-2 {
     height: 100%;
-    width: 50px;
+    width: 80px;
     flex-grow: 1;
   }
 
@@ -315,7 +316,7 @@
     height: 100%;
     width: 500px;
     flex-grow: 1;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     display: flex;
     flex-direction: column;
     /* justify-content:space-evenly ; */
@@ -450,8 +451,10 @@
     line-height: 3.7vw !important;
   }
 
+  /* Social Proof */
   .social-proof-container {
     /* border: 2px solid red; */
+    order: 2;
     margin-top: 25px;
     display: flex;
     flex-direction: row;
@@ -512,6 +515,43 @@
     width: 1.28vw;
     /* filter: hue-rotate(353deg); */
     margin-right: 1px;
+  }
+
+  /* Students Proof */
+  .students-proof-container {
+    order: 3;
+    margin-top: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .student-images-container {
+    margin-right: 32px;
+  }
+
+  .student-images-container img {
+    width: 35px;
+    height: 35px;
+    border: 1px solid var(--neutral-grey);
+    border-radius: 50%;
+  }
+  .student-images-container img {
+    margin-right: -12px;
+  }
+
+  .student-review-container {
+  }
+
+  .student-review-container p {
+    /* TODO: Font Change */
+    font-family: 'Poppins', cursive, Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: var(--neutral-blue);
+    font-size: 1.15vw !important;
+    line-height: 1.7vw;
+    font-weight: 400;
   }
 
   /* How to get discounts */
