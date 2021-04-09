@@ -483,8 +483,8 @@
   }
 
   .rating-container p {
-    font-family: Arial, Helvetica, sans-serif !important;
-    font-size: 14px !important;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    font-size: 13px !important;
     /* line-height: 18px !important; */
     text-align: left;
   }
@@ -1583,7 +1583,7 @@
   .student-review-container p {
     /* border: 2px solid red; */
     order: 1;
-    font-family: 'Poppins', cursive, Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     text-align: center;
     color: var(--neutral-blue);
     font-size: 14px;
