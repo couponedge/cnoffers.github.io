@@ -489,7 +489,8 @@
 
   .horizontal-separtor {
     width: 1.5px;
-    background: grey;
+    /* background: grey; */
+    background: #4e6b7e93;
     margin: 0 12px;
   }
 
