@@ -1604,6 +1604,30 @@
   .stars-container i:last-child {
     margin-right: 0px;
   }
+
+  /* All Courses */
+  #all-courses {
+    padding: var(--margin-updown) 0;
+  }
+
+  #all-courses .heading {
+    margin-bottom: 16px;
+  }
+
+  #all-courses .title {
+    text-align: left;
+    font-size: 26px;
+    margin-bottom: 12px;
+    color: var(--secondary-dark-red);
+  }
+
+  #all-courses .paragraph {
+    text-align: left;
+  }
+
+  .courses-single-item-container .paragraph {
+    text-align: center !important;
+  }
 }
 
 /* Both Views */

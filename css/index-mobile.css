@@ -1546,6 +1546,30 @@
     font-size: 14px;
     font-style: italic;
   }
+
+  /* All Courses */
+  #all-courses {
+    padding: var(--margin-updown) 0;
+  }
+
+  #all-courses .heading {
+    margin-bottom: 8px;
+  }
+
+  #all-courses .title {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: var(--secondary-dark-red);
+  }
+
+  #all-courses .paragraph {
+    text-align: left;
+  }
+
+  .courses-single-item-container .paragraph {
+    text-align: center !important;
+  }
 }
 
 @media only screen and (max-width: 319px) {
