@@ -270,6 +270,8 @@
   .landing-btn {
     height: 85% !important;
     width: 45% !important;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    font-weight: 600 !important;
     margin-top: -5px;
     font-size: 100%;
   }
@@ -335,6 +337,8 @@
     font-size: 48px;
     font: normal normal bold 4vw/4.2vw Ubuntu;
     margin-bottom: 1%;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 650;
     /* border: 2px solid violet; */
   }
 
@@ -374,6 +378,8 @@
   .landing-page-li h1,
   .landing-page-li h2 {
     font: normal normal normal 1.5vw/1.8vw Ubuntu;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    /* font-weight: ; */
   }
 
   .landing-page-li strong {

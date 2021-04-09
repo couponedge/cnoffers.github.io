@@ -351,6 +351,7 @@
     align-items: center;
     margin-top: 14px;
   }
+
   .landing-page-li strong {
     color: var(--secondary-dark-red);
     filter: brightness(1);
@@ -359,6 +360,7 @@
   .landing-page-li h1,
   .landing-page-li h2 {
     font: normal normal normal 17px/20px var(--font);
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   }
 
   .landing-page-li2::before {
@@ -451,6 +453,8 @@
     font-size: 100%;
     width: 180px;
     margin-top: 3px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    font-weight: 600 !important;
     /* margin-left: 15%; */
   }
 
@@ -463,6 +467,8 @@
   .landing-heading {
     font-size: 35px !important;
     line-height: 40px !important;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    font-weight: 650;
   }
 
   .social-proof-container {
