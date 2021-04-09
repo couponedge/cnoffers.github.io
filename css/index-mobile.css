@@ -300,7 +300,7 @@
   /* Landing Page */
 
   .landing-page-container {
-    height: 520px;
+    height: 580px;
     overflow: hidden;
     width: 100%;
     /* background-color: var(--neutral-grey); */
@@ -315,7 +315,7 @@
   .landing-heading-container {
     padding: var(--margin-updown) var(--margin-side) 5%;
     /* margin-left: 7%; */
-    padding-top: 0;
+    padding-top: 20px;
     margin-top: -5%;
   }
 
@@ -372,8 +372,8 @@
   }
 
   .landing-heading-container ul {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px !important;
   }
 
   .landing-page-li::before {
@@ -459,6 +459,28 @@
   .landing-heading {
     font-size: 35px !important;
     line-height: 40px !important;
+  }
+
+  .social-proof-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .social-proof-image {
+    width: 120px;
+    margin-right: 20px;
+  }
+
+  .rating-container p {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 12px !important;
+  }
+
+  .rating-box {
+    color: orange;
+    margin-bottom: 3px;
+    font-size: 15px;
   }
 
   /* How to get discounts */
