@@ -1611,9 +1611,14 @@
   #all-courses .title {
     text-align: left;
     font-size: 20px;
-    line-height:26px;
+    line-height: 26px;
     margin-bottom: 12px;
     color: var(--secondary-dark-red);
+    font:'Lato'
+  }
+
+  #all-courses .highlight {
+    color: var(--secondary-red);
   }
 
   #all-courses .paragraph {
