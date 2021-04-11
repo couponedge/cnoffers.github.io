@@ -38,11 +38,12 @@
 
   .courses-container .heading {
     margin-bottom: 12px;
+    /* font-family: 'Lato', Ubuntu, Times, serif, arial; */
   }
 
   .courses-container .heading-details {
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif, arial;
+    font-family: 'Lato', 'Times New Roman', Times, serif, arial;
     margin-bottom: 28px;
   }
 
