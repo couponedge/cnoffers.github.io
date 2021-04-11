@@ -57,6 +57,126 @@
   <link rel="stylesheet" href="../css/index-mobile.css">
   <link rel="stylesheet" href="../css/blog-post-template.css">
   <link rel="stylesheet" href="../css/blog-post-template-mobile.css">
+  <link rel="stylesheet" href="../css/courses.css">
+  <link rel="stylesheet" href="../css/courses-mobile.css">
+
+
+  <style>
+    .courses-container main {
+      grid-template-columns: repeat(auto-fit, minmax(130px, 150px));
+    }
+
+    .referral-options {
+      margin: 0;
+    }
+
+    /* All Courses */
+    #all-courses {
+      padding: var(--margin-updown) 0;
+    }
+
+    #all-courses .heading {
+      margin-bottom: 16px;
+      font-size: 36px;
+      line-height: 42px;
+      font-weight: 700;
+    }
+
+    #all-courses .title {
+      text-align: left;
+      font-size: 26px;
+      margin-bottom: 12px;
+      color: var(--secondary-dark-red);
+    }
+
+    #all-courses .paragraph {
+      text-align: left;
+    }
+
+    .courses-single-item-container {
+      padding: 20px;
+      padding-top: 15px;
+    }
+
+    #all-courses .paragraph {
+      margin-top: 8px;
+    }
+
+    .courses-container main a {
+      text-decoration: none !important;
+    }
+
+    .courses-container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .courses-single-item-container .paragraph {
+      text-align: center !important;
+    }
+
+    @media only screen and (max-width: 768px) {
+
+      .referral-options {
+        margin-top: 20px;
+      }
+
+      /* All Courses */
+      .courses-container main {
+        grid-template-columns: repeat(auto-fill, 30%) !important;
+      }
+
+      #all-courses {
+        padding: 0;
+      }
+
+      .courses-container {
+        /* padding-top: 5px; */
+      }
+
+      #all-courses .heading {
+        line-height: 42px;
+        margin-bottom: 0px;
+      }
+
+      #all-courses .title {
+        text-align: left;
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 12px;
+        color: var(--secondary-dark-red);
+      }
+
+      #all-courses .paragraph {
+        text-align: left;
+      }
+
+      .courses-single-item-container .paragraph {
+        text-align: center !important;
+      }
+
+      .courses-single-item-container {
+        padding: 0px;
+        padding-top: 0px;
+      }
+
+      .courses-single-item-container img {
+        height: 45px;
+        width: 45px;
+      }
+
+      #all-courses .paragraph {
+        margin-top: 0px;
+      }
+
+      .courses-container {
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+    }
+  </style>
+
 </head>
 
 <body>
@@ -203,15 +323,277 @@
 
           <hr>
           <br>
-          <p><strong>So, Stop searching in vain as you won't be able to get there courses for free.
-            </strong>
-            <br>
-            Instead admire the
-            features
-            available when purchased a original course.</p>
+
+          <div id="all-courses" class="cards-2">
+            <div class="container">
+              <h2 class="heading">Coding Ninjas Courses With Discount</h2>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="courses-container">
+                    <h3 class="title">Foundation, Algorithmic & Advanced Courses</h3>
+                    <p class="paragraph heading-details">Foundation courses are designed such that no
+                      prerequisites
+                      are required. Data
+                      Structures(DS) and
+                      Algorithms(algo.) parts build on the basics to give you a solid programming
+                      foundation.
+                      Competitive is where you
+                      start to push the boundaries!</p>
+                    <main>
+                      <a href="https://www.codingninjas.com/courses/onlline-c-plus-plus-course?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/cpp-ds-logo.png" alt="C++ & Data Structures">
+                          <p class="courses-single-item-title paragraph">C++ & Data
+                            Structures</p>
+                        </div>
+                      </a>
+
+                      <a href="https://www.codingninjas.com/courses/online-java-course?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/java-ds-logo.png" alt="Java & Data Structures">
+                          <p class="courses-single-item-title paragraph">Java & Data
+                            Structures</p>
+                        </div>
+                      </a>
+
+                      <a href="https://www.codingninjas.com/courses/online-interview-preparation?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/interview-logo.png" alt="Interview Preparations">
+                          <p class="courses-single-item-title paragraph">Interview
+                            Preparations</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="https://www.codingninjas.com/courses/online-competitive-programming-course?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/cp-logo.png" alt="Competitive Programming">
+                          <p class="courses-single-item-title paragraph">Competitive
+                            Programming</p>
+                        </div>
+                      </a>
+
+                      <a href="https://www.codingninjas.com/courses/online-python-course?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/python-logo.png" alt="Python & Data Structures">
+                          <p class="courses-single-item-title paragraph">Python & Data
+                            Structures</p>
+                        </div>
+                      </a>
+
+                      <a href="https://www.codingninjas.com/courses/online-aptitude-preparation?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/aptitude-logo.png" alt="Aptitude Preparation">
+                          <p class="courses-single-item-title paragraph">Aptitude
+                            Preparation</p>
+                        </div>
+                      </a>
+
+                    </main>
+                  </div>
+
+                  <div class="courses-container">
+                    <h3 class="title">Data & Development</h3>
+                    <p class="paragraph heading-details">Data courses dwell in the state of the art
+                      algorithms and
+                      require good
+                      knowledge of programming fundamentals. Web development courses use modern
+                      JavaScript to
+                      build powerful and fast
+                      applications from the ground up. No prior development experience needed.</p>
+                    <main>
+                      <a href="https://www.codingninjas.com/courses/online-machine-learning-course?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/ml-logo.png" alt="Machine Learning">
+                          <p class="courses-single-item-title paragraph">Machine Learning
+                          </p>
+                        </div>
+                      </a>
+
+                      <a href="https://www.codingninjas.com/courses/online-web-dev-with-react?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/react-logo.png" alt="Front End (React)">
+                          <p class="courses-single-item-title paragraph">Front End (React)
+                          </p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="https://www.codingninjas.com/courses/online-full-stack-node-js-web-dev-course?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/web-logo.png" alt="Web Dev (Full Stack)">
+                          <p class="courses-single-item-title paragraph">Web Dev (Full
+                            Stack)</p>
+                        </div>
+                      </a>
+
+                      <a href="https://www.codingninjas.com/courses/online-data-science-course?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/data-science-logo.png" alt="Data Science">
+                          <p class="courses-single-item-title paragraph">Data Science</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="https://www.codingninjas.com/courses/online-android-Development-kotlin?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/android-logo.png" alt="Android (Kotlin)">
+                          <p class="courses-single-item-title paragraph">Android (Kotlin)
+                          </p>
+                        </div>
+                      </a>
+                    </main>
+                  </div>
+
+                  <div class="courses-container">
+                    <h3 class="title">Career Track</h3>
+                    <p class="paragraph heading-details">These are courses that take you from zero to
+                      hero. Each
+                      track is designed
+                      specifically to cater to a particular goal you can choose and covers
+                      everything you need to
+                      learn and assumes no
+                      prior knowledge.</p>
+                    <main>
+                      <a
+                        href="https://www.codingninjas.com/courses/online-competitive-programming-track?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/career-track-cp-logo.png" alt="Competitive Programmer">
+                          <p class="courses-single-item-title paragraph">Competitive
+                            Programmer</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="https://www.codingninjas.com/courses/online-android-development-career-track?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/career-track-android-logo.png" alt="Android  Programmer">
+                          <p class="courses-single-item-title paragraph">Android Programmer
+                          </p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="https://www.codingninjas.com/courses/ninja-web-developer-career-track-mern-stack?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/career-track-web-logo.png" alt="Web Developer">
+                          <p class="courses-single-item-title paragraph">Web Developer</p>
+                        </div>
+                      </a>
+
+                      <a href="https://www.codingninjas.com/courses/data-Scientist-career-track?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/career-track-data-science-logo.png" alt="Data Scientist">
+                          <p class="courses-single-item-title paragraph">Data Scientist</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="https://www.codingninjas.com/courses/machine-learning-engineer-career-track?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/career-track-ml-logo.png" alt="Machine Learning">
+                          <p class="courses-single-item-title paragraph">Machine Learning
+                          </p>
+                        </div>
+                      </a>
+
+                    </main>
+                  </div>
+
+                  <div class="courses-container">
+                    <h3 class="title">Premium Courses</h3>
+                    <p class="paragraph heading-details">Begin the journey for your dream job with these
+                      specializations
+                    </p>
+                    <main>
+                      <a
+                        href="https://www.codingninjas.com/courses/premium-android-app-development-course?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/android-logo.png" alt="Android App Development">
+                          <p class="courses-single-item-title paragraph">Android App
+                            Development</p>
+                        </div>
+                      </a>
+
+                      <a href="https://www.codingninjas.com/courses/premium-competitive-course?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/ml-logo.png" alt="Machine Learning">
+                          <p class="courses-single-item-title paragraph">Machine Learning
+                          </p>
+                        </div>
+                      </a>
+
+                      <a href="https://www.codingninjas.com/courses/premium-data-science-course?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/data-science-logo.png" alt="Data Science">
+                          <p class="courses-single-item-title paragraph">Data Science</p>
+                        </div>
+                      </a>
+
+                      <a
+                        href="https://www.codingninjas.com/courses/premium-full-stack-web-development-course?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/web-logo.png" alt="Full Stack Web Development">
+                          <p class="courses-single-item-title paragraph">Full Stack Web
+                            Development</p>
+                        </div>
+                      </a>
+                    </main>
+
+                    <br>
+
+                    <p class="paragraph heading-details">Start strong. Build a strong foundation with
+                      these courses
+                    </p>
+                    <main>
+                      <a href="https://www.codingninjas.com/courses/premium-foundation-course?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/aptitude-logo.png" alt="Data Structures and Algorithms">
+                          <p class="courses-single-item-title paragraph">Data Structures &
+                            Algorithms</p>
+                        </div>
+                      </a>
+
+                      <a href="https://www.codingninjas.com/courses/premium-competitive-course?referralCode=TNMBH">
+                        <div class="courses-single-item-container"
+                          onclick="window.open('https://rebrand.ly/coding-ninjas-discount','_blank')">
+                          <img src="../assets/courses-logo/cp-logo.png" alt="Competitive Programming">
+                          <p class="courses-single-item-title paragraph">Competitive
+                            Programming</p>
+                        </div>
+                      </a>
+
+                    </main>
+                  </div>
+                </div> <!-- end of col -->
+              </div> <!-- end of row -->
+            </div> <!-- end of container -->
+          </div>
+
           <div class="referral-options ">
             <a href="https://rebrand.ly/cnblog-referral"><button class="primary-btn"
-                style="width: auto;  margin-top:10px; padding:0px 20px; transform: scaleY(1.1);">
+                style="width: auto;  padding:0px 20px; transform: scaleY(1.1);">
                 <strong>JOIN CODING NINJAS @ 42% OFF</strong></button></a>
           </div>
           <!-- <br>
