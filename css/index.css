@@ -405,11 +405,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 6px;
-    width: 0.8vw;
-    height: 0.8vw;
+    padding: 5px;
+    width: 0.7vw;
+    height: 0.7vw;
     border-radius: 50%;
-    font-size: 1vw;
+    font-size: 0.9vw;
     /* background-color: #16c60c; */
     background-color: #0f9d58;
     /* background-color: var(--secondary-red); */
