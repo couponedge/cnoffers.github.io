@@ -320,6 +320,27 @@
     padding-top: 20px;
   }
 
+  .landing-tag-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5px;
+    margin-bottom: 12px;
+  }
+
+  .landing-tag {
+    background: #0aa258d9;
+    border-radius: 5px;
+    padding: 8px 16px;
+  }
+
+  .landing-tag .paragraph {
+    color: white !important;
+    /* text-transform: uppercase; */
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    margin-bottom: 0 !important;
+  }
+
   .landing-heading-container .heading {
     color: var(--secondary-red);
     font: normal normal bold 43px/44px var(--font);
@@ -1614,7 +1635,7 @@
     line-height: 26px;
     margin-bottom: 12px;
     color: var(--secondary-dark-red);
-    font:'Lato'
+    font: 'Lato';
   }
 
   #all-courses .highlight {
