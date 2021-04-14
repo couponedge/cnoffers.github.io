@@ -324,21 +324,22 @@
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    margin-left: 5px;
+    /* margin-left: 5px; */
     margin-bottom: 12px;
   }
 
   .landing-tag {
-    background: #0aa258d9;
+    background: #0c9b56d9;
     border-radius: 5px;
     padding: 8px 16px;
   }
 
   .landing-tag .paragraph {
     color: white !important;
-    /* text-transform: uppercase; */
     font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
     margin-bottom: 0 !important;
+    /* text-transform: uppercase; */
+    font-weight: 600 !important;
   }
 
   .landing-heading-container .heading {
@@ -354,16 +355,16 @@
     color: var(--primary-blue);
     font: normal normal bold 20px/28px Segoe UI;
     line-height: 140%;
-    margin-top: 9px;
     text-align: start;
+    margin-top: 9px;
   }
 
   .landing-heading-container .paragraph {
     color: var(--neutral-blue);
     font: normal normal normal 15px/15px var(--font);
     list-style: none;
-    margin-bottom: 7px;
     text-align: start;
+    margin-bottom: 7px;
   }
 
   .landing-page-li {
@@ -396,8 +397,8 @@
   }
 
   .landing-heading-container ul {
-    margin-top: 25px;
-    margin-bottom: 25px !important;
+    margin-top: 12px;
+    margin-bottom: 20px !important;
   }
 
   .landing-page-li::before {
