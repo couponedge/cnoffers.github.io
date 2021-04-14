@@ -332,6 +332,24 @@
     margin-bottom: 12px;
   }
 
+  .btn-animation {
+    border-color: #117545;
+    color: #fff;
+    background-image: -webkit-linear-gradient(
+      45deg,
+      #117545 50%,
+      transparent 50%
+    );
+    background-image: linear-gradient(45deg, #117545 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  .btn-animation:hover {
+    background-position: 0;
+  }
+
   .landing-tag {
     background: #0c9b56d9;
     border-radius: 5px;
