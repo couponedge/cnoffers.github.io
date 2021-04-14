@@ -313,6 +313,10 @@
     flex-grow: 1;
   }
 
+  .landing-page-container a{
+    text-decoration: none;
+  }
+
   .landing-tag-container {
     width: 100%;
     display: flex;
