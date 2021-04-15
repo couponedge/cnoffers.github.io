@@ -332,6 +332,17 @@
     margin-bottom: 12px;
   }
 
+  .landing-tag:hover,
+  .landing-tag:active {
+    /* transform: scale(0.95); */
+  }
+
+  .landing-tag {
+    background: #0c9b56d9;
+    border-radius: 5px;
+    padding: 8px 16px;
+  }
+
   .btn-animation {
     border-color: #117545;
     color: #fff;
@@ -348,12 +359,6 @@
   }
   .btn-animation:hover {
     background-position: 0;
-  }
-
-  .landing-tag {
-    background: #0c9b56d9;
-    border-radius: 5px;
-    padding: 8px 16px;
   }
 
   .landing-tag .paragraph {
