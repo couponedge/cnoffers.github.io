@@ -350,6 +350,29 @@
     background-position: 0;
   }
 
+  .btn-animation-red {
+    border-color: var(--secondary-dark-red);
+    color: #fff;
+    background-image: -webkit-linear-gradient(
+      125deg,
+      var(--secondary-dark-red) 50%,
+      transparent 50%
+    );
+    background-image: linear-gradient(
+      125deg,
+      var(--secondary-dark-red) 50%,
+      transparent 50%
+    );
+    background-position: 100%;
+    background-size: 250%;
+    -webkit-transition: background 500ms ease-in-out;
+    transition: background 400ms ease-in-out;
+  }
+
+  .btn-animation-red:hover {
+    background-position: 0;
+  }
+
   .landing-tag .paragraph {
     color: white !important;
     /* text-transform: uppercase; */
