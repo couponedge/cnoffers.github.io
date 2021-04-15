@@ -336,15 +336,15 @@
     border-color: #117545;
     color: #fff;
     background-image: -webkit-linear-gradient(
-      45deg,
+      125deg,
       #117545 50%,
       transparent 50%
     );
-    background-image: linear-gradient(45deg, #117545 50%, transparent 50%);
+    background-image: linear-gradient(125deg, #117545 50%, transparent 50%);
     background-position: 100%;
-    background-size: 400%;
-    -webkit-transition: background 300ms ease-in-out;
-    transition: background 300ms ease-in-out;
+    background-size: 250%;
+    -webkit-transition: background 500ms ease-in-out;
+    transition: background 500ms ease-in-out;
   }
   .btn-animation:hover {
     background-position: 0;
