@@ -2,16 +2,16 @@
 
 <hr>
 
-## ✅ [Rs 1200 + Upto 60% Discount]
+## ✅ Upto 42% Discount
 
 ### INSTANT ⚡️ Coding Ninjas Referral Discount
 
 ✔️ [100% Working]
 
-Get Rs 1200 Coding Ninjas Referral Discount, Upto 60% Benefits on any course.
+Get 12% Coding Ninjas Referral Discount, Upto 42% Benefits on any course.
 Know all discount of Coding Ninjas courses. Including Referral Discount Code,
 Refer and Earn, Affiliate Discount.
 
 <hr>
 
-Visit: https://cnoffers.github.io/
+Visit: https://cnoffers.github.io
