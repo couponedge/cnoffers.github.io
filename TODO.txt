@@ -3,6 +3,7 @@
 
 *Add Lazy Image Load
 *blog links pe hover pe underline animation (https://paulund.co.uk/css-animation-link-underline)
+(https://cssanimation.rocks/animating-links/)
 *fix blog.js changing view automatically bug
 
 *dark mode?
