@@ -224,15 +224,10 @@
     align-items: center;
   }
 
-  #menu-items-mobile,
-  #menu-items-mobile li a {
-    display: none;
-  }
-
   #menu-items {
     /* width: 35%; */
     height: 18px;
-    display: flex;
+    display: flex !important;
     justify-content: space-around;
     flex-direction: row;
     /* min-width: 410px; */
