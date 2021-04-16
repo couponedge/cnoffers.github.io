@@ -1,13 +1,13 @@
 $(document).ready(function () {
   // Hamburger icon change
   $('#hamburger-icon1').click(() => {
-    $('#menu-items-mobile').slideDown(250);
+    $('#menu-items').slideDown(250);
     $('#hamburger-icon1').toggle();
     $('#hamburger-icon2').toggle();
   });
 
   $('#hamburger-icon2').click(() => {
-    $('#menu-items-mobile').slideUp(250);
+    $('#menu-items').slideUp(250);
     $('#hamburger-icon1').toggle();
     $('#hamburger-icon2').toggle();
   });
