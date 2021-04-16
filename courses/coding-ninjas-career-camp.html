@@ -144,7 +144,7 @@
 <body>
 
   <!-- Menu Bar -->
-  <div id='menu-bar' class="menu-container">
+  <header id='menu-bar' class="menu-container">
 
     <!-- hamburger Icon -->
     <img id="hamburger-icon1" src="../assets/menu-hambuger.svg" class="hamburger-icon hide-in-desktop noSelect"
@@ -153,37 +153,43 @@
     <img id="hamburger-icon2" src="../assets/menu-close.svg" class="hamburger-icon hide-in-desktop noSelect"
       alt="hamburger icon"></img>
 
-    <a href="/" id="logo" class="logo-container">
+    <a id="logo" href="/" class="logo-container noSelect">
       <img src="../assets/logo-big.svg" class="logo undraggable-image" alt="logo"></img>
     </a>
 
     <div class="menu-blank-space"></div>
 
-    <div id="menu-items-mobile" class="paragraph">
-      <a href="..#discounts-proof" id="menu-proof">PROOF</a>
-      <!-- <a href="#" id="menu-hiw">HOW IT WORKS</a> -->
-      <a href="..#additional-benefits" id="menu-benefits">BENEFITS</a>
-      <a href="./coding-ninjas-courses.html" id="menu-courses">COURSES</a>
-      <a href="..#features" id="menu-features">FEATURES</a>
-      <a href="/blog.html" id="menu-blog">BLOG</a>
-      <a href="/about.html" id="menu-about">ABOUT</a>
-      <!-- <a href="#footer" id="menu-about">ABOUT</a> -->
-    </div>
+    <nav id="menu-items" class="paragraph">
+      <ul>
+        <li>
+          <a href="../#discounts-proof" id="menu-proof">PROOF</a>
+        </li>
+        <li>
+          <a href="../#additional-benefits" id="menu-benefits">BENEFITS</a>
+        </li>
+        <li>
+          <a href="../courses/coding-ninjas-courses.html" id="menu-courses">COURSES</a>
+        </li>
+        <li>
+          <a href="../#features" id="menu-features">FEATURES</a>
+        </li>
+        <li>
+          <a href="../blog.html" id="menu-blog">BLOG</a>
+        </li>
+        <li>
+          <a href="../#faq" id="menu-faq">FAQ</a>
+        </li>
+        <li>
+          <a href="../about.html" id="menu-about">ABOUT</a>
+        </li>
+        <!-- <a href="#footer" id="menu-about">ABOUT</a> -->
+      </ul>
+    </nav>
 
-    <div id="menu-items-desktop" class="paragraph">
-      <a href="..#discounts-proof" id="menu-proof">PROOF</a>
-      <!-- <a href="#" id="menu-hiw">HOW IT WORKS</a> -->
-      <a href="..#additional-benefits" id="menu-benefits">BENEFITS</a>
-      <a href="./coding-ninjas-courses.html" id="menu-courses">COURSES</a>
-      <a href="..#features" id="menu-features">FEATURES</a>
-      <a href="/blog.html" id="menu-blog">BLOG</a>
-      <a href="/about.html" id="menu-about">ABOUT</a>
-      <!-- <a href="#footer" id="menu-about">ABOUT</a> -->
-    </div>
-
-
-    <button id="menu-cta-btn" class="primary-btn menu-bar-cta-btn">GET NOW</button>
-  </div>
+    <a href="https://rebrand.ly/cndiscount" id="menu-cta-btn" class="primary-btn menu-bar-cta-btn btn-animation-red">
+      <p>GET NOW</p>
+    </a>
+  </header>
 
 
   <div id="main-section-cntr">
