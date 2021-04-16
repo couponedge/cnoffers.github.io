@@ -275,7 +275,11 @@
     text-align: left;
   }
 
-  #menu-items-mobile a {
+  #menu-items-mobile li {
+    list-style: none;
+  }
+
+  #menu-items-mobile li a {
     height: 41px;
     width: 100%;
     display: block;
@@ -285,7 +289,7 @@
     padding-top: 12px;
   }
 
-  #menu-items-mobile a:after {
+  #menu-items-mobile li a:after {
     border-bottom: 1px solid var(--neutral-dark-grey);
     content: '';
     display: block;
@@ -294,7 +298,7 @@
     margin-top: 10.5px;
   }
 
-  #menu-items-mobile a:hover {
+  #menu-items-mobile li a:hover {
     background-color: var(--neutral-dark-grey);
   }
 

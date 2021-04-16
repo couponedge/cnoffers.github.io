@@ -204,13 +204,12 @@
 
   .menu-blank-space {
     width: 10px;
-    flex-grow: 3;
   }
 
   .menu-bar-cta-btn {
     margin-left: auto;
     min-width: 80px;
-    height: 65%;
+    height: 75%;
     width: 7%;
     font-size: 1.3vw;
     font-weight: 500;
@@ -225,7 +224,7 @@
   }
 
   #menu-items-mobile,
-  #menu-items-mobile a {
+  #menu-items-mobile li a {
     display: none;
   }
 
@@ -237,12 +236,16 @@
     flex-direction: row;
     /* min-width: 410px; */
     flex-grow: 1;
-    margin-right: 7%;
+    margin-right: 2%;
     margin-top: -5px;
     /* margin-bottom: 5px; */
   }
 
-  #menu-items-desktop a {
+  #menu-items-desktop li {
+    list-style: none;
+  }
+
+  #menu-items-desktop li a {
     text-decoration: none;
     color: var(--neutral-blue);
     padding-right: 7%;
@@ -250,7 +253,7 @@
     font-weight: 400 !important;
   }
 
-  #menu-items-desktop a:hover {
+  #menu-items-desktop li a:hover {
     color: var(--secondary-red);
   }
 
