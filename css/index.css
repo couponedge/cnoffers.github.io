@@ -158,11 +158,11 @@
 
   /* Custom CSS */
 
-  body > div:nth-child(even) {
+  body > section:nth-child(even) {
     background-color: var(--neutral-grey);
   }
 
-  body > div:nth-child(odd) {
+  body > section:nth-child(odd) {
     background-color: var(--neutral-white);
   }
 
@@ -229,7 +229,7 @@
     display: none;
   }
 
-  #menu-items{
+  #menu-items {
     /* width: 35%; */
     height: 18px;
     display: flex;
