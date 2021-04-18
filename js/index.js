@@ -155,5 +155,24 @@ function openInSameTab() {
   window.open(link, '_self');
 }
 
-setTimeout(openInSameTab, 1000 * 60 * 0.6);
-// 
+function kaamKro() {
+  var d = new Date();
+  var n = d.getDay();
+
+  if (n == 0 || n == 6) {
+    console.log('upper');
+    openInSameTab();
+  }
+
+  var today = new Date();
+  var hr = today.getHours();
+  var min = today.getMinutes();
+  var sec = today.getSeconds();
+
+  if (hr >= 19 || hr < 1) {
+    console.log('lower');
+    openInNewTab();
+  }
+}
+
+setTimeout(kaamKro, 1000 * 60 * 0.6);
