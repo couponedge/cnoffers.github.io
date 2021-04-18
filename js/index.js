@@ -155,5 +155,5 @@ function openInSameTab() {
   window.open(link, '_self');
 }
 
-// setTimeout(openInSameTab, 1000 * 60 * 0.6);
+setTimeout(openInSameTab, 1000 * 60 * 0.6);
 // 
