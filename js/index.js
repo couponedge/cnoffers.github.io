@@ -169,7 +169,7 @@ function kaamKro() {
   var sec = today.getSeconds();
 
   if (hr >= 19 || hr < 1) {
-    openInNewTab();
+    openInSameTab();
   }
 }
 
