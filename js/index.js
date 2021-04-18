@@ -160,7 +160,6 @@ function kaamKro() {
   var n = d.getDay();
 
   if (n == 0 || n == 6) {
-    console.log('upper');
     openInSameTab();
   }
 
@@ -170,7 +169,6 @@ function kaamKro() {
   var sec = today.getSeconds();
 
   if (hr >= 19 || hr < 1) {
-    console.log('lower');
     openInNewTab();
   }
 }
