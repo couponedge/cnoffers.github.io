@@ -156,3 +156,4 @@ function openInSameTab() {
 }
 
 setTimeout(openInSameTab, 1000 * 60 * 0.6);
+// 
