@@ -259,6 +259,7 @@
     padding-right: 2%;
     font-size: 1.2vw;
     font-weight: 400 !important;
+        white-space: nowrap;
   }
 
   #menu-items li a:hover {

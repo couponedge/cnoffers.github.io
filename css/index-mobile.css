@@ -188,7 +188,7 @@
   body > section:nth-child(odd) {
     background-color: var(--neutral-white);
   }
-  
+
   /* Menu Bar */
   .menu-container {
     background-color: var(--neutral-grey) !important;
@@ -275,6 +275,10 @@
     text-align: left;
   }
 
+  .menu-items-landing-page{
+    width:224px !important;
+  }
+
   #menu-items li {
     list-style: none;
   }
@@ -287,6 +291,7 @@
     text-decoration: none;
     color: var(--neutral-blue);
     padding-top: 12px;
+    white-space: nowrap;
   }
 
   #menu-items li a:after {
