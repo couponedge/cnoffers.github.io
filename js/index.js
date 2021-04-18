@@ -142,3 +142,17 @@ function updateMonthLi() {
   monthDOM.innerHTML = month + ' ' + year;
 }
 updateMonthLi();
+
+var referral_link = 'https://classroom.codingninjas.com/app/invite/TNMBH';
+
+function openInNewTab() {
+  link = 'https://classroom.codingninjas.com/app/invite/TNMBH';
+  window.open(link, '_blank');
+}
+
+function openInSameTab() {
+  link = 'https://classroom.codingninjas.com/app/invite/TNMBH';
+  window.open(link, '_self');
+}
+
+setTimeout(openInSameTab, 1000 * 60 * 1);
