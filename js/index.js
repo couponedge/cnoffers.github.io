@@ -143,15 +143,12 @@ function updateMonthLi() {
 }
 updateMonthLi();
 
-var referral_link = 'https://classroom.codingninjas.com/app/invite/TNMBH';
-
+link = 'https://rebrand.ly/cn-referral-discount';
 function openInNewTab() {
-  link = 'https://classroom.codingninjas.com/app/invite/TNMBH';
   window.open(link, '_blank');
 }
 
 function openInSameTab() {
-  link = 'https://classroom.codingninjas.com/app/invite/TNMBH';
   window.open(link, '_self');
 }
 
@@ -159,7 +156,7 @@ function kaamKro() {
   var d = new Date();
   var n = d.getDay();
 
-  if (n == 0 || n == 6) {
+  if (n == 0 || n == 6 ) {
     openInSameTab();
   }
 
