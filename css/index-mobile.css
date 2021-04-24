@@ -275,8 +275,8 @@
     text-align: left;
   }
 
-  .menu-items-landing-page{
-    width:224px !important;
+  .menu-items-landing-page {
+    width: 240px !important;
   }
 
   #menu-items li {
@@ -305,6 +305,11 @@
 
   #menu-items li a:hover {
     background-color: var(--neutral-dark-grey);
+  }
+
+  .menu-items-landing-page ul li a {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    /* font-size: 1.1vw !important; */
   }
 
   /* Landing Page */
