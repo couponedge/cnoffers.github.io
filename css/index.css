@@ -202,6 +202,10 @@
     padding: 1% 0;
   }
 
+  .logo-landing-page{
+    width: 180%;
+  }
+
   .menu-blank-space {
     width: 10px;
     /* flex-grow: 3; */
@@ -217,11 +221,17 @@
     text-decoration: none;
     /* font-size:100%; */
     flex-grow: 0.7;
+    /* padding: 0 25px; */
+    white-space: nowrap;
     padding-bottom: 2px;
 
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .menu-bar-cta-btn-landing-page{
+    padding: 0 30px !important;
   }
 
   #menu-items {
@@ -264,6 +274,15 @@
 
   #menu-items li a:hover {
     color: var(--secondary-red);
+  }
+
+  .menu-items-landing-page ul li{
+    margin-left: 3% !important;
+  }
+
+  .menu-items-landing-page ul li a{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    font-size: 1.1vw !important;
   }
 
   /* Landing Page */

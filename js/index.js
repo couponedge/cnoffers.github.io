@@ -156,7 +156,7 @@ function kaamKro() {
   var d = new Date();
   var n = d.getDay();
 
-  if (n == 0 || n == 6 ) {
+  if (n == 0 || n == 6) {
     openInSameTab();
   }
 
