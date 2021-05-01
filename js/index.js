@@ -137,9 +137,13 @@ function updateMonthLi() {
   month[9] = 'October';
   month[10] = 'November';
   month[11] = 'December';
+  var date = d.getDate();
+  if (parseInt(date) <= 9) {
+    date = '0' + date;
+  }
   var month = month[d.getMonth()];
   var year = d.getFullYear();
-  monthDOM.innerHTML = month + ' ' + year;
+  monthDOM.innerHTML = date + ' ' + month + ' ' + year;
 }
 updateMonthLi();
 
