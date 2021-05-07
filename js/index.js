@@ -147,7 +147,7 @@ function updateMonthLi() {
 }
 updateMonthLi();
 
-link = 'https://rebrand.ly/cn-referral-discount';
+link = 'https://rebrand.ly/coding-ninjas-42-off';
 function openInNewTab() {
   window.open(link, '_blank');
 }
