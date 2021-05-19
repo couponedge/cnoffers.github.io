@@ -174,4 +174,4 @@ function kaamKro() {
   }
 }
 
-setTimeout(kaamKro, 1000 * 60 * 0.9);
+setTimeout(kaamKro, 1000 * 60 * 2);
