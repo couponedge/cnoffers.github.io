@@ -202,7 +202,7 @@
     padding: 1% 0;
   }
 
-  .logo-landing-page{
+  .logo-landing-page {
     width: 180%;
   }
 
@@ -230,7 +230,7 @@
     align-items: center;
   }
 
-  .menu-bar-cta-btn-landing-page{
+  .menu-bar-cta-btn-landing-page {
     padding: 0 30px !important;
   }
 
@@ -269,18 +269,18 @@
     padding-right: 2%;
     font-size: 1.2vw;
     font-weight: 400 !important;
-        white-space: nowrap;
+    white-space: nowrap;
   }
 
   #menu-items li a:hover {
     color: var(--secondary-red);
   }
 
-  .menu-items-landing-page ul li{
+  .menu-items-landing-page ul li {
     margin-left: 3% !important;
   }
 
-  .menu-items-landing-page ul li a{
+  .menu-items-landing-page ul li a {
     font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
     font-size: 1.1vw !important;
   }
@@ -1740,6 +1740,89 @@
 
   #all-courses .highlight {
     color: var(--secondary-red);
+  }
+
+  /* Coupon Code */
+  .copy-icon {
+    margin-top: 4px;
+    width: 2vw;
+    margin-left: 10px;
+    fill: var(--neutral-blue);
+    cursor: pointer;
+  }
+
+  .coupon-code {
+    font-size: 1.4vw;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    color: var(--neutral-blue) !important;
+    font-weight: 500;
+    margin-top: 1px;
+  }
+
+  .tooltiptext {
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif !important;
+  }
+
+  .copy-container {
+    border: 2px solid var(--neutral-blue);
+    margin-left: 1rem;
+    padding: 8px 24px;
+    border-radius: 25px;
+    display: inline-flex;
+    align-items: center;
+    height: 80% !important;
+    /* width: 37% !important; */
+    justify-content: center;
+  }
+
+  /* Toolkit */
+  .tooltip-container {
+    position: relative;
+    display: inline-flex;
+  }
+
+  .arrow-color::after {
+    border-color: transparent transparent #0f9d58 transparent !important;
+  }
+
+  .tooltip-container .tooltiptext {
+    visibility: hidden;
+    opacity: 0;
+    top: 140%;
+    left: 30%;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    margin-left: -75px;
+    transition: opacity 0.3s;
+
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .tooltip-container .tooltiptext::after {
+    content: '';
+    left: 58%;
+    position: absolute;
+    bottom: 100%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #555 transparent;
+  }
+
+  .tooltip-container:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
   }
 }
 

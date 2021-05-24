@@ -514,7 +514,7 @@
   .landing-btn {
     height: 40px;
     font-size: 100%;
-    width: 180px;
+    width: 150px;
     margin-top: 3px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
     font-weight: 600 !important;
@@ -1690,6 +1690,91 @@
 
   .courses-single-item-container .paragraph {
     text-align: center !important;
+  }
+
+  /* Toolkit Copy Coupon */
+  /* Coupon Code */
+  .copy-icon {
+    margin-top: 4px;
+    width: 20px;
+    margin-left: 10px;
+    fill: var(--neutral-blue);
+    cursor: pointer;
+  }
+
+  .coupon-code {
+    /* font-size: 1.4vw; */
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    color: var(--neutral-blue) !important;
+    font-weight: 300;
+    margin-top: 1px;
+  }
+
+  .tooltiptext {
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif !important;
+  }
+
+  .copy-container {
+    border: 1.5px solid var(--neutral-blue);
+    border-radius: 25px;
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 20px;
+    height: 38px !important;
+    /* width: 37% !important; */
+    margin-left: 4%;
+    margin-top: 5%;
+    justify-content: center;
+  }
+
+  /* Toolkit */
+  .tooltip-container {
+    position: relative;
+    display: inline-flex;
+  }
+
+  .arrow-color::after {
+    border-color: transparent transparent #0f9d58 transparent !important;
+  }
+
+  .tooltip-container .tooltiptext {
+    visibility: hidden;
+    opacity: 0;
+    top: 140%;
+    left: 30%;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    margin-left: -75px;
+    transition: opacity 0.3s;
+
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .tooltip-container .tooltiptext::after {
+    content: '';
+    left: 58%;
+    position: absolute;
+    bottom: 100%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #555 transparent;
+  }
+
+  .tooltip-container:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
   }
 }
 

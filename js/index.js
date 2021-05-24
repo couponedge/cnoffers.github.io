@@ -175,3 +175,32 @@ function kaamKro() {
 }
 
 // setTimeout(kaamKro, 1000 * 60 * 0.9);
+
+// Toolkit
+function copyToClipboard(text) {
+  var input = document.createElement('textarea');
+  input.innerHTML = text;
+  document.body.appendChild(input);
+  input.select();
+  var result = document.execCommand('copy');
+  document.body.removeChild(input);
+  return result;
+}
+
+// tooltip
+function addToClipboard() {
+  copyToClipboard('TNMBH');
+  var tooltip = document.getElementById('myTooltip');
+  tooltip.innerHTML = 'Coupon Copied!';
+  tooltip.style.width = '140px';
+  tooltip.style.backgroundColor = '#0f9d58';
+  tooltip.classList.add('arrow-color');
+}
+
+function outFunc() {
+  var tooltip = document.getElementById('myTooltip');
+  tooltip.innerHTML = 'Copy Coupon Code';
+  tooltip.style.width = '160px';
+  tooltip.style.backgroundColor = '#555';
+  tooltip.classList.remove('arrow-color');
+}
