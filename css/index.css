@@ -1751,6 +1751,10 @@
     cursor: pointer;
   }
 
+  .copy-icon:hover {
+    fill: var(--secondary-red);
+  }
+
   .coupon-code {
     font-size: 1.4vw;
     font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
@@ -1759,9 +1763,17 @@
     margin-top: 1px;
   }
 
+  .coupon-code:hover {
+    color: var(--secondary-red) !important;
+  }
+
   .tooltiptext {
     font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
     font-size: 14px;
+  }
+
+  .copy-container:hover {
+    border-color: var(--secondary-red);
   }
 
   .copy-container {
