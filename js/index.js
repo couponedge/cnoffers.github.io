@@ -204,5 +204,5 @@ function outFunc() {
   tooltip.style.width = '160px';
   tooltip.style.backgroundColor = '#555';
   tooltip.classList.remove('arrow-color');
-  tooltip.style.left = '30%';
+  tooltip.style.left = '-35%';
 }
