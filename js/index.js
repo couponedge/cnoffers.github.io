@@ -195,7 +195,7 @@ function addToClipboard() {
   tooltip.style.width = '140px';
   tooltip.style.backgroundColor = '#0f9d58';
   tooltip.classList.add('arrow-color');
-  tooltip.style.left = '50%';
+  tooltip.style.left = '70%';
 }
 
 function outFunc() {
@@ -204,5 +204,5 @@ function outFunc() {
   tooltip.style.width = '160px';
   tooltip.style.backgroundColor = '#555';
   tooltip.classList.remove('arrow-color');
-  tooltip.style.left = '-35%';
+  tooltip.style.left = '30%';
 }

@@ -1796,7 +1796,7 @@
 
   .arrow-color::after {
     border-color: #0f9d58 transparent transparent transparent !important;
-    left: 55% !important;
+    left: 50% !important;
   }
 
   .tooltip-container .tooltiptext {
@@ -1825,7 +1825,7 @@
 
   .tooltip-container .tooltiptext::after {
     content: '';
-    left: 66%;
+    left: 52%;
     position: absolute;
     bottom: -33%;
     margin-left: -5px;
