@@ -181,6 +181,10 @@
 
   /* Custom CSS */
 
+  body {
+    overflow-x: hidden;
+  }
+
   body > section:nth-child(even) {
     background-color: var(--neutral-grey);
   }
@@ -1590,6 +1594,12 @@
   .review-description p {
     font-size: 18px;
     line-height: 26px;
+  }
+
+  .review-description p a {
+    text-decoration: none;
+    font-weight: unset;
+    color: unset;
   }
 
   .stars-container {

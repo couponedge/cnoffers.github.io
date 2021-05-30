@@ -1689,6 +1689,12 @@
     line-height: 28px;
   }
 
+  .review-description p a {
+    text-decoration: none;
+    color: unset;
+    font-weight: unset;
+  }
+
   .review-box .footer {
     /* margin-top: 10px; */
     margin-bottom: 30px;
