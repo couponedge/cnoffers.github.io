@@ -188,21 +188,35 @@ function copyToClipboard(text) {
 }
 
 // tooltip
+
+var isCodeCopied = 0;
+
 function addToClipboard() {
   copyToClipboard('TNMBH');
   var tooltip = document.getElementById('myTooltip');
+  var couponTextDom = document.querySelector('.coupon-code');
+  var couponContainerDom = document.querySelector('.copy-container');
+  var copyIconDom = document.querySelector('.copy-icon');
   tooltip.innerHTML = 'Coupon Copied!';
   tooltip.style.width = '140px';
   tooltip.style.backgroundColor = '#0f9d58';
   tooltip.classList.add('arrow-color');
   tooltip.style.left = '70%';
+  couponTextDom.classList.add('add-green-color');
+  couponContainerDom.classList.add('add-green-border-color');
+  copyIconDom.classList.add('add-green-fill-color');
+  isCodeCopied = 1;
 }
 
 function outFunc() {
   var tooltip = document.getElementById('myTooltip');
   tooltip.innerHTML = 'Copy Coupon Code';
   tooltip.style.width = '160px';
-  tooltip.style.backgroundColor = '#555';
-  tooltip.classList.remove('arrow-color');
+  if (isCodeCopied == 1) {
+    tooltip.style.backgroundColor = '#0f9d58';
+  } else {
+    tooltip.style.backgroundColor = '#555';
+  }
+  // tooltip.classList.remove('arrow-color');
   tooltip.style.left = '30%';
 }

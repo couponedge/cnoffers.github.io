@@ -1759,7 +1759,7 @@
   }
 
   .copy-icon:hover {
-    fill: var(--secondary-red);
+    fill: #0f9d58;
   }
 
   .coupon-code {
@@ -1771,7 +1771,7 @@
   }
 
   .coupon-code:hover {
-    color: var(--secondary-red) !important;
+    /* color: var(--secondary-red) !important; */
   }
 
   .tooltiptext {
@@ -1780,7 +1780,7 @@
   }
 
   .copy-container:hover {
-    border-color: var(--secondary-red);
+    border-color: #0f9d58;
   }
 
   .copy-container {
@@ -1854,4 +1854,17 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
+}
+
+.add-green-color {
+  color: #0f9d58 !important;
+}
+.add-green-bg-color {
+  background-color: #0f9d58 !important;
+}
+.add-green-fill-color {
+  fill: #0f9d58 !important;
+}
+.add-green-border-color {
+  border-color: #0f9d58 !important;
 }
