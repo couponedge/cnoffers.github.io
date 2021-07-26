@@ -1,3 +1,8 @@
+*add contact me page on homepage
+*add contact icon on blogs
+*add designing in courses, courses page, blogs pages
+*add more sections from ninjasoffers if liked 
+
 //TODO:
 *convert to webpack packagae modern setup
 

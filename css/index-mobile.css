@@ -185,11 +185,11 @@
     overflow-x: hidden;
   }
 
-  body > section:nth-child(even) {
+  body > section:nth-child(odd) {
     background-color: var(--neutral-grey);
   }
 
-  body > section:nth-child(odd) {
+  body > section:nth-child(even) {
     background-color: var(--neutral-white);
   }
 

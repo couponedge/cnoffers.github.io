@@ -158,11 +158,11 @@
 
   /* Custom CSS */
 
-  body > section:nth-child(even) {
+  body > section:nth-child(odd) {
     background-color: var(--neutral-grey);
   }
 
-  body > section:nth-child(odd) {
+  body > section:nth-child(even) {
     background-color: var(--neutral-white);
   }
 
@@ -1867,4 +1867,112 @@
 }
 .add-green-border-color {
   border-color: #0f9d58 !important;
+}
+
+/* Contact */
+#contact-btn {
+  /* display: none; */
+  /* height: 40px; */
+  /* width: 40px; */
+  display: none;
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+
+  height: 60px;
+  width: 60px;
+
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #e01705;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: all 0.5s;
+  box-shadow: 0px 0px 10px rgb(0 0 0/40%);
+}
+
+#contact-btn:hover {
+  background-color: var(--text-primary);
+}
+
+#contact-btn .contact_tooltiptext {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  top: -74%;
+  left: 76%;
+
+  width: 120px;
+  background-color: rgba(55, 114, 163, 0.65);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  margin-left: -75px;
+  transition: opacity 0.3s;
+
+  height: 30px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+
+#contact-btn .contact_tooltiptext::after {
+  content: '';
+  left: 48%;
+  position: absolute;
+  bottom: -33%;
+  margin-left: -1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(55, 114, 163, 0.65) transparent transparent transparent;
+}
+
+#contact-btn:hover .contact_tooltiptext {
+  display: none;
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 300ms;
+}
+
+@media (min-width: 768px) {
+  #contact-btn {
+    padding: 15px;
+    font-size: 25px;
+    bottom: 20px;
+    right: 50px;
+  }
+
+  #contact-btn .contact_tooltiptext {
+    display: block;
+    top: -69%;
+    left: 75%;
+  }
+
+  #contact-btn:hover .contact_tooltiptext {
+    display: block;
+  }
+
+  #contact-btn .contact_tooltiptext::after {
+    margin-left: -15px;
+    left: 58%;
+  }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  #contact-btn {
+  }
+
+  #contact-btn .contact_tooltiptext {
+  }
 }
