@@ -199,6 +199,10 @@ body {
   background-color: var(--secondary-dark-red);
 }
 
+#contact-btn i {
+  color: white;
+}
+
 #contact-btn .contact_tooltiptext {
   display: none;
   visibility: hidden;
