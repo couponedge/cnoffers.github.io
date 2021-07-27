@@ -566,8 +566,7 @@
   .tags li {
     list-style: none;
     display: inline-block;
-    margin: 6px 0;
-    margin-right: 3px;
+    margin: 12px 3px 7px 0;
   }
 
   .tags li a {
