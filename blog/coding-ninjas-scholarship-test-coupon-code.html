@@ -201,7 +201,17 @@
       }
     }
 
+    .tooltip-container .tooltiptext {
+      top: -96%;
+      left: 45%;
+    }
+
     @media only screen and (max-width: 768px) {
+      .tooltip-container .tooltiptext {
+        top: -120%;
+        left: 37%;
+      }
+
       .yt-iframe {
         width: 100%;
         height: 174px;
@@ -336,30 +346,34 @@
 
             <!-- <a href="https://www.codingninjas.com/events/coding-ninjas-admission-scholarship-test-july-21?referralCode=TNMBH" -->
             <!-- style="display:inline-block"> -->
-            <div
-              style="display:inline-block; margin-top:5px;border: 2px dashed grey; padding: 10px; width: fit-content; color: black; background: lightblue;">
-              SCTOTQHUJM</div>
-            <!-- </a> -->
+            <div style="">
+              <div class="center-all" style="justify-content: left;">
+                <div
+                  style="display:inline-block; margin-top:5px;border: 2px dashed grey; padding: 10px; width: fit-content; color: black; background: lightblue;">
+                  SCTOTQHUJM</div>
+                <!-- </a> -->
 
-            <span class="tooltip-container">
-              <span>
-                <svg class="copy-icon noSelect" alt="copy coupon code" onclick="addToClipboard()" onmouseout="outFunc()"
-                  version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 210.107 210.107"
-                  style="enable-background:new 0 0 210.107 210.107;" xml:space="preserve">
-                  <g>
-                    <path class="copy-icon-svg" style="" d="M168.506,0H80.235C67.413,0,56.981,10.432,56.981,23.254v2.854h-15.38
+                <span class="tooltip-container" style="margin-left: 0.5rem;">
+                  <span>
+                    <svg class="copy-icon noSelect" alt="copy coupon code" onclick="addToClipboard()"
+                      onmouseout="outFunc()" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 210.107 210.107"
+                      style="enable-background:new 0 0 210.107 210.107;" xml:space="preserve">
+                      <g>
+                        <path class="copy-icon-svg" style="" d="M168.506,0H80.235C67.413,0,56.981,10.432,56.981,23.254v2.854h-15.38
 		c-12.822,0-23.254,10.432-23.254,23.254v137.492c0,12.822,10.432,23.254,23.254,23.254h88.271
 		c12.822,0,23.253-10.432,23.253-23.254V184h15.38c12.822,0,23.254-10.432,23.254-23.254V23.254C191.76,10.432,181.328,0,168.506,0z M138.126,186.854c0,4.551-3.703,8.254-8.253,8.254H41.601c-4.551,0-8.254-3.703-8.254-8.254V49.361
 		c0-4.551,3.703-8.254,8.254-8.254h88.271c4.551,0,8.253,3.703,8.253,8.254V186.854z M176.76,160.746
 		c0,4.551-3.703,8.254-8.254,8.254h-15.38V49.361c0-12.822-10.432-23.254-23.253-23.254H71.981v-2.854
 		c0-4.551,3.703-8.254,8.254-8.254h88.271c4.551,0,8.254,3.703,8.254,8.254V160.746z" />
-                  </g>
-                </svg>
-              </span>
-              <span class="tooltiptext" id="myTooltip">Copy
-                Coupon Code</span>
-            </span>
+                      </g>
+                    </svg>
+                  </span>
+                  <span class="tooltiptext" id="myTooltip">Copy
+                    Coupon Code</span>
+                </span>
+              </div>
+            </div>
           </div>
           <br>
           <h3>Important Links:</h3>
@@ -434,6 +448,14 @@
           <br>
           <img src="../assets/Scholarship-Launch-Mailer-table-3.png" alt="Scholarship Table">
 
+          <br>
+          <h3>Coding Ninjas Scholarship Test Questions:</h3>
+          <p>Coding Ninjas Scholarship test previous questions can be found: <a
+              href="https://classroom.codingninjas.com/app/tests/8132">HERE</a></p>
+          <p>Practice More Aptitude Questions: <a
+              href="https://www.codingninjas.com/codestudio/guided-paths/aptitude-preparation">HERE</a></p>
+          <br>
+
 
           <p>For more info, Please visit: <a
               href="https://www.codingninjas.com/events/coding-ninjas-admission-scholarship-test-july-21?referralCode=TNMBH">Coding
@@ -446,7 +468,7 @@
                 REGISTER NOW</button></a>
           </div>
 
-          <div class="image-container center">
+          <div class="image-container" style="margin-top: 2rem;">
             <a class=""
               href="https://www.codingninjas.com/events/coding-ninjas-admission-scholarship-test-july-21?referralCode=TNMBH">
               <img style="border: 2px solid black;" src="../assets/Scholarship-checkout.jpg"
@@ -454,15 +476,6 @@
             </a>
           </div>
 
-
-          <br>
-
-          <h3>Coding Ninjas Scholarship Test Questions:</h3>
-          <p>Coding Ninjas Scholarship test previous questions can be found: <a
-              href="https://classroom.codingninjas.com/app/tests/8132">HERE</a></p>
-          <p>Practice More Aptitude Questions: <a
-              href="https://www.codingninjas.com/codestudio/guided-paths/aptitude-preparation">HERE</a></p>
-          <br>
           <hr>
           <br>
 
@@ -1306,7 +1319,7 @@
         tooltip.style.backgroundColor = '#555';
       }
       // tooltip.classList.remove('arrow-color');
-      tooltip.style.left = '30%';
+      tooltip.style.left = '47%';
     }
 
 
