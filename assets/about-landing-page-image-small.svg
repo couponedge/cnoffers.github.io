@@ -70,6 +70,6 @@
       <path id="Path_1661" data-name="Path 1661" d="M59.64,245.706s3.1-8.842,12.431-10.516c0,0,1.749,5.743-6.044,10.543Z" transform="translate(-35.731 -65.546)" fill="#eb2424"/>
       <path id="Path_1662" data-name="Path 1662" d="M53.47,246.76l1.7,10.516,10.682.036,1.572-10.5Z" transform="translate(-35.624 -66.814)" fill="#24285b"/>
     </g>
-    <text id="Header" transform="translate(9.005 88.919)" fill="#f2f5f7" font-size="16" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="-28.032" y="0">ABOUT</tspan></text>
+    <text id="Header" transform="translate(9.005 88.919)" fill="#f2f5f7" font-size="16" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-28.032" y="0">ABOUT</tspan></text>
   </g>
 </svg>
