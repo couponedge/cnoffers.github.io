@@ -2,6 +2,8 @@
 *add more sections from ninjasoffers if liked 
 *ninjasoffers me circle fixed size ka karo and courses single size
 
+*Add leaderboard in contact when in top!
+
 //TODO:
 *convert to webpack packagae modern setup
 
