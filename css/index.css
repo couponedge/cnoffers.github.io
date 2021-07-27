@@ -18,7 +18,7 @@
     --neutral-white: #ffffff;
     --neutral-blue: #344457;
 
-    --font: 'Ubuntu';
+    --font: 'Poppins';
     /* --margin-side:80px; */
     --margin-side: 8%;
     --margin-updown: 78.6px;
@@ -30,7 +30,7 @@
     letter-spacing: 0;
     color: var(--primary-blue);
     text-align: left;
-    font: normal normal bold 37px/42px Ubuntu;
+    font: normal normal bold 37px/42px Poppins;
     letter-spacing: 0px;
     text-transform: capitalize;
     opacity: 1;
@@ -434,7 +434,7 @@
     color: var(--secondary-red);
     text-align: left;
     font-size: 48px;
-    font: normal normal bold 4vw/4.2vw Ubuntu;
+    font: normal normal bold 4vw/4.2vw Poppins;
     margin-bottom: 1%;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 650;
@@ -461,7 +461,7 @@
   .landing-heading-container .paragraph {
     color: var(--neutral-blue);
     text-align: left;
-    font: normal normal normal 1.3vw/1.5vw Ubuntu;
+    font: normal normal normal 1.3vw/1.5vw Poppins;
     list-style: none;
     /* margin-top: -20px; */
     /* border: 2px solid salmon; */
@@ -476,7 +476,7 @@
 
   .landing-page-li h1,
   .landing-page-li h2 {
-    font: normal normal normal 1.5vw/1.8vw Ubuntu;
+    font: normal normal normal 1.5vw/1.8vw Poppins;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     /* font-weight: ; */
   }

@@ -15,7 +15,7 @@
     --neutral-white: #ffffff;
     --neutral-blue: #344457;
 
-    --font: 'Ubuntu', sans-serif;
+    --font: 'Poppins', sans-serif;
     --margin-side: 7%;
     --margin-updown: 47.5px;
     --margin-after-heading-updown: 45px;
@@ -1729,7 +1729,7 @@
   }
 
   .tooltiptext {
-    font-family: 'Ubuntu', Arial, Helvetica, sans-serif !important;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   }
 
   .copy-container:hover {
