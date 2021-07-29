@@ -129,6 +129,7 @@
     width: 100px;
     height: fit-content;
     margin-right: 1rem;
+    height: 80px;
   }
 
   .courses-single-item-container img {
@@ -163,6 +164,11 @@
     width: 8rem;
     margin-bottom: 10px;
     margin-left: 3px;
+    height: 50px;
+  }
+
+  .career-track-banner{
+    height: 150px;
   }
 
   .premium-exculsive-offering {
