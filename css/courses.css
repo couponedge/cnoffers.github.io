@@ -66,6 +66,10 @@
     gap: 16px;
   }
 
+  .career-track-banner{
+    height: 400px;
+  }
+
   .courses-container main a {
     text-decoration: none;
   }
@@ -139,6 +143,7 @@
     width: 100px;
     height: fit-content;
     margin-right: 1rem;
+    height: 90px;
   }
 
   .courses-single-item-container img {
