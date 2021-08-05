@@ -292,3 +292,16 @@ body {
 .text-center-always {
   text-align: center !important;
 }
+
+.contact-dp{
+  height: 185px;
+  width: 70%;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  .contact-dp{
+    height: 240px;
+    width: 70%;
+  }
+}
