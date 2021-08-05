@@ -294,14 +294,14 @@ body {
 }
 
 .contact-dp{
-  height: 185px;
+  height: 10%;
   width: 70%;
 }
 
 /* Desktop */
 @media (min-width: 992px) {
   .contact-dp{
-    height: 240px;
+    height: 10%;
     width: 70%;
   }
 }
