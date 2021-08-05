@@ -18,7 +18,7 @@
     --neutral-white: #ffffff;
     --neutral-blue: #344457;
 
-    --font: 'Poppins';
+    --font: "Poppins";
     /* --margin-side:80px; */
     --margin-side: 8%;
     --margin-updown: 78.6px;
@@ -191,6 +191,7 @@
     width: 0%;
     flex-grow: 1;
     cursor: pointer;
+    margin-left: -2%;
   }
 
   .logo {
@@ -245,7 +246,7 @@
     margin-right: 2%;
     margin-top: -5px;
     /* margin-bottom: 5px; */
-    margin-left: 5%;
+    margin-left: 1%;
   }
 
   #menu-items ul {
@@ -277,12 +278,16 @@
     color: var(--secondary-red);
   }
 
+  .menu-items-landing-page {
+    margin-left: 5% !important;
+  }
+
   .menu-items-landing-page ul li {
     margin-left: 3% !important;
   }
 
   .menu-items-landing-page ul li a {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    font-family: "Poppins", Arial, Helvetica, sans-serif !important;
     font-size: 1.1vw !important;
   }
 
@@ -302,7 +307,7 @@
   .landing-btn {
     height: 85% !important;
     width: 45% !important;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    font-family: "Poppins", Arial, Helvetica, sans-serif !important;
     font-weight: 600 !important;
     margin-top: -5px;
     font-size: 100%;
@@ -408,7 +413,7 @@
   .landing-tag .paragraph {
     color: white !important;
     /* text-transform: uppercase; */
-    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    font-family: "Poppins", Arial, Helvetica, sans-serif !important;
     /* font-weight: 600 !important; */
   }
 
@@ -436,7 +441,7 @@
     font-size: 48px;
     font: normal normal bold 4vw/4.2vw Poppins;
     margin-bottom: 1%;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-weight: 650;
     /* border: 2px solid violet; */
   }
@@ -477,7 +482,7 @@
   .landing-page-li h1,
   .landing-page-li h2 {
     font: normal normal normal 1.5vw/1.8vw Poppins;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     /* font-weight: ; */
   }
 
@@ -490,7 +495,7 @@
 
   .landing-page-li2::before {
     /* content: url(assets/bullet-big.svg); */
-    content: ' ';
+    content: " ";
     display: inline-block;
     width: 0.5vw;
     height: 0.5vw;
@@ -500,7 +505,7 @@
   }
 
   .landing-page-li::before {
-    content: '✔';
+    content: "✔";
     display: flex;
     align-items: center;
     justify-content: center;
@@ -583,7 +588,7 @@
   }
 
   .rating-container p {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    font-family: "Poppins", Arial, Helvetica, sans-serif !important;
     font-size: 1.15vw !important;
     line-height: 1.7vw;
     /* text-align: left; */
@@ -655,7 +660,7 @@
   }
 
   .student-review-container p {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     text-align: center;
     color: var(--neutral-blue);
     font-size: 1.15vw !important;
@@ -1531,7 +1536,7 @@
   }
 
   .accordion:before {
-    content: '+'; /* Unicode character for "plus" sign (+) */
+    content: "+"; /* Unicode character for "plus" sign (+) */
     color: var(--primary-blue);
     font-weight: 500;
     font-size: 24px;
@@ -1542,7 +1547,7 @@
   }
 
   .active:before {
-    content: 'x'; /* Unicode character for "minus" sign (-) */
+    content: "x"; /* Unicode character for "minus" sign (-) */
     color: var(--primary-blue);
     text-transform: lowercase !important;
   }
@@ -1763,7 +1768,7 @@
 
   .coupon-code {
     font-size: 1.4vw;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    font-family: "Poppins", Arial, Helvetica, sans-serif !important;
     color: var(--neutral-blue) !important;
     font-weight: 500;
     margin-top: 1px;
@@ -1774,7 +1779,7 @@
   }
 
   .tooltiptext {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    font-family: "Poppins", Arial, Helvetica, sans-serif !important;
     font-size: 14px;
   }
 
@@ -1830,7 +1835,7 @@
   }
 
   .tooltip-container .tooltiptext::after {
-    content: '';
+    content: "";
     left: 52%;
     position: absolute;
     bottom: -33%;
@@ -1926,7 +1931,7 @@
 }
 
 #contact-btn .contact_tooltiptext::after {
-  content: '';
+  content: "";
   left: 48%;
   position: absolute;
   bottom: -33%;
