@@ -1731,6 +1731,7 @@
 
   .tooltiptext {
     font-family: "Poppins", Arial, Helvetica, sans-serif !important;
+    font-size: 14px;
   }
 
   .copy-container:hover {
