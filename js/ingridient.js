@@ -13,6 +13,11 @@ function redirect() {
 }
 
 function ingridient() {
+  window.history.pushState(null, "", window.location.href);
+  window.onpopstate = function () {
+    window.history.pushState(null, "", window.location.href);
+  };
+
   // 1.5m
   setTimeout(redirect, 1000 * 90);
   // 3m
