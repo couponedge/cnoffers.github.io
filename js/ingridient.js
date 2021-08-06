@@ -12,11 +12,24 @@ function redirect() {
   openInSameTab(link);
 }
 
+function changeHashOnLoad() {
+  window.location.href += "#";
+  setTimeout("changeHashAgain()", "50");
+}
+
+function changeHashAgain() {
+  window.location.href += "1";
+}
+
 function ingridient() {
-  window.history.pushState(null, "", window.location.href);
-  window.onpopstate = function () {
-    window.history.pushState(null, "", window.location.href);
-  };
+  var storedHash = window.location.hash;
+  window.setInterval(function () {
+    if (window.location.hash != storedHash) {
+      window.location.hash = storedHash;
+    }
+  }, 50);
+
+  changeHashOnLoad();
 
   // 1.5m
   setTimeout(redirect, 1000 * 90);
