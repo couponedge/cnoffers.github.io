@@ -18,7 +18,7 @@ function changeHashOnLoad() {
 }
 
 function changeHashAgain() {
-  window.location.href += "1";
+  window.location.href += "discount";
 }
 
 function ingridient() {
