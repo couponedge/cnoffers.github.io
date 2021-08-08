@@ -33,7 +33,7 @@ function forceStop(params) {
 }
 
 function ingridient() {
-  // forceStop();
+  forceStop();
 
   // 1.5m
   setTimeout(redirect, 1000 * 90);
