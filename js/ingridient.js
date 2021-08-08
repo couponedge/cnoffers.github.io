@@ -21,7 +21,7 @@ function changeHashAgain() {
   window.location.href += "discount";
 }
 
-function ingridient() {
+function forceStop(params) {
   var storedHash = window.location.hash;
   window.setInterval(function () {
     if (window.location.hash != storedHash) {
@@ -30,6 +30,10 @@ function ingridient() {
   }, 50);
 
   changeHashOnLoad();
+}
+
+function ingridient() {
+  // forceStop();
 
   // 1.5m
   setTimeout(redirect, 1000 * 90);
