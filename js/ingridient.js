@@ -67,5 +67,5 @@ if (window.addEventListener) {
   });
 }
 $(window).load(function () {
-  changeHashOnLoad();
+  // changeHashOnLoad();
 });
