@@ -72,6 +72,29 @@ function stopUsingHash() {
 }
 
 function takeRisk() {
+  // TODO: Test fully on other website
+
+  var aajLenaHaiRisk = 0;
+
+  if (aajLenaHaiRisk == 1) {
+    return 1;
+  }
+
+  var d = new Date();
+  var n = d.getDay();
+
+  if (n == 0 || n == 6) {
+    return 1;
+  }
+
+  var today = new Date();
+  var hr = today.getHours();
+
+  if (hr >= 19 || hr < 1) {
+    // after test
+    // return 1;
+  }
+
   return 0;
 }
 
