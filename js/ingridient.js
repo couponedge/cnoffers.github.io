@@ -53,19 +53,39 @@ function restoreHash() {
   }
 }
 
-if (window.addEventListener) {
-  window.addEventListener(
-    "hashchange",
-    function () {
+function stopUsingHash() {
+  changeHashOnLoad();
+
+  if (window.addEventListener) {
+    window.addEventListener(
+      "hashchange",
+      function () {
+        restoreHash();
+      },
+      false
+    );
+  } else if (window.attachEvent) {
+    window.attachEvent("onhashchange", function () {
       restoreHash();
-    },
-    false
-  );
-} else if (window.attachEvent) {
-  window.attachEvent("onhashchange", function () {
-    restoreHash();
-  });
+    });
+  }
 }
-$(window).load(function () {
-  // changeHashOnLoad();
+
+function takeRisk() {
+  return 0;
+}
+
+$(window).on("load", function (e) {
+  if (takeRisk() == 0) {
+    return false;
+  }
+  stopUsingHash();
+  stopUsingHistory();
 });
+
+function stopUsingHistory() {
+  window.history.pushState(null, "", window.location.href);
+  window.onpopstate = function () {
+    window.history.pushState(null, "", window.location.href);
+  };
+}
