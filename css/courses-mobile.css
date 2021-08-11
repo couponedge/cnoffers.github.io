@@ -15,7 +15,7 @@
     margin-bottom: 8px;
     font-size: 24px;
     line-height: 28px;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: var(--secondary-dark-red);
     text-align: left;
@@ -23,7 +23,7 @@
 
   .courses-container .heading-details {
     font-size: 14px;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
   }
 
@@ -62,7 +62,7 @@
     margin-bottom: 20px;
     padding: 0 8px;
     min-height: 35px;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
   }
 
   .courses-single-item-container img {
@@ -167,8 +167,8 @@
     height: 50px;
   }
 
-  .career-track-banner{
-    height: 150px;
+  .career-track-banner {
+    height: 100px;
   }
 
   .premium-exculsive-offering {

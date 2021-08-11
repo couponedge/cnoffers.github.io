@@ -25,7 +25,7 @@
   } */
 
   body {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
   }
 
   .spacing-in-top {
@@ -42,7 +42,7 @@
 
   .courses-container .heading {
     margin-bottom: 12px;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-size: 1.75rem;
     font-weight: 600;
     color: var(--secondary-dark-red);
@@ -51,7 +51,7 @@
 
   .courses-container .heading-details {
     font-size: 20px;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     margin-bottom: 28px;
     font-size: 1rem;
   }
@@ -66,8 +66,8 @@
     gap: 16px;
   }
 
-  .career-track-banner{
-    height: 400px;
+  .career-track-banner {
+    height: 350px;
   }
 
   .courses-container main a {
@@ -89,7 +89,7 @@
 
   .courses-single-item-container .courses-single-item-title {
     color: var(--primary-blue);
-    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    font-family: "Poppins", Arial, Helvetica, sans-serif !important;
     font-size: 16px;
     line-height: 18px;
     text-align: center;
@@ -216,7 +216,7 @@ p {
 }
 
 .title {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+  font-family: "Poppins", Arial, Helvetica, sans-serif !important;
   font-weight: 600 !important;
   font-size: 1.75rem;
 }
