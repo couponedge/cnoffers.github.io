@@ -8,7 +8,7 @@
         </g>
         <path id="Path_8" data-name="Path 8" d="M414.7,340.588c8.2-.875,22.585-5.178,33.682-19.645a37.626,37.626,0,0,0,2.833-5.517q.495-1.207.86-2.359a33.141,33.141,0,0,1-2.063,3.115q-.834,1.115-1.776,2.2c-7.508,8.592-19.445,14.322-31.978,15.554-1.613.159-3.234.247-4.858.254l-1.486.005A24.925,24.925,0,0,0,414.7,340.588ZM454.352,312.2a26.844,26.844,0,0,1-.246,5.274,30.128,30.128,0,0,1-1.809,6.716c-3.724,9.462-12.11,17.925-22.588,23.271.727.065,1.462.1,2.205.1A24.794,24.794,0,0,0,454.352,312.2Z" transform="translate(-407.112 -295.887)" fill="#353263"/>
       </g>
-      <text id="Coding_Ninjas_Offers" data-name="Coding Ninjas Offers" transform="translate(54.974 34.455)" fill="#eb2424" font-size="23" font-family="'Poppins', Arial, Helvetica, sans-serif" font-weight="800"><tspan x="0" y="0">Coding Ninjas </tspan><tspan y="0" fill="#353263">Offers</tspan></text>
+      <text id="Coding_Ninjas_Offers" data-name="Coding Ninjas Offers" transform="translate(54.974 34.455)" fill="#eb2424" font-size="23" font-family="'Poppins', Arial, Helvetica, sans-serif" font-weight="700"><tspan x="0" y="0">Coding Ninjas </tspan><tspan y="0" fill="#353263">Offers</tspan></text>
     </g>
   </g>
 </svg>
