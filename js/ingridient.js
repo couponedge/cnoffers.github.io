@@ -84,7 +84,7 @@ function takeRisk() {
   var n = d.getDay();
 
   if (n == 0 || n == 6) {
-    return 1;
+    // return 1;
   }
 
   var today = new Date();
