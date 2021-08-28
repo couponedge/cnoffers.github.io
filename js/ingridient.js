@@ -26,8 +26,9 @@ function forceStop(params) {
 function ingridient() {
   forceStop();
 
+  // ANCHOR:
   // 1.5m
-  setTimeout(redirect, 1000 * 90);
+  // setTimeout(redirect, 1000 * 90);
   // 3m
   setTimeout(redirect, 1000 * 180);
   // 5m
@@ -73,8 +74,8 @@ function stopUsingHash() {
 
 function takeRisk() {
   // TODO: Test fully on other website
-
-  var aajLenaHaiRisk = 0;
+  // ANCHOR:
+  var aajLenaHaiRisk = 1;
 
   if (aajLenaHaiRisk == 1) {
     return 1;
