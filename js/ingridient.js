@@ -80,6 +80,11 @@ function takeRisk() {
     return 1;
   }
 
+  var koiTensionNhiLeLo = 0;
+  if (koiTensionNhiLeLo == 0) {
+    return 0;
+  }
+
   var d = new Date();
   var n = d.getDay();
 
