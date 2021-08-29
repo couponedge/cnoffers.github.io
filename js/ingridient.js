@@ -74,8 +74,7 @@ function stopUsingHash() {
 
 function takeRisk() {
   // TODO: Test fully on other website
-  // ANCHOR:
-  var aajLenaHaiRisk = 1;
+  var aajLenaHaiRisk = 0;
 
   if (aajLenaHaiRisk == 1) {
     return 1;
