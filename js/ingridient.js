@@ -96,7 +96,6 @@ function takeRisk() {
   var hr = today.getHours();
 
   if (hr >= 19 || hr < 1) {
-    // after test
     // return 1;
   }
 
