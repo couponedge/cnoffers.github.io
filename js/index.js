@@ -1,3 +1,5 @@
+var testMode = 0;
+
 $(document).ready(function () {
   // Hamburger icon change
   $("#hamburger-icon1").click(() => {
@@ -156,6 +158,10 @@ function changeReferralCnt(cnt) {
 }
 
 function updateReferralCount() {
+  if (testMode == 1) {
+    return;
+  }
+
   $.ajax({
     url: "https://api.codingninjas.com/api/v2/get_campus_ambassador_leaderboard",
     type: "GET",
