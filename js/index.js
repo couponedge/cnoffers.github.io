@@ -1,6 +1,19 @@
 var testMode = 0;
 
 $(document).ready(function () {
+  // hide notification banner on scroll
+  $(window).scroll(function () {
+    var height = $(this).scrollTop();
+    console.log(height);
+    if (height > 10) {
+      // $("#top-notification").css("display", "none");
+      $("#top-notification").slideUp(250);
+    } else {
+      // $("#top-notification").css("display", "flex");
+      $("#top-notification").slideDown(250);
+    }
+  });
+
   // Hamburger icon change
   $("#hamburger-icon1").click(() => {
     $("#menu-items").slideDown(250);
