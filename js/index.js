@@ -4,7 +4,7 @@ $(document).ready(function () {
   // hide notification banner on scroll
   $(window).scroll(function () {
     var height = $(this).scrollTop();
-    console.log(height);
+    // console.log(height);
     if (height == 0) {
       // $("#top-notification").css("display", "flex");
       $("#top-notification").slideDown(250);
