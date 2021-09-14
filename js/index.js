@@ -5,12 +5,12 @@ $(document).ready(function () {
   $(window).scroll(function () {
     var height = $(this).scrollTop();
     console.log(height);
-    if (height > 10) {
-      // $("#top-notification").css("display", "none");
-      $("#top-notification").slideUp(250);
-    } else {
+    if (height == 0) {
       // $("#top-notification").css("display", "flex");
       $("#top-notification").slideDown(250);
+    } else {
+      // $("#top-notification").css("display", "none");
+      $("#top-notification").slideUp(250);
     }
   });
 
