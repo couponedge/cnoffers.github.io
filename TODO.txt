@@ -1,3 +1,7 @@
+* reduce image size
+* add hidden table          
+<h4>Add cta, video iframe, photos</h4>
+
 *add more sections from ninjasoffers if liked 
 *ninjasoffers me circle fixed size ka karo and courses single size
 
