@@ -1801,6 +1801,26 @@
     visibility: visible;
     opacity: 1;
   }
+
+  /* Top Notification */
+  #top-notification {
+    background-color: #8aecff;
+    display: flex;
+    justify-content: center;
+    padding: 6px 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #top-notification a {
+    margin: 0 30px 0 10px;
+    font-weight: 700;
+    color: #231eff;
+  }
 }
 
 @media only screen and (max-width: 319px) {
