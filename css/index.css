@@ -1859,9 +1859,9 @@
     display: flex;
     justify-content: center;
     padding: 10px;
-    position: sticky;
-    top: 0px;
-    z-index: 100;
+    /* position: sticky; */
+    /* top: 0px; */
+    /* z-index: 100; */
   }
 
   #top-notification a {
