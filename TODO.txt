@@ -1,3 +1,5 @@
+* banner se background change ho rha h, manual colors dalo
+
 *add more sections from ninjasoffers if liked 
 *ninjasoffers me circle fixed size ka karo and courses single size
 
