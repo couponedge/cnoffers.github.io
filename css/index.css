@@ -222,18 +222,20 @@
     font-weight: 500;
     text-decoration: none;
     /* font-size:100%; */
-    flex-grow: 0.7;
+    flex-grow: 0.5;
     /* padding: 0 25px; */
     white-space: nowrap;
-    padding-bottom: 2px;
+    padding-bottom: 0px;
 
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
+  /* different from blog header cta */
   .menu-bar-cta-btn-landing-page {
     /* padding: 0 30px !important; */
+    flex-grow: 0.7;
   }
 
   #menu-items {

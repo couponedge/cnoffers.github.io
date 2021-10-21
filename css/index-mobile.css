@@ -245,7 +245,7 @@
     height: 8vw;
     font-size: 80%;
     min-width: 80px;
-    font-weight: 500;
+    font-weight: 600 !important;
     /* width: 8vw; */
     flex-grow: 1;
     text-decoration: none;
