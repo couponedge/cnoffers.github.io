@@ -73,7 +73,7 @@ if ($("#image-slider-1").length) {
       width: "68%",
       height: "63%",
       arrows: true,
-      autoplay: true,
+      // autoplay: true,
       interval: 4000,
       resetProgress: false,
       keyboard: "focused",

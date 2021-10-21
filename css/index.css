@@ -693,7 +693,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: var(--margin-after-heading-updown);
+    margin-top: var(--margin-updown);
     flex-grow: 1; /* This is important for making height responsive */
   }
 
@@ -1733,19 +1733,23 @@
   }
 
   #all-courses .heading {
-    margin-bottom: 16px;
+    margin-bottom: 30px;
     /* font:'Lato' */
   }
 
   #all-courses .title {
     text-align: left;
     font-size: 26px;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
     color: var(--secondary-dark-red);
   }
 
   #all-courses .paragraph {
     text-align: left;
+  }
+
+  .courses-container {
+    padding: 30px var(--margin-side);
   }
 
   .courses-single-item-container .paragraph {
