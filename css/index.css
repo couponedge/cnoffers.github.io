@@ -675,7 +675,7 @@
 
   .h2gd-container {
     width: 100%;
-    height: 680px;
+    height: 740px;
     background: var(--neutral-white) 0% 0% no-repeat padding-box;
     display: flex;
     flex-direction: column;
@@ -699,7 +699,7 @@
 
   .h2gd-single-item-container {
     width: 30%;
-    height: 430px;
+    height: 470px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -708,14 +708,16 @@
 
   .h2gd-single-item-container img {
     width: 100%;
-    height: 50%;
-    margin-bottom: 5%;
+    height: 210px;
+    margin-bottom: 35px;
+    margin-top: 0px;
   }
 
   .h2gd-single-item-container p {
-    flex-grow: 1;
+    /* flex-grow: 1; */
     text-align: center;
-    margin-top: 3%;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   .h2gd-single-item-container .primary-long-btn {
