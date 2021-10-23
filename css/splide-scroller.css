@@ -1,5 +1,5 @@
 .splide {
-  max-width: 88% !important;
+  max-width: 70% !important;
 }
 
 .splide-track-container {
@@ -21,8 +21,8 @@
   /* border: 2px solid red; */
   object-fit: contain;
   max-height: 80%;
-  box-shadow: 0px 0px 15px #00000029;
-  max-width: 100%;
+  /* box-shadow: 0px 0px 10px #00000029; */
+  max-width: 95%;
   cursor: pointer;
 }
 
@@ -53,6 +53,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .splide {
+    max-width: 95% !important;
+  }
+
   .splide__arrow--prev {
     left: 0rem !important;
     background: none !important;
@@ -74,8 +78,8 @@
     -ms-user-select: none;
     user-select: none;
     -webkit-tap-highlight-color: transparent;
-    margin-left: -34px;
-    margin-right: -34px;
+    margin-left: -25px;
+    margin-right: -25px;
   }
 
   .splide__pagination {
