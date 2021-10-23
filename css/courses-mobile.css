@@ -138,6 +138,14 @@
     margin-top: 18px;
   }
 
+  .long-text-course-single-item-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 200px)) !important;
+  }
+
+  .long-text-course-single-item-container p {
+    margin-bottom: 20px !important;
+  }
+
   .courses-single-item-container:hover {
     /* transform: scale(0.98); */
     background-color: white;
