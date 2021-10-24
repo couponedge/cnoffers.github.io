@@ -1,20 +1,14 @@
-* banner se background change ho rha h, manual colors dalo
+* on all courses section, referral link is getting prefrence it should be opposite, improve UX here
 
-*add more sections from ninjasoffers if liked 
-*ninjasoffers me circle fixed size ka karo and courses single size
-
-*Add leaderboard in contact when in top!
 
 //TODO:
 *convert to webpack packagae modern setup
 
-*Add Lazy Image Load
 *blog links pe hover pe underline animation (https://paulund.co.uk/css-animation-link-underline)
 (https://cssanimation.rocks/animating-links/)
 *fix blog.js changing view automatically bug
 
 *dark mode?
 *different images for different resolutions? responsiveness?
-
 
 Bye Bye!
