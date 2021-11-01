@@ -15,7 +15,7 @@
     --neutral-white: #ffffff;
     --neutral-blue: #344457;
 
-    --font: 'Poppins', sans-serif;
+    --font: "Poppins", sans-serif;
     --margin-side: 7%;
     --margin-updown: 47.5px;
     --margin-after-heading-updown: 45px;
@@ -371,6 +371,7 @@
 
   .section-heading .heading {
     float: left;
+    margin-top: 15px;
   }
 
   .section-heading ul {
