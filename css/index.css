@@ -1873,9 +1873,18 @@
   }
 
   #top-notification a {
-    margin: 0 10px;
     font-weight: 700;
     color: #231eff;
+  }
+
+  #top-notification {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #top-notification > *:not(:last-child) {
+    margin-right: 0.5rem;
   }
 }
 
