@@ -510,6 +510,13 @@
   .landing-li-img {
     width: 1.7vw;
     margin-right: 0.9vw;
+    transition: all 0.5s;
+  }
+
+  .landing-li-img:hover {
+    transform: translate(100);
+    transform: scale(1.15);
+    transition: all 0.5s;
   }
 
   .cancel-landing-page-li::before {
