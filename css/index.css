@@ -508,8 +508,8 @@
   }
 
   .landing-li-img {
-    width: 24px;
-    margin-right: 10px;
+    width: 1.7vw;
+    margin-right: 0.9vw;
   }
 
   .cancel-landing-page-li::before {
