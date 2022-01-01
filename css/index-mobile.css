@@ -446,7 +446,12 @@
     margin-bottom: 20px !important;
   }
 
-  .landing-page-li::before {
+  .landing-li-img {
+    width: 20px;
+    margin-right: 9px;
+  }
+
+  .cancel-landing-page-li::before {
     content: "✔";
     display: flex;
     align-items: center;
