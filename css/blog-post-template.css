@@ -232,6 +232,16 @@
     text-decoration: underline;
   }
 
+  /* Side Banner */
+  .side-banner {
+    margin-top: 40px;
+    cursor: pointer;
+  }
+  
+  .side-banner img {
+    cursor: pointer;
+  }
+
   /* Tags */
   .tags {
     margin-top: var(--margin-updown);
