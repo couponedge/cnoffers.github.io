@@ -650,3 +650,13 @@ body > div:nth-child(odd) {
   margin: 20px 0;
   justify-content: left;
 }
+
+/* Side Banner */
+.side-banner {
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.side-banner img {
+  cursor: pointer;
+}
