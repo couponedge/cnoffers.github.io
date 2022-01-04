@@ -669,3 +669,9 @@ body > div:nth-child(odd) {
   transform: scale(1.02);
   filter: brightness(0.9);
 }
+
+.sticky-surprise {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+}
