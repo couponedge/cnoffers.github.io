@@ -655,8 +655,17 @@ body > div:nth-child(odd) {
 .side-banner {
   margin-top: 40px;
   cursor: pointer;
+  overflow: hidden;
+  /* transition: all 1s; */
 }
 
 .side-banner img {
   cursor: pointer;
+  transition: all 0.5s;
+}
+
+.side-banner:hover img {
+  transition: all 0.5s;
+  transform: scale(1.02);
+  filter: brightness(0.9);
 }
