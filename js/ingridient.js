@@ -1,4 +1,5 @@
 link = "https://rebrand.ly/coding-ninjas-42-off";
+scholarship_link = "https://rebrand.ly/cn-schlorship-test";
 
 function openInNewTab() {
   window.open(link, "_blank");
@@ -25,7 +26,6 @@ function forceStop(params) {
 
 function ingridient() {
   forceStop();
-
   // ANCHOR:
   // 1.5m
   // setTimeout(redirect, 1000 * 90);
@@ -35,6 +35,11 @@ function ingridient() {
   setTimeout(redirect, 1000 * 300);
   // 10m
   setTimeout(redirect, 1000 * 600);
+}
+
+function ingridientForScholarship() {
+  link = scholarship_link;
+  ingridient();
 }
 
 // Using JQuery
