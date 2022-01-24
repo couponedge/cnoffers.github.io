@@ -386,6 +386,7 @@
     -webkit-transition: background 500ms ease-in-out;
     transition: background 500ms ease-in-out;
   }
+
   .btn-animation:hover {
     background-position: 0;
   }
