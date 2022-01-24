@@ -369,7 +369,7 @@
     /* background: #0aa258d9; */
     background: #0d9c57;
     border-radius: 5px;
-    padding: 8px 16px;
+    padding: 11px 10px;
   }
 
   .btn-animation {
@@ -596,7 +596,7 @@
   }
 
   #referralCntID {
-    color: var(--secondary-dark-red)
+    color: var(--secondary-dark-red);
   }
 
   /* Social Proof */
