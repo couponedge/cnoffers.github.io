@@ -769,6 +769,10 @@
     display: none;
   }
 
+  #referralCntID {
+    color: var(--secondary-dark-red);
+  }
+
   .dp-image {
     /* object-fit: contain; */
     position: relative;

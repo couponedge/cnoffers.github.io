@@ -596,7 +596,7 @@
   }
 
   #referralCntID {
-    /* color: #117545; */
+    color: var(--secondary-dark-red)
   }
 
   /* Social Proof */
