@@ -595,6 +595,10 @@
     line-height: 3.6vw !important;
   }
 
+  #referralCntID {
+    /* color: #117545; */
+  }
+
   /* Social Proof */
   .social-proof-container {
     /* border: 2px solid red; */
