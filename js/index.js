@@ -239,12 +239,12 @@ function addToClipboard() {
   var couponTextDom = document.querySelector(".coupon-code");
   var couponContainerDom = document.querySelector(".copy-container");
   var copyIconDom = document.querySelector(".copy-icon");
-  var boxLabelDom = document.querySelector(".box-label");
   tooltip.innerHTML = "Coupon Copied!";
   tooltip.style.width = "140px";
   tooltip.style.backgroundColor = "#0f9d58";
   tooltip.classList.add("arrow-color");
   tooltip.style.left = "70%";
+  var boxLabelDom = document.querySelector(".box-label");
   boxLabelDom.style.color = "#0f9d58";
   boxLabelDom.innerHTML = "Paste on Checkout";
   couponTextDom.classList.add("add-green-color");
