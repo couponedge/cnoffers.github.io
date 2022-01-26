@@ -1799,7 +1799,7 @@
 
   /* Coupon Code */
   .copy-icon {
-    margin-top: 4px;
+    margin-top: 10px;
     width: 2vw;
     margin-left: 10px;
     fill: var(--neutral-blue);
@@ -1834,13 +1834,24 @@
   .copy-container {
     border: 2px solid var(--neutral-blue);
     margin-left: 1rem;
-    padding: 8px 24px;
+    padding: 1.7vw 3vw;
     border-radius: 25px;
     display: inline-flex;
     align-items: center;
     height: 80% !important;
     /* width: 37% !important; */
     justify-content: center;
+    position: relative;
+  }
+
+  .box-label {
+    position: absolute;
+    top: -0.96vw;
+    background-color: var(--neutral-grey);
+    padding: 0 5px;
+    font-size: 1.1vw;
+    /* color: #0a9d58; */
+    color: var(--neutral-blue);
   }
 
   /* Toolkit */

@@ -1789,6 +1789,10 @@
     border-color: #0f9d58;
   }
 
+  .box-label {
+    display: none;
+  }
+
   .copy-container {
     border: 1.5px solid var(--neutral-blue);
     border-radius: 25px;
@@ -1800,6 +1804,7 @@
     margin-left: 4%;
     margin-top: 5%;
     justify-content: center;
+    position: relative;
   }
 
   /* Toolkit */
