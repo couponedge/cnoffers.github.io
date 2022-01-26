@@ -1845,6 +1845,10 @@
     position: relative;
   }
 
+  .scholarship-copy-container {
+    padding: 1.7vw 2vw;
+  }
+
   .box-label {
     position: absolute;
     top: -0.96vw;
