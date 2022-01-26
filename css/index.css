@@ -369,7 +369,8 @@
     /* background: #0aa258d9; */
     background: #0d9c57;
     border-radius: 5px;
-    padding: 11px 10px;
+    /* padding: 11px 10px; */
+    padding: 0.8vw 1vw;
   }
 
   .btn-animation {
