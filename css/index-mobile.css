@@ -1801,6 +1801,12 @@
 
   .scholarship-copy-container {
     padding: 5px 12px !important;
+    margin-left: 1.9vw;
+  }
+
+  .scholarship-landing-cta-btn {
+    width: 37.3vw !important;
+    max-width: 175px !important;
   }
 
   .copy-container {
