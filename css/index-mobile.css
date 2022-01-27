@@ -1799,6 +1799,10 @@
     color: var(--neutral-blue);
   }
 
+  .scholarship-copy-container {
+    padding: 5px 12px !important;
+  }
+
   .copy-container {
     border: 1.5px solid var(--neutral-blue);
     border-radius: 25px;
