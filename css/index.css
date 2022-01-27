@@ -600,6 +600,10 @@
     color: var(--secondary-dark-red);
   }
 
+  .referralCnt {
+    color: var(--secondary-dark-red);
+  }
+
   /* Social Proof */
   .social-proof-container {
     /* border: 2px solid red; */

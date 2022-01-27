@@ -167,7 +167,9 @@ function getReferralsCnt() {}
 // Update Referral in landing page
 function changeReferralCnt(cnt) {
   dom = document.getElementById("referralCntID");
-  dom.innerHTML = cnt + " " + "Students";
+  // dom.innerHTML = cnt;
+  $("#referralCntID").animateNumbers(cnt, false, 20000);
+  // $("#referralAmount").animateNumbers(cnt * 1200, true, 3000);
 }
 
 function updateReferralCount() {
