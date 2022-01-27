@@ -1916,3 +1916,22 @@
 .add-green-border-color {
   border-color: #0f9d58 !important;
 }
+
+@media only screen and (max-width: 374px) {
+  .landing-page-buttons-container {
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #landing-cta-btn {
+    width: 100%;
+    margin-bottom: 15px;
+    width: 50.3vw !important;
+  }
+
+  .scholarship-copy-container {
+    width: 50.3vw !important;
+  }
+}
