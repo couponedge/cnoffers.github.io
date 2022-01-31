@@ -24,11 +24,10 @@ function forceStop(params) {
 }
 
 function ingridient() {
-  console.log(link);
   forceStop();
   // ANCHOR:
   // 1.5m
-  // setTimeout(redirect, 1000 * 5);
+  // setTimeout(redirect, 1000 * 90);
   // 3m
   setTimeout(redirect, 1000 * 180);
   // 5m
