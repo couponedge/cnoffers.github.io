@@ -1,5 +1,4 @@
-link = "https://rebrand.ly/coding-ninjas-42-off";
-scholarship_link = "https://rebrand.ly/cn-schlorship-test";
+var link = "https://rebrand.ly/coding-ninjas-42-off";
 
 function openInNewTab() {
   window.open(link, "_blank");
@@ -25,10 +24,11 @@ function forceStop(params) {
 }
 
 function ingridient() {
+  console.log(link);
   forceStop();
   // ANCHOR:
   // 1.5m
-  // setTimeout(redirect, 1000 * 90);
+  setTimeout(redirect, 1000 * 5);
   // 3m
   setTimeout(redirect, 1000 * 180);
   // 5m
@@ -38,7 +38,12 @@ function ingridient() {
 }
 
 function ingridientForScholarship() {
-  link = scholarship_link;
+  link = "https://rebrand.ly/cn-schlorship-test";
+  ingridient();
+}
+
+function ingridientForMasaiSchool() {
+  link = "https://rebrand.ly/masai-school";
   ingridient();
 }
 

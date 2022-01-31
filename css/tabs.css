@@ -1,17 +1,17 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;700&display=swap"); */
 
-body {
+.mainclass body {
   text-align: center;
   font-family: "Jost", sans-serif;
   background-color: #f0f5ff;
 }
 
-h1 {
+.mainclass h1 {
   font-size: 48px;
   color: #232c3d;
 }
 
-.wrapper {
+.mainclass .wrapper {
   width: 590px;
   margin: auto;
   background-color: white;
@@ -19,12 +19,12 @@ h1 {
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.buttonWrapper {
+.mainclass .buttonWrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-button {
+.mainclass button {
   letter-spacing: 3px;
   border: none;
   padding: 10px;
@@ -35,32 +35,32 @@ button {
   transition: 0.5s;
 }
 
-button:hover {
+.mainclass button:hover {
   background-color: #d5e3ff;
 }
 
-button.active {
+.mainclass button.active {
   background-color: white;
 }
 
-.active {
+.mainclass .active {
   background-color: white;
 }
 
-p {
+.mainclass p {
   text-align: left;
   padding: 10px;
 }
 
-.content {
+.mainclass .content {
   display: none;
   padding: 10px 20px;
 }
 
-.content.active {
+.mainclass .content.active {
   display: block;
 }
 
-.active:before {
+.mainclass .active:before {
   content: "" !important;
 }
