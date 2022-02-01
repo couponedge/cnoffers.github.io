@@ -1,0 +1,9 @@
+@media only screen and (max-width: 767px) {
+  .features-container {
+    height: auto !important;
+  }
+
+  .review-description p {
+    font-size: 15px;
+  }
+}
