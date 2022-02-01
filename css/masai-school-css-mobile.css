@@ -6,4 +6,9 @@
   .review-description p {
     font-size: 15px;
   }
+
+  .placements-img {
+    /* height: auto !important; */
+    width: 100% !important;
+  }
 }
