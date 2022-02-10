@@ -1,19 +1,17 @@
-const tabs = document.querySelector(".wrapper");
-const tabButton = document.querySelectorAll(".tab-button");
-const contents = document.querySelectorAll(".content");
+// Copied
+$(".clipboard-btn").click(function () {
+  $(".clipboard-btn").text("Copied!");
 
-tabs.onclick = e => {
-  const id = e.target.dataset.id;
-  if (id) {
-    tabButton.forEach(btn => {
-      btn.classList.remove("active");
-    });
-    e.target.classList.add("active");
+  $(".clipboard-btn").addClass("clipboard-btn-copied");
+  $(".tabs .tab p").addClass("text-copied");
+  $(".tabs .tab").addClass("tabs-background-copied");
+});
 
-    contents.forEach(content => {
-      content.classList.remove("active");
-    });
-    const element = document.getElementById(id);
-    element.classList.add("active");
-  }
-}
+// Reset Copied Effects
+$('.tabs input[type="radio"]').click(function () {
+  $(".clipboard-btn").text("Copy To Clipboard");
+
+  $(".clipboard-btn").removeClass("clipboard-btn-copied");
+  $(".tabs .tab p").removeClass("text-copied");
+  $(".tabs .tab").removeClass("tabs-background-copied");
+});

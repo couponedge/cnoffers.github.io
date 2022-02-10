@@ -1,66 +1,79 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;700&display=swap"); */
-
-.mainclass body {
-  text-align: center;
-  font-family: "Jost", sans-serif;
-  background-color: #f0f5ff;
+/**
+ * Tabs
+ */
+.tabs {
+  display: flex;
+  flex-wrap: wrap; // make sure it wraps
 }
-
-.mainclass h1 {
-  font-size: 48px;
-  color: #232c3d;
-}
-
-.mainclass .wrapper {
-  width: 590px;
-  margin: auto;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.mainclass .buttonWrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.mainclass button {
-  letter-spacing: 3px;
-  border: none;
-  padding: 10px;
-  background-color: #bccbe9;
-  color: #232c3d;
-  font-size: 18px;
+.tabs label {
+  order: 1; // Put the labels first
+  display: block;
+  padding: 0.3rem;
+  margin-right: 0.2rem;
   cursor: pointer;
-  transition: 0.5s;
+  background: #e2e2e2;
+  font-weight: bold;
+  transition: background ease 0.2s;
 }
-
-.mainclass button:hover {
-  background-color: #d5e3ff;
-}
-
-.mainclass button.active {
-  background-color: white;
-}
-
-.mainclass .active {
-  background-color: white;
-}
-
-.mainclass p {
-  text-align: left;
-  padding: 10px;
-}
-
-.mainclass .content {
+.tabs .tab {
+  order: 99; // Put the tabs last
+  flex-grow: 1;
+  width: 100%;
   display: none;
-  padding: 10px 20px;
+  padding: 1rem;
+  background: #a4dcff;
 }
 
-.mainclass .content.active {
+.tabs .tabs-background-copied {
+  background: #a4ffc9;
+}
+
+.tabs .tab p {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.tabs .tab .text-copied {
+  color: #0d9c57;
+}
+
+.tabs .tab .clipboard-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.tabs .tab .clipboard-btn:hover {
+  transform: scale(0.95);
+  transition: all 0.1s;
+}
+
+.tabs .tab .clipboard-btn-copied {
+  background: #0d9c57;
+  color: white;
+}
+
+.tabs input[type="radio"] {
+  display: none;
+}
+.tabs input[type="radio"]:checked + label {
+  background: #a4dcff;
+}
+.tabs input[type="radio"]:checked + label + .tab {
   display: block;
 }
 
-.mainclass .active:before {
-  content: "" !important;
+@media (max-width: 45em) {
+  .tabs .tab,
+  .tabs label {
+    order: initial;
+  }
+  .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+  }
 }
