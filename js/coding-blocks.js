@@ -5,6 +5,9 @@ $(".clipboard-btn").click(function () {
   $(".clipboard-btn").addClass("clipboard-btn-copied");
   $(".tabs .tab p").addClass("text-copied");
   $(".tabs .tab").addClass("tabs-background-copied");
+  $(".tabs input[type='radio']:checked + label").addClass(
+    "tabs-background-copied"
+  );
 });
 
 // Reset Copied Effects
@@ -14,4 +17,5 @@ $('.tabs input[type="radio"]').click(function () {
   $(".clipboard-btn").removeClass("clipboard-btn-copied");
   $(".tabs .tab p").removeClass("text-copied");
   $(".tabs .tab").removeClass("tabs-background-copied");
+  $(".tabs input[type='radio'] + label").removeClass("tabs-background-copied");
 });

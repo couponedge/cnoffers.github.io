@@ -1,12 +1,12 @@
 /**
- * Tabs
+ * Tabs Mobile
  */
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
+@media only screen and (max-width: 767px) {
+  /* For mobile: */
 
   .tabs-heading {
-    margin: 1.4vw 0 0.8vw;
-    font-size: 1.6vw;
+    margin: 25px 0 12px;
+    font-size: 16px;
     font-weight: 400;
     font-family: sans-serif;
   }
@@ -18,13 +18,13 @@
   .tabs label {
     order: 1;
     display: block;
-    padding: 0.5vw 0.9vw;
+    padding: 5px 9px;
     margin-right: 4px;
     cursor: pointer;
     background: #e2e2e2;
     font-weight: bold;
     transition: background ease 0.2s;
-    font-size: 1.2vw;
+    font-size: 12px;
     font-weight: 400;
   }
   .tabs .tab {
@@ -32,11 +32,11 @@
     flex-grow: 1;
     width: 100%;
     display: none;
-    padding: 1.2vw;
+    padding: 12px;
     background: rgb(164, 220, 255);
-    border: 2px solid var(--primary-blue);
-    margin-top: -2px;
-    margin-right: 5vw;
+    border: 1px solid var(--primary-blue);
+    margin-top: -1px;
+    margin-right: 33.7px;
   }
 
   .tabs .tabs-background-copied {
@@ -47,7 +47,7 @@
     display: inline-block;
     margin-right: 10px;
     font-weight: 600;
-    font-size: 1.8vw;
+    font-size: 18px;
   }
 
   .tabs .tab .text-copied {
@@ -55,14 +55,15 @@
   }
 
   .tabs .tab .clipboard-btn {
-    padding: 0.8vw;
+    padding: 8px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.1s;
     font-family: "Poppins", Arial, Helvetica, sans-serif !important;
-    font-size: 1.2vw;
-    font-weight: 400;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--neutral-blue);
   }
 
   .tabs .tab .clipboard-btn:hover {
@@ -80,7 +81,7 @@
   }
   .tabs input[type="radio"]:checked + label {
     background: rgb(164, 220, 255);
-    border: 2px solid var(--primary-blue);
+    border: 1px solid var(--primary-blue);
     border-bottom: 0;
     z-index: 99;
     font-weight: 500;
@@ -88,4 +89,17 @@
   .tabs input[type="radio"]:checked + label + .tab {
     display: block;
   }
+
+  /* Single Line Tabs View */
+  /* @media (max-width: 45em) {
+    .tabs .tab,
+    .tabs label {
+      order: initial;
+    }
+    .tabs label {
+      width: 100%;
+      margin-right: 0;
+      margin-top: 0.2rem;
+    }
+  } */
 }
