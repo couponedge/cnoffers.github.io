@@ -659,6 +659,10 @@ body > div:nth-child(odd) {
   /* transition: all 1s; */
 }
 
+.side-banner-long {
+  padding: 0 0px 0px 20px;
+}
+
 .side-banner img {
   cursor: pointer;
   transition: all 0.5s;
