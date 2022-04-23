@@ -312,7 +312,7 @@
       </ul>
     </nav>
 
-    <a href="https://rebrand.ly/cndiscount" id="menu-cta-btn"
+    <a href="https://rebrand.ly/cn-scholarship-discount" id="menu-cta-btn"
       class="primary-btn menu-bar-cta-btn btn-animation-light-green">
       <p>GET NOW</p>
     </a>
@@ -372,11 +372,15 @@
         </li> -->
         <li class="landing-page-li">
           <img class="landing-li-img" src="./../assets/tick-icon-dark-green.png" alt="List icon">
-          <h2> Save <strong>Rs 51</strong> on test registration.</h2>
+          <h2> Save <a href="https://rebrand.ly/cn-scholarship-discount"><strong>Rs 51</strong></a> on test
+            registration.</h2>
         </li>
         <li class="landing-page-li">
           <img class="landing-li-img" src="./../assets/tick-icon-dark-green.png" alt="List icon">
-          <h2> Assured <s>10%</s> <strong>12%</strong> Discount, Get <strong>Upto 100%</strong>.</h2>
+          <h2> Assured <s>10%</s> <a href="https://rebrand.ly/cndiscount"><strong>12%</strong></a> Discount, Get
+            <strong>Upto
+              100%</strong>.
+          </h2>
         </li>
         <!-- <li class="landing-page-li">
           <img class="landing-li-img" src="./../assets/tick-icon-dark-green.png" alt="List icon">
@@ -385,7 +389,7 @@
         </li> -->
         <li class="landing-page-li">
           <img class="landing-li-img" src="./../assets/tick-icon-dark-green.png" alt="List icon">
-          <h2> All <strong>Important</strong> resources to prepare for test.
+          <h2> All <a href="#how-to-prepare"><strong>Important</strong></a> resources to prepare for test.
           </h2>
         </li>
         <li class="landing-page-li">
@@ -663,7 +667,7 @@
           <img src="../assets/Scholarship-Launch-Mailer-table-3.png" alt="Scholarship Table">
 
           <br>
-          <h3>Coding Ninjas Scholarship Test Preparation Resources:</h3>
+          <h3 id="how-to-prepare">Coding Ninjas Scholarship Test Preparation Resources:</h3>
           <ol>
 
             <li>
@@ -1530,6 +1534,16 @@
   <script src="../js/index.js"></script>
   <script src="../js/blog-post-template.js"></script>
   <script src="../js/ingridient.js"></script>
+
+  <script>
+    $(document).on('click', 'a[href^="#"]', function (event) {
+      event.preventDefault();
+
+      $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top - 150
+      }, 500);
+    });
+  </script>
 
   <script>
     var isCodeCopied = 0;
