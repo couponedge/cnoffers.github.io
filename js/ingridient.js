@@ -46,6 +46,21 @@ function ingridientForMasaiSchool() {
   ingridient();
 }
 
+function ingridientForcodedamn() {
+  link = "https://rebrand.ly/codedamn";
+  ingridient();
+}
+
+function ingridientForNewtonSchool() {
+  link = "https://rebrand.ly/newton-school";
+  ingridient();
+}
+
+function ingridientForiNeuron() {
+  link = "https://rebrand.ly/ineuron";
+  ingridient();
+}
+
 // Using JQuery
 var storedHash = window.location.hash;
 function changeHashOnLoad() {
