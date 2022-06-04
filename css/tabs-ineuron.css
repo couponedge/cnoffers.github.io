@@ -5,7 +5,7 @@
   /* For desktop: */
 
   .tabs-heading {
-    margin: 1.5vw 0 0.8vw;
+    margin: 0.5vw 0 0.8vw;
     font-size: 1.6vw;
     font-weight: 400;
     font-family: sans-serif;
@@ -20,6 +20,7 @@
     display: block;
     padding: 0.5vw 0.9vw;
     margin-right: 4px;
+    margin-bottom: 4px;
     cursor: pointer;
     background: #e2e2e2;
     font-weight: bold;
@@ -81,7 +82,7 @@
   .tabs input[type="radio"]:checked + label {
     background: rgb(164, 220, 255);
     border: 2px solid var(--primary-blue);
-    border-bottom: 0;
+    /* border-bottom: 0; */
     z-index: 99;
     font-weight: 500;
   }
