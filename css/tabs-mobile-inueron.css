@@ -20,6 +20,7 @@
     display: block;
     padding: 5px 9px;
     margin-right: 4px;
+    margin-bottom: 4px;
     cursor: pointer;
     background: #e2e2e2;
     font-weight: bold;
@@ -82,12 +83,17 @@
   .tabs input[type="radio"]:checked + label {
     background: rgb(164, 220, 255);
     border: 1px solid var(--primary-blue);
-    border-bottom: 0;
+    /* border-bottom: 0; */
     z-index: 99;
     font-weight: 500;
   }
   .tabs input[type="radio"]:checked + label + .tab {
     display: block;
+  }
+
+  .tabs .ineuron-cta {
+    width: 120px;
+    height: 30px;
   }
 
   /* Single Line Tabs View */
