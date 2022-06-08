@@ -48,7 +48,7 @@
   }
 
   .deal-details {
-    width: 60%;
+    width: 66%;
     /* padding: 15px; */
     margin-left: 10px;
     font-size: 12px;
@@ -93,13 +93,15 @@
   }
 
   .deal-cta-options {
-    /* width: 15%; */
+    width: 100%;
     padding: 10px;
     margin-top: 5px;
   }
 
   .deal-cta-btn {
+    margin-top: 5px;
     background-color: #ffc000;
+    width: 100%;
     color: black;
     padding: 10px 30px;
     font-weight: 550;
@@ -112,6 +114,7 @@
   }
 
   .deal-coupon-code-container {
+    width: 100%;
     margin-top: 15px;
     padding: 8px 0;
     border-radius: 5px;
