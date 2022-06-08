@@ -1,5 +1,5 @@
-/* For desktop: */
-@media only screen and (min-width: 768px) {
+/* For mobile: */
+@media only screen and (max-width: 767px) {
   .listing-item-container:first-child {
     margin-top: -20px !important;
   }
@@ -15,6 +15,7 @@
     padding: 20px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .coupon-listing-container a {
@@ -23,7 +24,7 @@
   }
 
   .deal-percentage {
-    width: 9%;
+    width: 30%;
     border: 1px solid #e3e3e3;
     border-radius: 5px;
     align-items: center;
@@ -47,15 +48,16 @@
   }
 
   .deal-details {
-    width: 75%;
-    padding: 15px;
-    margin-left: 20px;
-    font-size: 16px;
+    width: 60%;
+    /* padding: 15px; */
+    margin-left: 10px;
+    font-size: 12px;
     margin-top: 5px;
   }
 
   .deal-details .deal-title {
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 21px;
     font-weight: 700;
     /* margin-bottom: 5px; */
     /* display: inline-block; */
@@ -68,7 +70,7 @@
   .deal-discounted-price {
     color: #eb0909;
     display: inline-block;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
   }
 
@@ -76,22 +78,24 @@
     color: #333;
     opacity: 0.4;
     display: inline-block;
-    font-size: 16px;
-    margin-left: 5px;
+    font-size: 14px;
+    margin-left: 2px;
   }
 
   .deal-discount-percentage-hightlight {
     color: white;
     background-color: #eb0909;
     display: inline-block;
-    padding: 2px 8px;
+    padding: 2px 7px;
     border-radius: 3px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    font-size: 10px;
   }
 
   .deal-cta-options {
     /* width: 15%; */
     padding: 10px;
+    margin-top: 5px;
   }
 
   .deal-cta-btn {

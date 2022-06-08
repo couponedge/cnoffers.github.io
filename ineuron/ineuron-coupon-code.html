@@ -69,6 +69,7 @@
       <link rel="stylesheet" href="../css/contact.css">
       <link rel="stylesheet" href="../css/tabs-ineuron.css">
       <link rel="stylesheet" href="../css/ineuron-coupons.css">
+      <link rel="stylesheet" href="../css/ineuron-coupons-mobile.css">
       <link rel="stylesheet" href="../css/tabs-mobile-inueron.css">
       <!-- <link rel="stylesheet" href="../css/coding-blocks-css.css"> -->
       <!-- <link rel="stylesheet" href="../css/coding-blocks-css-mobile.css"> -->
@@ -123,6 +124,7 @@
                   margin-top: 1vw;
             }
 
+            /* Only Mobile */
             @media only screen and (max-width: 767px) {
                   .ineuron-pricing {
                         font-weight: normal !important;
@@ -135,6 +137,14 @@
                         width: 120px;
                         height: 30px;
                   }
+            }
+
+            /* Only Desktop */
+            @media only screen and (min-width: 767px) {
+                  .landing-page-container {
+                        height: 54vw;
+                  }
+
             }
       </style>
 
@@ -1012,7 +1022,7 @@
             </main>
       </section>
 
-      <section class="center ab-container" style="height:fit-content !important">
+      <section class="center ab-container" style="height:fit-content !important; overflow: hidden;">
             <iframe width="960" height="530" src="https://www.youtube.com/embed/Mj3ms_NIHEM"
                   title="YouTube video player" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
