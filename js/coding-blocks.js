@@ -1,8 +1,8 @@
 // Copied
-$(".clipboard-btn").click(function () {
-  $(".clipboard-btn").text("Copied!");
+$(".tabs .clipboard-btn").click(function () {
+  $(".tabs .clipboard-btn").text("Copied!");
 
-  $(".clipboard-btn").addClass("clipboard-btn-copied");
+  $(".tabs .clipboard-btn").addClass("clipboard-btn-copied");
   $(".tabs .tab p").addClass("text-copied");
   $(".tabs .tab").addClass("tabs-background-copied");
   $(".tabs input[type='radio']:checked + label").addClass(
@@ -12,9 +12,9 @@ $(".clipboard-btn").click(function () {
 
 // Reset Copied Effects
 $('.tabs input[type="radio"]').click(function () {
-  $(".clipboard-btn").text("Copy To Clipboard");
+  $(".tabs .clipboard-btn").text("Copy To Clipboard");
 
-  $(".clipboard-btn").removeClass("clipboard-btn-copied");
+  $(".tabs .clipboard-btn").removeClass("clipboard-btn-copied");
   $(".tabs .tab p").removeClass("text-copied");
   $(".tabs .tab").removeClass("tabs-background-copied");
   $(".tabs input[type='radio'] + label").removeClass("tabs-background-copied");

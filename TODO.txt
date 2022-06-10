@@ -1,3 +1,6 @@
+*on coping listing copied is done
+*yt video in mobile small kro
+
 * on all courses section, referral link is getting prefrence it should be opposite, improve UX here
 
 
