@@ -124,6 +124,11 @@
                   margin-top: 1vw;
             }
 
+            .yt-iframe {
+                  width: 75vw;
+                  height: 42vw;
+            }
+
             /* Only Mobile */
             @media only screen and (max-width: 767px) {
                   .ineuron-pricing {
@@ -136,6 +141,11 @@
                         font-size: 14px !important;
                         width: 120px;
                         height: 30px;
+                  }
+
+                  .yt-iframe {
+                        width: 85vw;
+                        height: 55vw;
                   }
             }
 
@@ -1096,8 +1106,9 @@
       </section>
 
       <section class="center ab-container" style="height:fit-content !important; overflow: hidden;">
-            <iframe width="960" height="530" src="https://www.youtube.com/embed/Mj3ms_NIHEM"
-                  title="YouTube video player" frameborder="0"
+            <div class="heading">See everything in action!</div>
+            <iframe class="yt-iframe" src="https://www.youtube.com/embed/Mj3ms_NIHEM" title="YouTube video player"
+                  frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
       </section>

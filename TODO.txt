@@ -1,8 +1,5 @@
-*on coping listing copied is done
-*yt video in mobile small kro
 
-* on all courses section, referral link is getting prefrence it should be opposite, improve UX here
-
+* on all courses section, referral link is getting prefrence it should be opposite, improve UX here. ohh use tabs for courses in blogs???????
 
 //TODO:
 *convert to webpack packagae modern setup
