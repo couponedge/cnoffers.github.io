@@ -29,6 +29,14 @@
     border-radius: 5px;
     align-items: center;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .deal-percentage a {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
   }
 
   .deal-percentage-amount {
@@ -44,6 +52,7 @@
     text-align: center;
     padding: 5px;
     text-transform: uppercase;
+    width: 100%;
     font-size: 12px;
   }
 
