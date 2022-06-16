@@ -2071,3 +2071,12 @@
   #contact-btn .contact_tooltiptext {
   }
 }
+
+/* All */
+.special-offer {
+  display: none;
+}
+
+#top-notification {
+  display: none;
+}

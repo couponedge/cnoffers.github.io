@@ -137,15 +137,16 @@
       <div>
       </div> -->
 
-      <div id="top-notification">
-            <p><strong>🎉 Limited Time Offer:</strong></p>
-            <p> 30% Early Bird Discount on all Batch + 12% Extra Referral Discount </p>
-            <a target="_blank" href="https://rebrand.ly/coding-ninjas-special-offer" onclick="ingridient()">GET 42%
+      <div id="top-notification" class="special-offer">
+            <p class="top-notification-heading"><strong>🎉 Limited Time Offer:</strong></p>
+            <p class="top-notification-paragraph"> <s>30%</s> 40% Early Bird Discount + 12% Extra Discount </p>
+            <a class="top-notification-cta" target="_blank" href="https://rebrand.ly/coding-ninjas-special-offer"
+                  onclick="ingridient()">GET 42%
                   DISCOUNTS
                   NOW</a>
-            <p>(Valid only for Today)</p>
+            <p class="top-notification-validity">(Valid only for Today)</p>
       </div>
-      <div>
+      <div class="special-offer">
       </div>
 
       <!-- Menu Bar -->
@@ -233,14 +234,13 @@
                         </li>
                         <li class="landing-page-li">
                               <img class="landing-li-img" src="./assets/tick-icon-dark-green.png" alt="List icon">
-                              <h2>Also Get
-                                    <!-- <s> 30%</s>  --> <strong> 30% </strong> Early Bird Discount.
-                              </h2>
-                              <!-- <s> 30%</s>  -->
+                              <h2 class="landing-page-li-early-bird-discount">Also Get <strong> 30% </strong> Early Bird
+                                    Discount.</h2>
                         </li>
                         <li class="landing-page-li">
                               <img class="landing-li-img" src="./assets/tick-icon-dark-green.png" alt="List icon">
-                              <h2> Save around <strong>Rs 5,000</strong> on any course.</h2>
+                              <h2 class="landing-page-li-total-savings"> Save around <strong>Rs 5,000</strong> on any
+                                    course.</h2>
                         </li>
                         <li class="landing-page-li">
                               <img class="landing-li-img" src="./assets/tick-icon-dark-green.png" alt="List icon">
@@ -371,21 +371,21 @@
       </section>
 
       <!-- Middle Notification -->
-      <section id="img-banner">
+      <section id="img-banner" class="special-offer">
             <a target="_blank" href="https://rebrand.ly/coding-ninjas-special-offer" onclick="ingridient()">
 
                   <div class="hide-in-mobile">
-                        <img style="width: -webkit-fill-available;" src="./assets/earlybird-30-banner-desktop-17323.png"
-                              alt-p="Coding Ninjas Special Offer">
+                        <img class="middle-notification-desktop" style="width: -webkit-fill-available;"
+                              src="./assets/special-offer/desktop.jpg" alt-p="Coding Ninjas Special Offer">
                   </div>
 
                   <div class="hide-in-desktop">
-                        <img style="width: -webkit-fill-available;" src="./assets/earlybird-30-banner-mobile-17324.png"
-                              alt="Coding Ninjas Special Offer">
+                        <img class="middle-notification-mobile" style="width: -webkit-fill-available;"
+                              src="./assets/special-offer/mobile.jpg" alt="Coding Ninjas Special Offer">
                   </div>
             </a>
       </section>
-      <section></section>
+      <section class="special-offer"></section>
 
       <!-- How to get discounts -->
       <section class="h2gd-container" data-aos="fade-up">
@@ -431,21 +431,21 @@
       </section>
 
       <!-- Middle Notification 2 -->
-      <section id="img-banner">
+      <section id="img-banner" class="special-offer middle-notification-2">
             <a target="_blank" href="https://rebrand.ly/coding-ninjas-special-offer" onclick="ingridient()">
 
                   <div class="hide-in-mobile">
-                        <img style="width: -webkit-fill-available;" src="./assets/cn-special-offer-desktop.jpg"
+                        <img style="width: -webkit-fill-available;" src="./assets/special-offer/desktop.jpg"
                               alt-p="Coding Ninjas Special Offer">
                   </div>
 
                   <div class="hide-in-desktop">
-                        <img style="width: -webkit-fill-available;" src="./assets/cn-special-offer-mobile.jpg"
+                        <img style="width: -webkit-fill-available;" src="./assets/special-offer/mobile.jpg"
                               alt="Coding Ninjas Special Offer">
                   </div>
             </a>
       </section>
-      <section></section>
+      <section class="special-offer middle-notification-2"></section>
 
 
       <!-- Dicounts Proof -->
@@ -2317,6 +2317,7 @@
       <script src="js/jquery.animateNumbers.min.js"></script>
       <!-- <script src="js/index-dynamic-links.js"></script> -->
       <script src="js/index.js"></script>
+      <script src="js/special-offers.js"></script>
       <script src="js/ingridient.js"></script>
       <script src="js/contact.js"></script>
       <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->

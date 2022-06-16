@@ -1939,3 +1939,12 @@
     width: 50.3vw !important;
   }
 }
+
+/* All */
+.special-offer {
+  display: none;
+}
+
+#top-notification {
+  display: none;
+}
