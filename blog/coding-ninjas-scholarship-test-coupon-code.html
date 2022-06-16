@@ -259,13 +259,16 @@
     <p>(Valid only for Today)</p>
   </div> -->
 
-  <div id="top-notification">
-    <p><strong>🎉 #SPECIAL Offer:</strong></p>
-    <p> Get 30% Early Bird Discount + 12% Extra Discount </p>
-    <a target="_blank" href="https://rebrand.ly/coding-ninjas-special-offer" onclick="ingridient()">GET 42%
+  <div id="top-notification" class="special-offer">
+    <p class="top-notification-heading"><strong>🎉 #SPECIAL Offer:</strong></p>
+    <p class="top-notification-paragraph">Get 30% Early Bird Discount + 12% Extra Discount </p>
+    <a class="top-notification-cta" target="_blank" href="https://rebrand.ly/coding-ninjas-special-offer"
+      onclick="ingridient()">GET 42%
       DISCOUNTS
       NOW</a>
-    <p>(Valid only for Today)</p>
+    <p class="top-notification-validity">(Valid only for Today)</p>
+  </div>
+  <div class="special-offer">
   </div>
 
   <!-- <div id="top-notification" style="background-color: #f95151; color: white;">
@@ -477,23 +480,22 @@
     </div>
   </section>
 
-  <!-- Middle notification -->
-
-  <section id="img-banner">
+  <!-- Middle Notification -->
+  <section id="img-banner" class="special-offer">
     <a target="_blank" href="https://rebrand.ly/coding-ninjas-special-offer" onclick="ingridient()">
 
       <div class="hide-in-mobile">
-        <img style="width: -webkit-fill-available;" src="../assets/cn-special-offer-desktop.jpg"
-          alt="Coding Ninjas Special Offer">
+        <img class="middle-notification-desktop" style="width: -webkit-fill-available;"
+          src="../assets/special-offer/desktop.jpg" alt-p="Coding Ninjas Special Offer">
       </div>
 
       <div class="hide-in-desktop">
-        <img style="width: -webkit-fill-available;" src="../assets/cn-special-offer-desktop.jpg"
-          alt="Coding Ninjas Special Offer">
+        <img class="middle-notification-mobile" style="width: -webkit-fill-available;"
+          src="../assets/special-offer/mobile.jpg" alt="Coding Ninjas Special Offer">
       </div>
     </a>
   </section>
-  <section></section>
+  <section class="special-offer"></section>
 
   <!-- main sections divisions -->
   <div id="main-section-cntr">
@@ -1555,6 +1557,7 @@
   <script src="../js/jquery-3.5.1.min.js"></script>
   <script src="../js/index.js"></script>
   <script src="../js/blog-post-template.js"></script>
+  <script src="../js/special-offers-blog.js"></script>
   <script src="../js/ingridient.js"></script>
 
   <script>
