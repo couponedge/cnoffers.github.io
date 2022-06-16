@@ -1,5 +1,6 @@
 // TODO:
 // Do this for blogs also and check errors, li, top-notification in both mobile and desktop, and different discounts
+// Create separate js for blogs (always show middle and top notification if offer is not available then also)
 // Check once on no offers
 
 var showLocalImages = false;
@@ -7,7 +8,7 @@ var imgExtension = ".jpg";
 
 $.ajax({
   url: "https://api.codingninjas.com/api/v4/get_landing_offer_banner?source=landing",
-  // url: "https://api.codingninjas.com/api/v3/abandoned_cart_details",
+  // url: "https://mocki.io/v1/fa9aaf78-af7c-4ab8-b1d3-446dd37aef49",
   type: "GET",
   success: function (result) {
     try {
