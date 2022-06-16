@@ -1,5 +1,3 @@
-// Show offer regardless of any special live offers
-
 var showLocalImages = false;
 var imgExtension = ".jpg";
 

@@ -1,7 +1,4 @@
 // TODO:
-// Do this for blogs also and check errors, li, top-notification in both mobile and desktop, and different discounts
-// Create separate js for blogs (always show middle and top notification if offer is not available then also)
-// Check once on no offers
 
 var showLocalImages = false;
 var imgExtension = ".jpg";
