@@ -1,7 +1,4 @@
-// TODO:
-// Do this for blogs also and check errors, li, top-notification in both mobile and desktop, and different discounts
-// Create separate js for blogs (always show middle and top notification if offer is not available then also)
-// Check once on no offers
+// Show offer regardless of any special live offers
 
 var showLocalImages = false;
 var imgExtension = ".jpg";
@@ -14,20 +11,12 @@ $.ajax({
     try {
       // console.log(result);
       apiData = result["data"]["banner_data"];
-      // To create exception if no offer is live
-      var test = apiData["early_bird_discount_percentage"];
       // apiData["early_bird_discount_percentage"] = 40;
 
       showSpecialOffers(apiData);
       hideTopNotificationOnScroll(apiData);
       topNotification(apiData);
       middleNotification(apiData);
-      // only for homepage
-      try {
-        modifyLandingLi(apiData);
-      } catch (err) {
-        // Do nothing, it isn't homepage
-      }
     } catch (err) {
       // No new offers
       console.log(err);
@@ -45,10 +34,6 @@ function showSpecialOffers(apiData) {
   $(".special-offer").css({ display: "unset" });
   $("#top-notification").css({ display: "flex" });
   var earlyBirdDiscount = apiData["early_bird_discount_percentage"];
-
-  if (earlyBirdDiscount != 30) {
-    $(".middle-notification-2").css({ display: "none" });
-  }
 }
 
 function hideTopNotificationOnScroll(apiData) {
@@ -99,29 +84,13 @@ function middleNotification(apiData) {
   var desktopImgSrc = apiData["desktop_banner"];
   var mobileDOM = $(".middle-notification-mobile");
   var mobileImgSrc = apiData["mobile_banner"];
+  var earlyBirdDiscount = apiData["early_bird_discount_percentage"];
 
-  if (showLocalImages == true) {
-    desktopDOM.attr("src", "./assets/special-offer/desktop" + imgExtension);
-    mobileDOM.attr("src", "./assets/special-offer/mobile" + imgExtension);
+  if (showLocalImages == true || earlyBirdDiscount == 30) {
+    desktopDOM.attr("src", "../assets/special-offer/desktop" + imgExtension);
+    mobileDOM.attr("src", "../assets/special-offer/mobile" + imgExtension);
   } else {
     desktopDOM.attr("src", desktopImgSrc);
     mobileDOM.attr("src", mobileImgSrc);
-  }
-}
-
-function modifyLandingLi(apiData) {
-  earlyBirdDOM = $(".landing-page-li-early-bird-discount");
-  totalSavingsDOM = $(".landing-page-li-total-savings");
-  var earlyBirdDiscount = apiData["early_bird_discount_percentage"];
-
-  if (earlyBirdDiscount != 30) {
-    var textHTML =
-      "Also Get <s>30%</s> <strong> " +
-      earlyBirdDiscount +
-      "% </strong> Early Bird Discount.";
-    earlyBirdDOM.html(textHTML);
-
-    totalSavingsHTML = "Save around <strong>Rs 8,000</strong> on any course.";
-    totalSavingsDOM.html(totalSavingsHTML);
   }
 }
