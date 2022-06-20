@@ -1,5 +1,6 @@
 var showLocalImages = false;
 var imgExtension = ".jpg";
+var isScholarshipBanner = true;
 
 $.ajax({
   url: "https://api.codingninjas.com/api/v4/get_landing_offer_banner?source=landing",
@@ -10,6 +11,11 @@ $.ajax({
       // console.log(result);
       apiData = result["data"]["banner_data"];
       // apiData["early_bird_discount_percentage"] = 40;
+
+      if (isScholarshipBanner == true) {
+        showLocalImages = true;
+        apiData["early_bird_discount_percentage"] = 30;
+      }
 
       showSpecialOffers(apiData);
       hideTopNotificationOnScroll(apiData);

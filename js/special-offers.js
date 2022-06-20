@@ -1,6 +1,7 @@
 // TODO:
 
 var showLocalImages = false;
+var isScholarshipBanner = true;
 var imgExtension = ".jpg";
 
 $.ajax({
@@ -14,6 +15,12 @@ $.ajax({
       // To create exception if no offer is live
       var test = apiData["early_bird_discount_percentage"];
       // apiData["early_bird_discount_percentage"] = 40;
+
+      if (isScholarshipBanner == true) {
+        showLocalImages = true;
+        apiData["early_bird_discount_percentage"] = 30;
+        return;
+      }
 
       showSpecialOffers(apiData);
       hideTopNotificationOnScroll(apiData);
