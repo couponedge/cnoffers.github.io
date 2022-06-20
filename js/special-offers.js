@@ -13,8 +13,12 @@ $.ajax({
       // console.log(result);
       apiData = result["data"]["banner_data"];
       // To create exception if no offer is live
-      var test = apiData["early_bird_discount_percentage"];
+      var earlyBirdDiscount = apiData["early_bird_discount_percentage"];
       // apiData["early_bird_discount_percentage"] = 40;
+
+      if (earlyBirdDiscount == 40) {
+        isScholarshipBanner = false;
+      }
 
       if (isScholarshipBanner == true) {
         showLocalImages = true;
