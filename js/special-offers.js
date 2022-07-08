@@ -1,6 +1,6 @@
 // TODO:
 
-var showLocalImages = false;
+var showLocalImages = true;
 var isScholarshipBanner = true;
 var imgExtension = ".jpg";
 
