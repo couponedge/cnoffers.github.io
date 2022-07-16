@@ -1,7 +1,7 @@
 // TODO:
 
 var showLocalImages = true;
-var isScholarshipBanner = true;
+var isScholarshipBanner = false;
 var imgExtension = ".jpg";
 
 $.ajax({

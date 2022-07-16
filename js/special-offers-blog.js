@@ -1,6 +1,6 @@
 var showLocalImages = true;
 var imgExtension = ".jpg";
-var isScholarshipBanner = true;
+var isScholarshipBanner = false;
 
 $.ajax({
   url: "https://api.codingninjas.com/api/v4/get_landing_offer_banner?source=landing",
