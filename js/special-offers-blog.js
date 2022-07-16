@@ -1,4 +1,4 @@
-var showLocalImages = true;
+var showLocalImages = false;
 var imgExtension = ".jpg";
 var isScholarshipBanner = false;
 
