@@ -9,8 +9,16 @@ $.ajax({
   success: function (result) {
     try {
       // console.log(result);
-      apiData = result["data"]["banner_data"];
-      var earlyBirdDiscount = apiData["early_bird_discount_percentage"];
+      var apiData = result["data"]["banner_data"];
+      var earlyBirdDiscount = 30;
+      try {
+        earlyBirdDiscount = apiData["early_bird_discount_percentage"];
+      } catch (err) {
+        earlyBirdDiscount = 30;
+        apiData = result["data"];
+        apiData["early_bird_discount_percentage"] = earlyBirdDiscount;
+      }
+
       // apiData["early_bird_discount_percentage"] = 40;
 
       if (earlyBirdDiscount == 40) {

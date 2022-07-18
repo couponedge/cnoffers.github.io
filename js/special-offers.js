@@ -11,7 +11,7 @@ $.ajax({
   success: function (result) {
     try {
       // console.log(result);
-      apiData = result["data"]["banner_data"];
+      var apiData = result["data"]["banner_data"];
       // To create exception if no offer is live
       var earlyBirdDiscount = apiData["early_bird_discount_percentage"];
       // apiData["early_bird_discount_percentage"] = 40;
