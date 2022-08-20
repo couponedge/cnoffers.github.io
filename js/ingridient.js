@@ -46,6 +46,11 @@ function ingridientForMasaiSchool() {
   ingridient();
 }
 
+function ingridientForAlmaBetter() {
+  link = "https://rebrand.ly/almabetter";
+  ingridient();
+}
+
 function ingridientForcodedamn() {
   link = "https://rebrand.ly/codedamn";
   ingridient();
