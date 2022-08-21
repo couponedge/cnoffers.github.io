@@ -258,3 +258,11 @@ function outFunc() {
   // tooltip.classList.remove('arrow-color');
   tooltip.style.left = "30%";
 }
+
+// Copy Btn box-label background color fix
+var boxLabelDOM = document.querySelector(".box-label");
+var landingPageDOM = document.getElementById("landing-page");
+// console.log("BOX:", window.getComputedStyle(boxLabelDOM).backgroundColor);
+// console.log("LANDIN:", window.getComputedStyle(landingPageDOM).backgroundColor);
+boxLabelDOM.style.backgroundColor =
+  window.getComputedStyle(landingPageDOM).backgroundColor;
