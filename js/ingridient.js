@@ -51,6 +51,11 @@ function ingridientForAlmaBetter() {
   ingridient();
 }
 
+function ingridientForWritesonic() {
+  link = "https://rebrand.ly/writesonic-discount";
+  ingridient();
+}
+
 function ingridientForcodedamn() {
   link = "https://rebrand.ly/codedamn";
   ingridient();
