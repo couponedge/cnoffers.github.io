@@ -56,6 +56,11 @@ function ingridientForWritesonic() {
   ingridient();
 }
 
+function ingridientForLearnApp() {
+  link = "https://rebrand.ly/learnapp-discount";
+  ingridient();
+}
+
 function ingridientForcodedamn() {
   link = "https://rebrand.ly/codedamn";
   ingridient();
