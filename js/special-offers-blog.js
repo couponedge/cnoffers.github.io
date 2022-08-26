@@ -14,7 +14,7 @@ $.ajax({
       try {
         earlyBirdDiscount = apiData["early_bird_discount_percentage"];
       } catch (err) {
-        earlyBirdDiscount = 30;
+        earlyBirdDiscount = 35;
         apiData = result["data"];
         apiData["early_bird_discount_percentage"] = earlyBirdDiscount;
       }
