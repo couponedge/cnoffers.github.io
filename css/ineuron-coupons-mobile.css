@@ -167,4 +167,8 @@
     transform: scale(1.1);
     translate: all 1s;
   }
+
+  .deal-without-price {
+    margin-left: 0;
+  }
 }
