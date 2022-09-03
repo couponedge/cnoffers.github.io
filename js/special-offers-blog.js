@@ -1,4 +1,4 @@
-var showLocalImages = true;
+var showLocalImages = false;
 var imgExtension = ".jpg";
 var isScholarshipBanner = false;
 
@@ -9,8 +9,12 @@ $.ajax({
   success: function (result) {
     try {
       // console.log(result);
-      var apiData = result["data"]["banner_data"];
-      var earlyBirdDiscount = 30;
+      var apiData = result["data"]["offer_data"];
+      var earlyBirdDiscount = 40;
+
+      apiData["early_bird_discount_percentage"] = 40;
+      var earlyBirdDiscount = apiData["early_bird_discount_percentage"];
+
       try {
         earlyBirdDiscount = apiData["early_bird_discount_percentage"];
       } catch (err) {
@@ -98,9 +102,9 @@ function topNotification(apiData) {
 function middleNotification(apiData) {
   // Add option for custom local image
   var desktopDOM = $(".middle-notification-desktop");
-  var desktopImgSrc = apiData["desktop_banner"];
+  var desktopImgSrc = apiData["desktop_banner_url"];
   var mobileDOM = $(".middle-notification-mobile");
-  var mobileImgSrc = apiData["mobile_banner"];
+  var mobileImgSrc = apiData["mobile_banner_url"];
   var earlyBirdDiscount = apiData["early_bird_discount_percentage"];
 
   if (showLocalImages == true || earlyBirdDiscount == 30) {

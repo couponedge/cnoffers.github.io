@@ -1,6 +1,6 @@
 // TODO:
 
-var showLocalImages = true;
+var showLocalImages = false;
 var isScholarshipBanner = false;
 var imgExtension = ".jpg";
 
@@ -11,10 +11,11 @@ $.ajax({
   success: function (result) {
     try {
       // console.log(result);
-      var apiData = result["data"]["banner_data"];
+      var apiData = result["data"]["offer_data"];
+      console.log(apiData);
       // To create exception if no offer is live
+      apiData["early_bird_discount_percentage"] = 40;
       var earlyBirdDiscount = apiData["early_bird_discount_percentage"];
-      // apiData["early_bird_discount_percentage"] = 40;
 
       if (earlyBirdDiscount == 40) {
         isScholarshipBanner = false;
@@ -104,9 +105,9 @@ function topNotification(apiData) {
 function middleNotification(apiData) {
   // Add option for custom local image
   var desktopDOM = $(".middle-notification-desktop");
-  var desktopImgSrc = apiData["desktop_banner"];
+  var desktopImgSrc = apiData["desktop_banner_url"];
   var mobileDOM = $(".middle-notification-mobile");
-  var mobileImgSrc = apiData["mobile_banner"];
+  var mobileImgSrc = apiData["mobile_banner_url"];
 
   if (showLocalImages == true) {
     desktopDOM.attr("src", "./assets/special-offer/desktop" + imgExtension);
