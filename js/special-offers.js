@@ -11,10 +11,10 @@ $.ajax({
   success: function (result) {
     try {
       // console.log(result);
-      var apiData = result["data"]["banner_data"];
+      var apiData = result["data"]["offer_data"];
       // To create exception if no offer is live
       var earlyBirdDiscount = apiData["early_bird_discount_percentage"];
-      // apiData["early_bird_discount_percentage"] = 40;
+      apiData["early_bird_discount_percentage"] = 40;
 
       if (earlyBirdDiscount == 40) {
         isScholarshipBanner = false;
