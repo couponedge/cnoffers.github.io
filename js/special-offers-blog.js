@@ -1,5 +1,5 @@
 var showLocalImages = true;
-var imgExtension = ".jpg";
+var imgExtension = ".webp";
 var isScholarshipBanner = false;
 
 $.ajax({
