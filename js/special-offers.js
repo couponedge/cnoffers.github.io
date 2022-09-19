@@ -3,8 +3,8 @@
 var showLocalImages = true;
 var isScholarshipBanner = false;
 var imgExtension = ".webp";
-var isSpecialEarlyBirdLive = true;
-var specialEarlyBirdDiscount = 35;
+var isSpecialEarlyBirdLive = false;
+var specialEarlyBirdDiscount = 30;
 
 $.ajax({
   url: "https://api.codingninjas.com/api/v4/get_landing_offer_banner?source=landing",
@@ -12,6 +12,7 @@ $.ajax({
   type: "GET",
   success: function (result) {
     try {
+      if (isSpecialEarlyBirdLive == false) return;
       // console.log(result);
       var apiData = result["data"]["offer_data"];
       // To create exception if no offer is live
