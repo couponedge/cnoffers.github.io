@@ -159,6 +159,16 @@
 
 
   <script src="//fast.wistia.net/labs/fresh-url/v1.js" async></script>
+
+  <!-- Global site tag (gtag.js) - Google Ads: 592950574 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-592950574"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-592950574');
+  </script>
 </head>
 
 <body>
@@ -287,8 +297,8 @@
           <span class="tooltip-container">
             <span>
               <svg class="copy-icon noSelect" alt="copy coupon code" onclick="addToClipboard(); ingridient();"
-                onmouseout="outFunc()" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 210.107 210.107"
+                onmouseout="outFunc()" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                 style="enable-background:new 0 0 210.107 210.107;" xml:space="preserve">
                 <g>
                   <path class="copy-icon-svg" d="M168.506,0H80.235C67.413,0,56.981,10.432,56.981,23.254v2.854h-15.38
@@ -1192,6 +1202,15 @@ c0-4.551,3.703-8.254,8.254-8.254h88.271c4.551,0,8.254,3.703,8.254,8.254V160.746z
       // Your custom settings go here
     });
   </script>
+
+  <script>
+    window.addEventListener('load', function () {
+      jQuery('.tooltip-container').click(function () {
+        gtag('event', 'conversion', { 'send_to': 'AW-592950574/fzjOCIn7-d8DEK7q3poC' });
+      });
+    });
+  </script>
+
 </body>
 
 </html>
