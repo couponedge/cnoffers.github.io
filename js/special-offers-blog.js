@@ -1,8 +1,8 @@
 var showLocalImages = true;
 var imgExtension = ".webp";
 var isScholarshipBanner = false;
-var isSpecialEarlyBirdLive = false;
-var specialEarlyBirdDiscount = 30;
+var isSpecialEarlyBirdLive = true;
+var specialEarlyBirdDiscount = 35;
 
 $.ajax({
   url: "https://api.codingninjas.com/api/v4/get_landing_offer_banner?source=landing",
